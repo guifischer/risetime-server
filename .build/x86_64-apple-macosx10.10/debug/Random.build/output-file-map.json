@@ -1,0 +1,29 @@
+{
+  "": {
+    "swift-dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Random.build/master.swiftdeps"
+  },
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/crypto.git-7980259129511365902/Sources/Random/Array+Random.swift": {
+    "dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Random.build/Array+Random.d",
+    "object": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Random.build/Array+Random.swift.o",
+    "swiftmodule": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Random.build/Array+Random~partial.swiftmodule",
+    "swift-dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Random.build/Array+Random.swiftdeps"
+  },
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/crypto.git-7980259129511365902/Sources/Random/OSRandom.swift": {
+    "dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Random.build/OSRandom.d",
+    "object": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Random.build/OSRandom.swift.o",
+    "swiftmodule": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Random.build/OSRandom~partial.swiftmodule",
+    "swift-dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Random.build/OSRandom.swiftdeps"
+  },
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/crypto.git-7980259129511365902/Sources/Random/RandomProtocol.swift": {
+    "dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Random.build/RandomProtocol.d",
+    "object": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Random.build/RandomProtocol.swift.o",
+    "swiftmodule": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Random.build/RandomProtocol~partial.swiftmodule",
+    "swift-dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Random.build/RandomProtocol.swiftdeps"
+  },
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/crypto.git-7980259129511365902/Sources/Random/URandom.swift": {
+    "dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Random.build/URandom.d",
+    "object": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Random.build/URandom.swift.o",
+    "swiftmodule": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Random.build/URandom~partial.swiftmodule",
+    "swift-dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Random.build/URandom.swiftdeps"
+  }
+}

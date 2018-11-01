@@ -1,0 +1,301 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NonBlockingFileIO"
+provides-nominal:
+- "3NIO17NonBlockingFileIOV"
+- "3NIO17NonBlockingFileIOV5ErrorO"
+provides-member:
+- ["3NIO17NonBlockingFileIOV", ""]
+- ["3NIO17NonBlockingFileIOV5ErrorO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "%"
+- !private "&&"
+- "*"
+- !private "+"
+- !private "+="
+- !private "-"
+- !private "/"
+- !private "<"
+- "=="
+- !private ">"
+- !private ">="
+- "AssignmentPrecedence"
+- "BlockingIOThreadPool"
+- "ByteBuffer"
+- "ByteBufferAllocator"
+- "EventLoop"
+- "EventLoopFuture"
+- "FileHandle"
+- "FileRegion"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "NonBlockingFileIO"
+- !private "Posix"
+- !private "SEEK_SET"
+- "String"
+- !private "StringLiteralType"
+- "Swift"
+- !private "TernaryPrecedence"
+- !private "UInt8"
+- !private "UnicodeScalarType"
+- "Void"
+- !private "assert"
+- !private "off_t"
+- !private "precondition"
+- !private "||"
+depends-member:
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "_getBuiltinLogicValue"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "init"]
+- !private ["s23BidirectionalCollectionP", "baseAddress"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["3NIO20BlockingIOThreadPoolC", "runIfActive"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["3NIO10ByteBufferV", "writeWithUnsafeMutableBytes"]
+- !private ["3NIO19ByteBufferAllocatorV", "buffer"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s10CollectionP", "baseAddress"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "assumingMemoryBound"]
+- !private ["s10ComparableP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "assumingMemoryBound"]
+- !private ["s28CustomDebugStringConvertibleP", "baseAddress"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "assumingMemoryBound"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "assumingMemoryBound"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "fileHandle"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "readableBytes"]
+- !private ["s23CustomStringConvertibleP", "readerIndex"]
+- !private ["s23CustomStringConvertibleP", "writeWithUnsafeMutableBytes"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "_code"]
+- ["s9EquatableP", "_domain"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "_getEmbeddedNSError"]
+- ["s9EquatableP", "_userInfo"]
+- !private ["s9EquatableP", "assumingMemoryBound"]
+- !private ["s9EquatableP", "descriptorSetToNonBlocking"]
+- !private ["s9EquatableP", "fileHandle"]
+- ["s9EquatableP", "hashValue"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "processed"]
+- !private ["s9EquatableP", "readableBytes"]
+- !private ["s9EquatableP", "readerIndex"]
+- !private ["s9EquatableP", "then"]
+- !private ["s9EquatableP", "wouldBlock"]
+- !private ["s9EquatableP", "writeWithUnsafeMutableBytes"]
+- ["3NIO17NonBlockingFileIOV5ErrorO", "__derived_enum_equals"]
+- ["3NIO17NonBlockingFileIOV5ErrorO", "_code"]
+- ["3NIO17NonBlockingFileIOV5ErrorO", "_domain"]
+- ["3NIO17NonBlockingFileIOV5ErrorO", "_getEmbeddedNSError"]
+- ["3NIO17NonBlockingFileIOV5ErrorO", "_userInfo"]
+- ["3NIO17NonBlockingFileIOV5ErrorO", "deinit"]
+- ["3NIO17NonBlockingFileIOV5ErrorO", "descriptorSetToNonBlocking"]
+- ["3NIO17NonBlockingFileIOV5ErrorO", "hashValue"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- !private ["s5ErrorP", "descriptorSetToNonBlocking"]
+- ["s5ErrorP", "hashValue"]
+- !private ["3NIO9EventLoopP", "inEventLoop"]
+- !private ["3NIO9EventLoopP", "newFailedFuture"]
+- !private ["3NIO9EventLoopP", "newSucceededFuture"]
+- !private ["3NIO15EventLoopFutureC", "then"]
+- !private ["3NIO14EventLoopGroupP", "inEventLoop"]
+- !private ["3NIO14EventLoopGroupP", "newFailedFuture"]
+- !private ["3NIO14EventLoopGroupP", "newSucceededFuture"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["3NIO14FileDescriptorP", "close"]
+- !private ["3NIO14FileDescriptorP", "init"]
+- !private ["3NIO14FileDescriptorP", "withUnsafeFileDescriptor"]
+- !private ["3NIO10FileHandleC", "close"]
+- !private ["3NIO10FileHandleC", "deinit"]
+- !private ["3NIO10FileHandleC", "init"]
+- !private ["3NIO10FileHandleC", "withUnsafeFileDescriptor"]
+- !private ["3NIO10FileRegionV", "fileHandle"]
+- !private ["3NIO10FileRegionV", "init"]
+- !private ["3NIO10FileRegionV", "readableBytes"]
+- !private ["3NIO10FileRegionV", "readerIndex"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["s8HashableP", ""]
+- ["s8HashableP", "_code"]
+- ["s8HashableP", "_domain"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "_getEmbeddedNSError"]
+- ["s8HashableP", "_userInfo"]
+- !private ["s8HashableP", "assumingMemoryBound"]
+- !private ["s8HashableP", "descriptorSetToNonBlocking"]
+- ["s8HashableP", "hashValue"]
+- !private ["s8HashableP", "init"]
+- !private ["3NIO8IOResultO", "processed"]
+- !private ["3NIO8IOResultO", "wouldBlock"]
+- !private ["s5Int64V", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "baseAddress"]
+- ["3NIO17NonBlockingFileIOV", "BlockingIOThreadPool"]
+- ["3NIO17NonBlockingFileIOV", "ByteBuffer"]
+- ["3NIO17NonBlockingFileIOV", "ByteBufferAllocator"]
+- ["3NIO17NonBlockingFileIOV", "Error"]
+- ["3NIO17NonBlockingFileIOV", "EventLoop"]
+- ["3NIO17NonBlockingFileIOV", "EventLoopFuture"]
+- ["3NIO17NonBlockingFileIOV", "FileHandle"]
+- ["3NIO17NonBlockingFileIOV", "FileRegion"]
+- ["3NIO17NonBlockingFileIOV", "Int"]
+- !private ["3NIO17NonBlockingFileIOV", "NonBlockingFileIO"]
+- !private ["3NIO17NonBlockingFileIOV", "Posix"]
+- !private ["3NIO17NonBlockingFileIOV", "SEEK_SET"]
+- ["3NIO17NonBlockingFileIOV", "String"]
+- ["3NIO17NonBlockingFileIOV", "Swift"]
+- !private ["3NIO17NonBlockingFileIOV", "UInt8"]
+- ["3NIO17NonBlockingFileIOV", "Void"]
+- !private ["3NIO17NonBlockingFileIOV", "assert"]
+- ["3NIO17NonBlockingFileIOV", "defaultChunkSize"]
+- ["3NIO17NonBlockingFileIOV", "defaultThreadPoolSize"]
+- ["3NIO17NonBlockingFileIOV", "init"]
+- !private ["3NIO17NonBlockingFileIOV", "off_t"]
+- ["3NIO17NonBlockingFileIOV", "openFile"]
+- !private ["3NIO17NonBlockingFileIOV", "precondition"]
+- ["3NIO17NonBlockingFileIOV", "read"]
+- ["3NIO17NonBlockingFileIOV", "readChunked"]
+- !private ["3NIO17NonBlockingFileIOV", "threadPool"]
+- !private ["s7NumericP", "init"]
+- !private ["3NIO5PosixO", "lseek"]
+- !private ["3NIO5PosixO", "read"]
+- !private ["s22RandomAccessCollectionP", "baseAddress"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "baseAddress"]
+- !private ["s8SequenceP", "init"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s10StrideableP", "assumingMemoryBound"]
+- !private ["s10StrideableP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s29UnsafeMutableRawBufferPointerV", "baseAddress"]
+- !private ["Sv", "assumingMemoryBound"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s8_PointerP", "assumingMemoryBound"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "3NIO20BlockingIOThreadPoolC"
+- !private "Sb"
+- !private "3NIO10ByteBufferV"
+- !private "3NIO19ByteBufferAllocatorV"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "3NIO20ContiguousCollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- "3NIO17NonBlockingFileIOV5ErrorO"
+- "s5ErrorP"
+- !private "3NIO9EventLoopP"
+- !private "3NIO15EventLoopFutureC"
+- !private "3NIO14EventLoopGroupP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "3NIO14FileDescriptorP"
+- !private "3NIO10FileHandleC"
+- !private "3NIO10FileRegionV"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "3NIO8IOResultO"
+- !private "s5Int64V"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "3NIO17NonBlockingFileIOV"
+- !private "s7NumericP"
+- !private "3NIO5PosixO"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s29UnsafeMutableRawBufferPointerV"
+- !private "Sv"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s8_PointerP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio-zlib-support.git--1071467962839356487/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+interface-hash: "4342482da0dbfff25a5570e43a6643cc"

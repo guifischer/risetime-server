@@ -1,0 +1,460 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "OpenSSLInternalError"
+- "OpenSSLErrorStack"
+- "NIOOpenSSLError"
+- "OpenSSLError"
+- "=="
+- "=="
+- "=="
+provides-nominal:
+- "10NIOOpenSSL20OpenSSLInternalErrorV"
+- "10NIOOpenSSL0A8SSLErrorO"
+- "10NIOOpenSSL12OpenSSLErrorO"
+provides-member:
+- ["10NIOOpenSSL20OpenSSLInternalErrorV", ""]
+- ["10NIOOpenSSL0A8SSLErrorO", ""]
+- ["10NIOOpenSSL12OpenSSLErrorO", ""]
+- ["10NIOOpenSSL12OpenSSLErrorO", "fromSSLGetErrorResult"]
+- ["10NIOOpenSSL12OpenSSLErrorO", "buildErrorStack"]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CustomStringConvertible"
+- !private "ERR_error_string"
+- !private "ERR_get_error"
+- "Equatable"
+- "Error"
+- !private "FloatLiteralType"
+- "Int32"
+- !private "IntegerLiteralType"
+- "NIOOpenSSLError"
+- "OpenSSLError"
+- "OpenSSLErrorStack"
+- "OpenSSLInternalError"
+- !private "SSL_ERROR_NONE"
+- !private "SSL_ERROR_SSL"
+- !private "SSL_ERROR_SYSCALL"
+- !private "SSL_ERROR_WANT_ACCEPT"
+- !private "SSL_ERROR_WANT_CONNECT"
+- !private "SSL_ERROR_WANT_READ"
+- !private "SSL_ERROR_WANT_WRITE"
+- !private "SSL_ERROR_WANT_X509_LOOKUP"
+- !private "SSL_ERROR_ZERO_RETURN"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- "u_long"
+- !private "~="
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "init"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "_getBuiltinLogicValue"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "append"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "noError"]
+- !private ["s28CustomDebugStringConvertibleP", "sslError"]
+- !private ["s28CustomDebugStringConvertibleP", "syscallError"]
+- !private ["s28CustomDebugStringConvertibleP", "unknownError"]
+- !private ["s28CustomDebugStringConvertibleP", "wantAccept"]
+- !private ["s28CustomDebugStringConvertibleP", "wantConnect"]
+- !private ["s28CustomDebugStringConvertibleP", "wantRead"]
+- !private ["s28CustomDebugStringConvertibleP", "wantWrite"]
+- !private ["s28CustomDebugStringConvertibleP", "wantX509Lookup"]
+- !private ["s28CustomDebugStringConvertibleP", "zeroReturn"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "noError"]
+- !private ["s17CustomReflectableP", "sslError"]
+- !private ["s17CustomReflectableP", "syscallError"]
+- !private ["s17CustomReflectableP", "unknownError"]
+- !private ["s17CustomReflectableP", "wantAccept"]
+- !private ["s17CustomReflectableP", "wantConnect"]
+- !private ["s17CustomReflectableP", "wantRead"]
+- !private ["s17CustomReflectableP", "wantWrite"]
+- !private ["s17CustomReflectableP", "wantX509Lookup"]
+- !private ["s17CustomReflectableP", "zeroReturn"]
+- !private ["s23CustomStringConvertibleP", "ERR_error_string"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "errorCode"]
+- !private ["s23CustomStringConvertibleP", "errorMessage"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "noError"]
+- !private ["s9DecodableP", "sslError"]
+- !private ["s9DecodableP", "syscallError"]
+- !private ["s9DecodableP", "unknownError"]
+- !private ["s9DecodableP", "wantAccept"]
+- !private ["s9DecodableP", "wantConnect"]
+- !private ["s9DecodableP", "wantRead"]
+- !private ["s9DecodableP", "wantWrite"]
+- !private ["s9DecodableP", "wantX509Lookup"]
+- !private ["s9DecodableP", "zeroReturn"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "noError"]
+- !private ["s9EncodableP", "sslError"]
+- !private ["s9EncodableP", "syscallError"]
+- !private ["s9EncodableP", "unknownError"]
+- !private ["s9EncodableP", "wantAccept"]
+- !private ["s9EncodableP", "wantConnect"]
+- !private ["s9EncodableP", "wantRead"]
+- !private ["s9EncodableP", "wantWrite"]
+- !private ["s9EncodableP", "wantX509Lookup"]
+- !private ["s9EncodableP", "zeroReturn"]
+- !private ["s9EquatableP", "ERR_error_string"]
+- !private ["s9EquatableP", "ERR_get_error"]
+- !private ["s9EquatableP", "OpenSSLErrorStack"]
+- !private ["s9EquatableP", "OpenSSLInternalError"]
+- !private ["s9EquatableP", "SSL_ERROR_NONE"]
+- !private ["s9EquatableP", "SSL_ERROR_SSL"]
+- !private ["s9EquatableP", "SSL_ERROR_SYSCALL"]
+- !private ["s9EquatableP", "SSL_ERROR_WANT_ACCEPT"]
+- !private ["s9EquatableP", "SSL_ERROR_WANT_CONNECT"]
+- !private ["s9EquatableP", "SSL_ERROR_WANT_READ"]
+- !private ["s9EquatableP", "SSL_ERROR_WANT_WRITE"]
+- !private ["s9EquatableP", "SSL_ERROR_WANT_X509_LOOKUP"]
+- !private ["s9EquatableP", "SSL_ERROR_ZERO_RETURN"]
+- !private ["s9EquatableP", "String"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "_code"]
+- ["s9EquatableP", "_domain"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "_getEmbeddedNSError"]
+- ["s9EquatableP", "_userInfo"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "buildErrorStack"]
+- ["s9EquatableP", "cannotMatchULabel"]
+- ["s9EquatableP", "description"]
+- !private ["s9EquatableP", "errorCode"]
+- !private ["s9EquatableP", "errorMessage"]
+- ["s9EquatableP", "failedToLoadCertificate"]
+- ["s9EquatableP", "failedToLoadPrivateKey"]
+- ["s9EquatableP", "handshakeFailed"]
+- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", "noCertificateToValidate"]
+- ["s9EquatableP", "noError"]
+- ["s9EquatableP", "noSuchFilesystemObject"]
+- ["s9EquatableP", "shutdownFailed"]
+- ["s9EquatableP", "sslError"]
+- ["s9EquatableP", "syscallError"]
+- ["s9EquatableP", "unableToAllocateOpenSSLObject"]
+- ["s9EquatableP", "unableToValidateCertificate"]
+- ["s9EquatableP", "uncleanShutdown"]
+- ["s9EquatableP", "unknownError"]
+- ["s9EquatableP", "wantAccept"]
+- ["s9EquatableP", "wantConnect"]
+- ["s9EquatableP", "wantRead"]
+- ["s9EquatableP", "wantWrite"]
+- ["s9EquatableP", "wantX509Lookup"]
+- ["s9EquatableP", "writeDuringTLSShutdown"]
+- ["s9EquatableP", "zeroReturn"]
+- !private ["s5ErrorP", "ERR_get_error"]
+- !private ["s5ErrorP", "OpenSSLErrorStack"]
+- !private ["s5ErrorP", "OpenSSLInternalError"]
+- !private ["s5ErrorP", "SSL_ERROR_NONE"]
+- !private ["s5ErrorP", "SSL_ERROR_SSL"]
+- !private ["s5ErrorP", "SSL_ERROR_SYSCALL"]
+- !private ["s5ErrorP", "SSL_ERROR_WANT_ACCEPT"]
+- !private ["s5ErrorP", "SSL_ERROR_WANT_CONNECT"]
+- !private ["s5ErrorP", "SSL_ERROR_WANT_READ"]
+- !private ["s5ErrorP", "SSL_ERROR_WANT_WRITE"]
+- !private ["s5ErrorP", "SSL_ERROR_WANT_X509_LOOKUP"]
+- !private ["s5ErrorP", "SSL_ERROR_ZERO_RETURN"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- !private ["s5ErrorP", "buildErrorStack"]
+- ["s5ErrorP", "cannotMatchULabel"]
+- ["s5ErrorP", "failedToLoadCertificate"]
+- ["s5ErrorP", "failedToLoadPrivateKey"]
+- ["s5ErrorP", "handshakeFailed"]
+- ["s5ErrorP", "noCertificateToValidate"]
+- ["s5ErrorP", "noError"]
+- ["s5ErrorP", "noSuchFilesystemObject"]
+- ["s5ErrorP", "shutdownFailed"]
+- ["s5ErrorP", "sslError"]
+- ["s5ErrorP", "syscallError"]
+- ["s5ErrorP", "unableToAllocateOpenSSLObject"]
+- ["s5ErrorP", "unableToValidateCertificate"]
+- ["s5ErrorP", "uncleanShutdown"]
+- ["s5ErrorP", "unknownError"]
+- ["s5ErrorP", "wantAccept"]
+- ["s5ErrorP", "wantConnect"]
+- ["s5ErrorP", "wantRead"]
+- ["s5ErrorP", "wantWrite"]
+- ["s5ErrorP", "wantX509Lookup"]
+- ["s5ErrorP", "writeDuringTLSShutdown"]
+- ["s5ErrorP", "zeroReturn"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "noError"]
+- !private ["s23ExpressibleByNilLiteralP", "sslError"]
+- !private ["s23ExpressibleByNilLiteralP", "syscallError"]
+- !private ["s23ExpressibleByNilLiteralP", "unknownError"]
+- !private ["s23ExpressibleByNilLiteralP", "wantAccept"]
+- !private ["s23ExpressibleByNilLiteralP", "wantConnect"]
+- !private ["s23ExpressibleByNilLiteralP", "wantRead"]
+- !private ["s23ExpressibleByNilLiteralP", "wantWrite"]
+- !private ["s23ExpressibleByNilLiteralP", "wantX509Lookup"]
+- !private ["s23ExpressibleByNilLiteralP", "zeroReturn"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "init"]
+- ["10NIOOpenSSL0A8SSLErrorO", "=="]
+- ["10NIOOpenSSL0A8SSLErrorO", "Bool"]
+- ["10NIOOpenSSL0A8SSLErrorO", "NIOOpenSSLError"]
+- ["10NIOOpenSSL0A8SSLErrorO", "OpenSSLError"]
+- ["10NIOOpenSSL0A8SSLErrorO", "_code"]
+- ["10NIOOpenSSL0A8SSLErrorO", "_domain"]
+- ["10NIOOpenSSL0A8SSLErrorO", "_getEmbeddedNSError"]
+- ["10NIOOpenSSL0A8SSLErrorO", "_userInfo"]
+- ["10NIOOpenSSL0A8SSLErrorO", "cannotFindPeerIP"]
+- ["10NIOOpenSSL0A8SSLErrorO", "cannotMatchULabel"]
+- ["10NIOOpenSSL0A8SSLErrorO", "deinit"]
+- ["10NIOOpenSSL0A8SSLErrorO", "failedToLoadCertificate"]
+- ["10NIOOpenSSL0A8SSLErrorO", "failedToLoadPrivateKey"]
+- ["10NIOOpenSSL0A8SSLErrorO", "handshakeFailed"]
+- ["10NIOOpenSSL0A8SSLErrorO", "noCertificateToValidate"]
+- ["10NIOOpenSSL0A8SSLErrorO", "noSuchFilesystemObject"]
+- ["10NIOOpenSSL0A8SSLErrorO", "readInInvalidTLSState"]
+- ["10NIOOpenSSL0A8SSLErrorO", "shutdownFailed"]
+- ["10NIOOpenSSL0A8SSLErrorO", "unableToAllocateOpenSSLObject"]
+- ["10NIOOpenSSL0A8SSLErrorO", "unableToValidateCertificate"]
+- ["10NIOOpenSSL0A8SSLErrorO", "writeDuringTLSShutdown"]
+- !private ["10NIOOpenSSL12OpenSSLErrorO", "ERR_get_error"]
+- ["10NIOOpenSSL12OpenSSLErrorO", "Int32"]
+- ["10NIOOpenSSL12OpenSSLErrorO", "OpenSSLError"]
+- ["10NIOOpenSSL12OpenSSLErrorO", "OpenSSLErrorStack"]
+- !private ["10NIOOpenSSL12OpenSSLErrorO", "OpenSSLInternalError"]
+- !private ["10NIOOpenSSL12OpenSSLErrorO", "SSL_ERROR_NONE"]
+- !private ["10NIOOpenSSL12OpenSSLErrorO", "SSL_ERROR_SSL"]
+- !private ["10NIOOpenSSL12OpenSSLErrorO", "SSL_ERROR_SYSCALL"]
+- !private ["10NIOOpenSSL12OpenSSLErrorO", "SSL_ERROR_WANT_ACCEPT"]
+- !private ["10NIOOpenSSL12OpenSSLErrorO", "SSL_ERROR_WANT_CONNECT"]
+- !private ["10NIOOpenSSL12OpenSSLErrorO", "SSL_ERROR_WANT_READ"]
+- !private ["10NIOOpenSSL12OpenSSLErrorO", "SSL_ERROR_WANT_WRITE"]
+- !private ["10NIOOpenSSL12OpenSSLErrorO", "SSL_ERROR_WANT_X509_LOOKUP"]
+- !private ["10NIOOpenSSL12OpenSSLErrorO", "SSL_ERROR_ZERO_RETURN"]
+- ["10NIOOpenSSL12OpenSSLErrorO", "_code"]
+- ["10NIOOpenSSL12OpenSSLErrorO", "_domain"]
+- ["10NIOOpenSSL12OpenSSLErrorO", "_getEmbeddedNSError"]
+- ["10NIOOpenSSL12OpenSSLErrorO", "_userInfo"]
+- ["10NIOOpenSSL12OpenSSLErrorO", "buildErrorStack"]
+- ["10NIOOpenSSL12OpenSSLErrorO", "deinit"]
+- ["10NIOOpenSSL12OpenSSLErrorO", "failedToSetALPN"]
+- ["10NIOOpenSSL12OpenSSLErrorO", "fromSSLGetErrorResult"]
+- ["10NIOOpenSSL12OpenSSLErrorO", "invalidSNIName"]
+- ["10NIOOpenSSL12OpenSSLErrorO", "noError"]
+- ["10NIOOpenSSL12OpenSSLErrorO", "sslError"]
+- ["10NIOOpenSSL12OpenSSLErrorO", "syscallError"]
+- ["10NIOOpenSSL12OpenSSLErrorO", "uncleanShutdown"]
+- ["10NIOOpenSSL12OpenSSLErrorO", "unknownError"]
+- ["10NIOOpenSSL12OpenSSLErrorO", "wantAccept"]
+- ["10NIOOpenSSL12OpenSSLErrorO", "wantConnect"]
+- ["10NIOOpenSSL12OpenSSLErrorO", "wantRead"]
+- ["10NIOOpenSSL12OpenSSLErrorO", "wantWrite"]
+- ["10NIOOpenSSL12OpenSSLErrorO", "wantX509Lookup"]
+- ["10NIOOpenSSL12OpenSSLErrorO", "zeroReturn"]
+- ["10NIOOpenSSL20OpenSSLInternalErrorV", "=="]
+- ["10NIOOpenSSL20OpenSSLInternalErrorV", "Bool"]
+- !private ["10NIOOpenSSL20OpenSSLInternalErrorV", "ERR_error_string"]
+- ["10NIOOpenSSL20OpenSSLInternalErrorV", "OpenSSLInternalError"]
+- ["10NIOOpenSSL20OpenSSLInternalErrorV", "String"]
+- ["10NIOOpenSSL20OpenSSLInternalErrorV", "deinit"]
+- ["10NIOOpenSSL20OpenSSLInternalErrorV", "description"]
+- ["10NIOOpenSSL20OpenSSLInternalErrorV", "errorCode"]
+- ["10NIOOpenSSL20OpenSSLInternalErrorV", "errorMessage"]
+- ["10NIOOpenSSL20OpenSSLInternalErrorV", "init"]
+- ["10NIOOpenSSL20OpenSSLInternalErrorV", "u_long"]
+- !private ["Sq", "noError"]
+- !private ["Sq", "sslError"]
+- !private ["Sq", "syscallError"]
+- !private ["Sq", "unknownError"]
+- !private ["Sq", "wantAccept"]
+- !private ["Sq", "wantConnect"]
+- !private ["Sq", "wantRead"]
+- !private ["Sq", "wantWrite"]
+- !private ["Sq", "wantX509Lookup"]
+- !private ["Sq", "zeroReturn"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "noError"]
+- !private ["s21_ObjectiveCBridgeableP", "sslError"]
+- !private ["s21_ObjectiveCBridgeableP", "syscallError"]
+- !private ["s21_ObjectiveCBridgeableP", "unknownError"]
+- !private ["s21_ObjectiveCBridgeableP", "wantAccept"]
+- !private ["s21_ObjectiveCBridgeableP", "wantConnect"]
+- !private ["s21_ObjectiveCBridgeableP", "wantRead"]
+- !private ["s21_ObjectiveCBridgeableP", "wantWrite"]
+- !private ["s21_ObjectiveCBridgeableP", "wantX509Lookup"]
+- !private ["s21_ObjectiveCBridgeableP", "zeroReturn"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "3NIO20ContiguousCollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "10NIOOpenSSL0A8SSLErrorO"
+- "10NIOOpenSSL12OpenSSLErrorO"
+- "10NIOOpenSSL20OpenSSLInternalErrorV"
+- !private "Sq"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOTLS.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/asn1.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/tls1.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/dtls1.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/pkcs12.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/ssl2.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/pem2.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/ssl23.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/ssl3.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/x509v3.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/md5.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/pkcs7.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/x509.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/sha.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/dsa.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/ecdsa.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/rsa.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/obj_mac.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/hmac.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/ec.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/rand.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/conf.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/opensslconf.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/dh.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/ecdh.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/lhash.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/stack.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/safestack.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/ssl.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio-ssl.git-1370587408992578247/Sources/CNIOOpenSSL/include/c_nio_openssl.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/pem.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/bn.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/bio.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/crypto.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/srtp.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/evp.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/ossl_typ.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/buffer.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/err.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/c-atomics.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/opensslfeatures.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/objects.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/opensslv.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/x509_vfy.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio-ssl-support.git--2359138821295600615/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio-zlib-support.git--1071467962839356487/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+interface-hash: "048ac94c25641d435c9fcf8f8f9194e4"

@@ -1,0 +1,372 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Endianness"
+provides-nominal:
+- "3NIO10EndiannessO"
+provides-member:
+- ["3NIO10ByteBufferV", ""]
+- ["s17FixedWidthIntegerP", ""]
+- ["s6UInt32V", ""]
+- ["3NIO10EndiannessO", ""]
+- ["3NIO10ByteBufferV", "_toEndianness"]
+- ["3NIO10ByteBufferV", "readInteger"]
+- ["3NIO10ByteBufferV", "getInteger"]
+- ["3NIO10ByteBufferV", "write"]
+- ["3NIO10ByteBufferV", "set"]
+- ["s17FixedWidthIntegerP", "nextPowerOf2"]
+- ["s6UInt32V", "nextPowerOf2ClampedToMax"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "+="
+- !private "-"
+- !private "-="
+- !private "<<"
+- !private "<="
+- "=="
+- !private ">"
+- !private ">="
+- !private ">>"
+- "ByteBuffer"
+- "Endianness"
+- "FixedWidthInteger"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- !private "MemoryLayout"
+- !private "StringLiteralType"
+- !private "Swift"
+- "TernaryPrecedence"
+- "UInt32"
+- !private "UnsafeRawBufferPointer"
+- !private "precondition"
+- !private "withUnsafeMutableBytes"
+- !private "|="
+depends-member:
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "_getBuiltinLogicValue"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "bigEndian"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "init"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "max"]
+- !private ["s23BidirectionalCollectionP", "baseAddress"]
+- !private ["s23BidirectionalCollectionP", "copyMemory"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- ["s13BinaryIntegerP", "Self"]
+- !private ["s13BinaryIntegerP", "bigEndian"]
+- !private ["s13BinaryIntegerP", "bitWidth"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["s13BinaryIntegerP", "leadingZeroBitCount"]
+- !private ["s13BinaryIntegerP", "littleEndian"]
+- !private ["s13BinaryIntegerP", "max"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["3NIO10ByteBufferV", "Endianness"]
+- ["3NIO10ByteBufferV", "FixedWidthInteger"]
+- ["3NIO10ByteBufferV", "Int"]
+- !private ["3NIO10ByteBufferV", "MemoryLayout"]
+- !private ["3NIO10ByteBufferV", "Swift"]
+- !private ["3NIO10ByteBufferV", "UnsafeRawBufferPointer"]
+- !private ["3NIO10ByteBufferV", "_moveReaderIndex"]
+- !private ["3NIO10ByteBufferV", "_moveWriterIndex"]
+- ["3NIO10ByteBufferV", "_toEndianness"]
+- ["3NIO10ByteBufferV", "getInteger"]
+- !private ["3NIO10ByteBufferV", "precondition"]
+- ["3NIO10ByteBufferV", "readInteger"]
+- !private ["3NIO10ByteBufferV", "readableBytes"]
+- !private ["3NIO10ByteBufferV", "readerIndex"]
+- ["3NIO10ByteBufferV", "set"]
+- !private ["3NIO10ByteBufferV", "withUnsafeMutableBytes"]
+- !private ["3NIO10ByteBufferV", "withVeryUnsafeBytes"]
+- ["3NIO10ByteBufferV", "write"]
+- !private ["3NIO10ByteBufferV", "writerIndex"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "bigEndian"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "max"]
+- !private ["s10CollectionP", "baseAddress"]
+- !private ["s10CollectionP", "copyMemory"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "init"]
+- ["s10ComparableP", "Self"]
+- !private ["s10ComparableP", "advanced"]
+- !private ["s10ComparableP", "bigEndian"]
+- !private ["s10ComparableP", "bitWidth"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "leadingZeroBitCount"]
+- !private ["s10ComparableP", "littleEndian"]
+- !private ["s10ComparableP", "max"]
+- !private ["3NIO20ContiguousCollectionP", "baseAddress"]
+- !private ["3NIO20ContiguousCollectionP", "count"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "advanced"]
+- !private ["s28CustomDebugStringConvertibleP", "baseAddress"]
+- !private ["s28CustomDebugStringConvertibleP", "copyMemory"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "advanced"]
+- !private ["s29CustomPlaygroundQuickLookableP", "bigEndian"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "max"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "advanced"]
+- !private ["s17CustomReflectableP", "bigEndian"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "max"]
+- !private ["s23CustomStringConvertibleP", "Endianness"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "MemoryLayout"]
+- ["s23CustomStringConvertibleP", "Self"]
+- !private ["s23CustomStringConvertibleP", "Swift"]
+- !private ["s23CustomStringConvertibleP", "UnsafeRawBufferPointer"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "_moveReaderIndex"]
+- !private ["s23CustomStringConvertibleP", "_moveWriterIndex"]
+- !private ["s23CustomStringConvertibleP", "_toEndianness"]
+- !private ["s23CustomStringConvertibleP", "bigEndian"]
+- !private ["s23CustomStringConvertibleP", "bitWidth"]
+- !private ["s23CustomStringConvertibleP", "getInteger"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "leadingZeroBitCount"]
+- !private ["s23CustomStringConvertibleP", "littleEndian"]
+- !private ["s23CustomStringConvertibleP", "max"]
+- !private ["s23CustomStringConvertibleP", "precondition"]
+- !private ["s23CustomStringConvertibleP", "readableBytes"]
+- !private ["s23CustomStringConvertibleP", "readerIndex"]
+- !private ["s23CustomStringConvertibleP", "set"]
+- !private ["s23CustomStringConvertibleP", "withUnsafeMutableBytes"]
+- !private ["s23CustomStringConvertibleP", "withVeryUnsafeBytes"]
+- !private ["s23CustomStringConvertibleP", "writerIndex"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "bigEndian"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "max"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "bigEndian"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "max"]
+- ["3NIO10EndiannessO", "Endianness"]
+- !private ["3NIO10EndiannessO", "UInt32"]
+- ["3NIO10EndiannessO", "__derived_enum_equals"]
+- ["3NIO10EndiannessO", "big"]
+- ["3NIO10EndiannessO", "deinit"]
+- ["3NIO10EndiannessO", "hashValue"]
+- ["3NIO10EndiannessO", "host"]
+- ["3NIO10EndiannessO", "hostEndianness0"]
+- ["3NIO10EndiannessO", "little"]
+- !private ["s9EquatableP", "Endianness"]
+- !private ["s9EquatableP", "Int"]
+- !private ["s9EquatableP", "MemoryLayout"]
+- ["s9EquatableP", "Self"]
+- !private ["s9EquatableP", "Swift"]
+- !private ["s9EquatableP", "UnsafeRawBufferPointer"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "_moveReaderIndex"]
+- !private ["s9EquatableP", "_moveWriterIndex"]
+- !private ["s9EquatableP", "_toEndianness"]
+- !private ["s9EquatableP", "advanced"]
+- ["s9EquatableP", "big"]
+- !private ["s9EquatableP", "bigEndian"]
+- !private ["s9EquatableP", "bitWidth"]
+- !private ["s9EquatableP", "getInteger"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "hostEndianness0"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "leadingZeroBitCount"]
+- ["s9EquatableP", "little"]
+- !private ["s9EquatableP", "littleEndian"]
+- !private ["s9EquatableP", "max"]
+- !private ["s9EquatableP", "precondition"]
+- !private ["s9EquatableP", "readableBytes"]
+- !private ["s9EquatableP", "readerIndex"]
+- !private ["s9EquatableP", "set"]
+- !private ["s9EquatableP", "withUnsafeMutableBytes"]
+- !private ["s9EquatableP", "withVeryUnsafeBytes"]
+- !private ["s9EquatableP", "writerIndex"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s27ExpressibleByIntegerLiteralP", "Self"]
+- !private ["s27ExpressibleByIntegerLiteralP", "bigEndian"]
+- !private ["s27ExpressibleByIntegerLiteralP", "bitWidth"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "leadingZeroBitCount"]
+- !private ["s27ExpressibleByIntegerLiteralP", "littleEndian"]
+- !private ["s27ExpressibleByIntegerLiteralP", "max"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s17FixedWidthIntegerP", "Self"]
+- !private ["s17FixedWidthIntegerP", "bigEndian"]
+- !private ["s17FixedWidthIntegerP", "bitWidth"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s17FixedWidthIntegerP", "leadingZeroBitCount"]
+- !private ["s17FixedWidthIntegerP", "littleEndian"]
+- !private ["s17FixedWidthIntegerP", "max"]
+- ["s17FixedWidthIntegerP", "nextPowerOf2"]
+- ["s8HashableP", "Self"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "advanced"]
+- ["s8HashableP", "big"]
+- !private ["s8HashableP", "bigEndian"]
+- !private ["s8HashableP", "bitWidth"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "hostEndianness0"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "leadingZeroBitCount"]
+- ["s8HashableP", "little"]
+- !private ["s8HashableP", "littleEndian"]
+- !private ["s8HashableP", "max"]
+- !private ["Si", "init"]
+- ["s25LosslessStringConvertibleP", "Self"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "bigEndian"]
+- !private ["s25LosslessStringConvertibleP", "bitWidth"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "leadingZeroBitCount"]
+- !private ["s25LosslessStringConvertibleP", "littleEndian"]
+- !private ["s25LosslessStringConvertibleP", "max"]
+- !private ["s12MemoryLayoutO", "size"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "copyMemory"]
+- ["s7NumericP", "Self"]
+- !private ["s7NumericP", "bigEndian"]
+- !private ["s7NumericP", "bitWidth"]
+- !private ["s7NumericP", "init"]
+- !private ["s7NumericP", "leadingZeroBitCount"]
+- !private ["s7NumericP", "littleEndian"]
+- !private ["s7NumericP", "max"]
+- !private ["s22RandomAccessCollectionP", "baseAddress"]
+- !private ["s22RandomAccessCollectionP", "copyMemory"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "baseAddress"]
+- !private ["s8SequenceP", "copyMemory"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "init"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s12StaticStringV", "init"]
+- ["s10StrideableP", "Self"]
+- !private ["s10StrideableP", "advanced"]
+- !private ["s10StrideableP", "bigEndian"]
+- !private ["s10StrideableP", "bitWidth"]
+- !private ["s10StrideableP", "init"]
+- !private ["s10StrideableP", "leadingZeroBitCount"]
+- !private ["s10StrideableP", "littleEndian"]
+- !private ["s10StrideableP", "max"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["s6UInt32V", "UInt32"]
+- !private ["s6UInt32V", "bigEndian"]
+- !private ["s6UInt32V", "max"]
+- ["s6UInt32V", "nextPowerOf2ClampedToMax"]
+- !private ["s29UnsafeMutableRawBufferPointerV", "copyMemory"]
+- !private ["s22UnsafeRawBufferPointerV", "baseAddress"]
+- !private ["s22UnsafeRawBufferPointerV", "count"]
+- !private ["s22UnsafeRawBufferPointerV", "deinit"]
+- !private ["s22UnsafeRawBufferPointerV", "init"]
+- !private ["SV", "advanced"]
+- !private ["s15UnsignedIntegerP", "bigEndian"]
+- !private ["s15UnsignedIntegerP", "max"]
+- ["s18_BitwiseOperationsP", "Self"]
+- !private ["s18_BitwiseOperationsP", "bigEndian"]
+- !private ["s18_BitwiseOperationsP", "bitWidth"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s18_BitwiseOperationsP", "leadingZeroBitCount"]
+- !private ["s18_BitwiseOperationsP", "littleEndian"]
+- !private ["s18_BitwiseOperationsP", "max"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "bigEndian"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "max"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s8_PointerP", "advanced"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "s23BidirectionalCollectionP"
+- "s13BinaryIntegerP"
+- !private "Sb"
+- "3NIO10ByteBufferV"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- "s10ComparableP"
+- !private "3NIO20ContiguousCollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "3NIO10EndiannessO"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "Si"
+- "s25LosslessStringConvertibleP"
+- !private "s12MemoryLayoutO"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "s7NumericP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "s6UInt32V"
+- !private "s29UnsafeMutableRawBufferPointerV"
+- !private "s22UnsafeRawBufferPointerV"
+- !private "SV"
+- !private "s15UnsignedIntegerP"
+- "s18_BitwiseOperationsP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s8_PointerP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio-zlib-support.git--1071467962839356487/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+interface-hash: "39b56b96fd849f16521b2424ac5b0c02"

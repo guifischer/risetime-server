@@ -1,0 +1,19 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "bded712a4a4d79580e8dad4e1b69192b"
+build_time: [1529112120, 871340000]
+inputs:
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/core.git-9210800844849382486/Sources/Async/Async+NIO.swift": [1529105362, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/core.git-9210800844849382486/Sources/Async/AsyncError.swift": [1529105362, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/core.git-9210800844849382486/Sources/Async/Collection+Future.swift": [1529105362, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/core.git-9210800844849382486/Sources/Async/Deprecated.swift": [1529105362, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/core.git-9210800844849382486/Sources/Async/Exports.swift": [1529105362, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/core.git-9210800844849382486/Sources/Async/Future+DoCatch.swift": [1529105362, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/core.git-9210800844849382486/Sources/Async/Future+Flatten.swift": [1529105362, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/core.git-9210800844849382486/Sources/Async/Future+Global.swift": [1529105362, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/core.git-9210800844849382486/Sources/Async/Future+Map.swift": [1529105362, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/core.git-9210800844849382486/Sources/Async/Future+Transform.swift": [1529105362, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/core.git-9210800844849382486/Sources/Async/Future+Variadic.swift": [1529105362, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/core.git-9210800844849382486/Sources/Async/Future+Void.swift": [1529105362, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/core.git-9210800844849382486/Sources/Async/FutureType.swift": [1529105362, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/core.git-9210800844849382486/Sources/Async/QueueHandler.swift": [1529105362, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/core.git-9210800844849382486/Sources/Async/Worker.swift": [1529105362, 0]

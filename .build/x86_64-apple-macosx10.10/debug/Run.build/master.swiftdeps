@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "a5443a11d094247cf86ec41b4d5e8de9"
+build_time: [1529112145, 853582000]
+inputs:
+  "/Users/user/Documents/RiseTimeAssets/server/Sources/Run/main.swift": [1529111981, 0]

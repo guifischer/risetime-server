@@ -1,0 +1,20 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "c5b648e5c888b82a10dcf95c5593c418"
+build_time: [1529112126, 349536000]
+inputs:
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/validation.git--4403154650041669468/Sources/Validation/Exports.swift": [1529105361, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/validation.git--4403154650041669468/Sources/Validation/Validatable.swift": [1529105361, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/validation.git--4403154650041669468/Sources/Validation/ValidationError.swift": [1529105361, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/validation.git--4403154650041669468/Sources/Validation/Validations.swift": [1529105361, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/validation.git--4403154650041669468/Sources/Validation/Validator.swift": [1529105361, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/validation.git--4403154650041669468/Sources/Validation/ValidatorType.swift": [1529105361, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/validation.git--4403154650041669468/Sources/Validation/Validators/AndValidator.swift": [1529105361, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/validation.git--4403154650041669468/Sources/Validation/Validators/CharacterSetValidator.swift": [1529105361, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/validation.git--4403154650041669468/Sources/Validation/Validators/CountValidator.swift": [1529105361, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/validation.git--4403154650041669468/Sources/Validation/Validators/EmailValidator.swift": [1529105361, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/validation.git--4403154650041669468/Sources/Validation/Validators/InValidator.swift": [1529105361, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/validation.git--4403154650041669468/Sources/Validation/Validators/NilIgnoringValidator.swift": [1529105361, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/validation.git--4403154650041669468/Sources/Validation/Validators/NilValidator.swift": [1529105361, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/validation.git--4403154650041669468/Sources/Validation/Validators/NotValidator.swift": [1529105361, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/validation.git--4403154650041669468/Sources/Validation/Validators/OrValidator.swift": [1529105361, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/validation.git--4403154650041669468/Sources/Validation/Validators/RangeValidator.swift": [1529105361, 0]

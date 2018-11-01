@@ -1,0 +1,83 @@
+{
+  "": {
+    "swift-dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/master.swiftdeps"
+  },
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/crypto.git-7980259129511365902/Sources/Crypto/BCrypt/BCryptDigest.swift": {
+    "dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/BCryptDigest.d",
+    "object": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/BCrypt/BCryptDigest.swift.o",
+    "swiftmodule": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/BCryptDigest~partial.swiftmodule",
+    "swift-dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/BCryptDigest.swiftdeps"
+  },
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/crypto.git-7980259129511365902/Sources/Crypto/Cipher/Cipher.swift": {
+    "dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Cipher.d",
+    "object": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Cipher/Cipher.swift.o",
+    "swiftmodule": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Cipher~partial.swiftmodule",
+    "swift-dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Cipher.swiftdeps"
+  },
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/crypto.git-7980259129511365902/Sources/Crypto/Cipher/CipherAlgorithm.swift": {
+    "dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/CipherAlgorithm.d",
+    "object": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Cipher/CipherAlgorithm.swift.o",
+    "swiftmodule": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/CipherAlgorithm~partial.swiftmodule",
+    "swift-dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/CipherAlgorithm.swiftdeps"
+  },
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/crypto.git-7980259129511365902/Sources/Crypto/Digest/Digest.swift": {
+    "dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Digest.d",
+    "object": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Digest/Digest.swift.o",
+    "swiftmodule": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Digest~partial.swiftmodule",
+    "swift-dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Digest.swiftdeps"
+  },
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/crypto.git-7980259129511365902/Sources/Crypto/Digest/DigestAlgorithm.swift": {
+    "dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/DigestAlgorithm.d",
+    "object": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Digest/DigestAlgorithm.swift.o",
+    "swiftmodule": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/DigestAlgorithm~partial.swiftmodule",
+    "swift-dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/DigestAlgorithm.swiftdeps"
+  },
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/crypto.git-7980259129511365902/Sources/Crypto/MAC/HMAC.swift": {
+    "dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/HMAC.d",
+    "object": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/MAC/HMAC.swift.o",
+    "swiftmodule": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/HMAC~partial.swiftmodule",
+    "swift-dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/HMAC.swiftdeps"
+  },
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/crypto.git-7980259129511365902/Sources/Crypto/RSA/RSA.swift": {
+    "dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/RSA.d",
+    "object": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/RSA/RSA.swift.o",
+    "swiftmodule": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/RSA~partial.swiftmodule",
+    "swift-dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/RSA.swiftdeps"
+  },
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/crypto.git-7980259129511365902/Sources/Crypto/RSA/RSAKey.swift": {
+    "dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/RSAKey.d",
+    "object": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/RSA/RSAKey.swift.o",
+    "swiftmodule": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/RSAKey~partial.swiftmodule",
+    "swift-dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/RSAKey.swiftdeps"
+  },
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/crypto.git-7980259129511365902/Sources/Crypto/RSA/RSAPadding.swift": {
+    "dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/RSAPadding.d",
+    "object": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/RSA/RSAPadding.swift.o",
+    "swiftmodule": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/RSAPadding~partial.swiftmodule",
+    "swift-dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/RSAPadding.swiftdeps"
+  },
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/crypto.git-7980259129511365902/Sources/Crypto/Random/CryptoRandom.swift": {
+    "dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/CryptoRandom.d",
+    "object": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Random/CryptoRandom.swift.o",
+    "swiftmodule": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/CryptoRandom~partial.swiftmodule",
+    "swift-dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/CryptoRandom.swiftdeps"
+  },
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/crypto.git-7980259129511365902/Sources/Crypto/Utilities/CryptoError.swift": {
+    "dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/CryptoError.d",
+    "object": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Utilities/CryptoError.swift.o",
+    "swiftmodule": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/CryptoError~partial.swiftmodule",
+    "swift-dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/CryptoError.swiftdeps"
+  },
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/crypto.git-7980259129511365902/Sources/Crypto/Utilities/Deprecated.swift": {
+    "dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Deprecated.d",
+    "object": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Utilities/Deprecated.swift.o",
+    "swiftmodule": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Deprecated~partial.swiftmodule",
+    "swift-dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Deprecated.swiftdeps"
+  },
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/crypto.git-7980259129511365902/Sources/Crypto/Utilities/Exports.swift": {
+    "dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Exports.d",
+    "object": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Utilities/Exports.swift.o",
+    "swiftmodule": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Exports.swiftdeps"
+  }
+}

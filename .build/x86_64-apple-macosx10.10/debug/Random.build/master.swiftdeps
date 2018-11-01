@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "63ecd751eb23062dd29d6f47afb8ecf3"
+build_time: [1529112122, 575527000]
+inputs:
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/crypto.git-7980259129511365902/Sources/Random/Array+Random.swift": [1529105362, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/crypto.git-7980259129511365902/Sources/Random/OSRandom.swift": [1529105362, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/crypto.git-7980259129511365902/Sources/Random/RandomProtocol.swift": [1529105362, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/crypto.git-7980259129511365902/Sources/Random/URandom.swift": [1529105362, 0]

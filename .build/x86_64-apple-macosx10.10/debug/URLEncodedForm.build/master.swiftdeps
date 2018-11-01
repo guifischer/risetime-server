@@ -1,0 +1,12 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "97820210d3bc9eeedf271b644003b2ad"
+build_time: [1529112126, 589359000]
+inputs:
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/url-encoded-form.git--8133570518800567758/Sources/URLEncodedForm/Codable/URLEncodedFormDecoder.swift": [1529105363, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/url-encoded-form.git--8133570518800567758/Sources/URLEncodedForm/Codable/URLEncodedFormEncoder.swift": [1529105363, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/url-encoded-form.git--8133570518800567758/Sources/URLEncodedForm/Data/URLEncodedFormData.swift": [1529105363, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/url-encoded-form.git--8133570518800567758/Sources/URLEncodedForm/Data/URLEncodedFormDataConvertible.swift": [1529105363, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/url-encoded-form.git--8133570518800567758/Sources/URLEncodedForm/Data/URLEncodedFormParser.swift": [1529105363, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/url-encoded-form.git--8133570518800567758/Sources/URLEncodedForm/Data/URLEncodedFormSerializer.swift": [1529105363, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/url-encoded-form.git--8133570518800567758/Sources/URLEncodedForm/Utilities/Exports.swift": [1529105363, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/url-encoded-form.git--8133570518800567758/Sources/URLEncodedForm/Utilities/URLEncodedFormError.swift": [1529105363, 0]

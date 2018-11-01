@@ -1,0 +1,574 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AbortError"
+provides-nominal:
+- "5Vapor10AbortErrorP"
+- "s13DecodingErrorO"
+provides-member:
+- ["5Vapor10AbortErrorP", ""]
+- ["s13DecodingErrorO", ""]
+- ["5Vapor10AbortErrorP", "headers"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- !private ">"
+- "AbortError"
+- "Array"
+- "AssignmentPrecedence"
+- "CodingKey"
+- "Debuggable"
+- "DecodingError"
+- !private "Dictionary"
+- "HTTPHeaders"
+- "HTTPResponseStatus"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+depends-member:
+- ["5Vapor10AbortErrorP", "HTTPHeaders"]
+- ["5Vapor10AbortErrorP", "HTTPResponseStatus"]
+- ["5Vapor10AbortErrorP", "String"]
+- ["5Vapor10AbortErrorP", ""]
+- ["5Vapor10AbortErrorP", "dataCorrupted"]
+- ["5Vapor10AbortErrorP", "debugDescription"]
+- ["5Vapor10AbortErrorP", "description"]
+- ["5Vapor10AbortErrorP", "documentationLinks"]
+- ["5Vapor10AbortErrorP", "gitHubIssues"]
+- ["5Vapor10AbortErrorP", "headers"]
+- ["5Vapor10AbortErrorP", "identifier"]
+- ["5Vapor10AbortErrorP", "keyNotFound"]
+- ["5Vapor10AbortErrorP", "possibleCauses"]
+- ["5Vapor10AbortErrorP", "readableName"]
+- ["5Vapor10AbortErrorP", "reason"]
+- ["5Vapor10AbortErrorP", "sourceLocation"]
+- ["5Vapor10AbortErrorP", "stackOverflowQuestions"]
+- ["5Vapor10AbortErrorP", "stackTrace"]
+- ["5Vapor10AbortErrorP", "status"]
+- ["5Vapor10AbortErrorP", "suggestedFixes"]
+- ["5Vapor10AbortErrorP", "typeIdentifier"]
+- ["5Vapor10AbortErrorP", "typeMismatch"]
+- ["5Vapor10AbortErrorP", "valueNotFound"]
+- ["4Core22AnyReflectionDecodableP", "CodingKey"]
+- !private ["4Core22AnyReflectionDecodableP", "_getBuiltinLogicValue"]
+- !private ["4Core22AnyReflectionDecodableP", "count"]
+- !private ["4Core22AnyReflectionDecodableP", "dotPath"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "joined"]
+- !private ["4Core22AnyReflectionDecodableP", "map"]
+- ["Sa", "CodingKey"]
+- ["Sa", "String"]
+- !private ["Sa", "count"]
+- !private ["Sa", "dotPath"]
+- !private ["Sa", "joined"]
+- !private ["Sa", "map"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "_getBuiltinLogicValue"]
+- !private ["4Core21BasicKeyRepresentableP", "init"]
+- ["s23BidirectionalCollectionP", "CodingKey"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "dotPath"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "joined"]
+- !private ["s23BidirectionalCollectionP", "map"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "CodingKey"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "dotPath"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "joined"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s9CodingKeyP", "stringValue"]
+- ["s10CollectionP", "CodingKey"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "dotPath"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "joined"]
+- !private ["s10CollectionP", "map"]
+- !private ["s10ComparableP", "init"]
+- ["5Vapor7ContentP", "CodingKey"]
+- !private ["5Vapor7ContentP", "count"]
+- !private ["5Vapor7ContentP", "dotPath"]
+- !private ["5Vapor7ContentP", "init"]
+- !private ["5Vapor7ContentP", "joined"]
+- !private ["5Vapor7ContentP", "map"]
+- !private ["s13DecodingErrorO7ContextV", "codingPath"]
+- !private ["s13DecodingErrorO7ContextV", "debugDescription"]
+- ["3NIO20ContiguousCollectionP", "CodingKey"]
+- !private ["3NIO20ContiguousCollectionP", "count"]
+- !private ["3NIO20ContiguousCollectionP", "dotPath"]
+- !private ["3NIO20ContiguousCollectionP", "joined"]
+- !private ["3NIO20ContiguousCollectionP", "map"]
+- ["s28CustomDebugStringConvertibleP", "CodingKey"]
+- ["s28CustomDebugStringConvertibleP", "HTTPHeaders"]
+- ["s28CustomDebugStringConvertibleP", "HTTPResponseStatus"]
+- ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- ["s28CustomDebugStringConvertibleP", "dataCorrupted"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "documentationLinks"]
+- !private ["s28CustomDebugStringConvertibleP", "dotPath"]
+- ["s28CustomDebugStringConvertibleP", "gitHubIssues"]
+- ["s28CustomDebugStringConvertibleP", "headers"]
+- ["s28CustomDebugStringConvertibleP", "identifier"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- ["s28CustomDebugStringConvertibleP", "keyNotFound"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- ["s28CustomDebugStringConvertibleP", "possibleCauses"]
+- ["s28CustomDebugStringConvertibleP", "readableName"]
+- ["s28CustomDebugStringConvertibleP", "reason"]
+- ["s28CustomDebugStringConvertibleP", "sourceLocation"]
+- ["s28CustomDebugStringConvertibleP", "stackOverflowQuestions"]
+- ["s28CustomDebugStringConvertibleP", "stackTrace"]
+- ["s28CustomDebugStringConvertibleP", "status"]
+- !private ["s28CustomDebugStringConvertibleP", "stringValue"]
+- ["s28CustomDebugStringConvertibleP", "suggestedFixes"]
+- ["s28CustomDebugStringConvertibleP", "typeIdentifier"]
+- ["s28CustomDebugStringConvertibleP", "typeMismatch"]
+- ["s28CustomDebugStringConvertibleP", "valueNotFound"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s17CustomReflectableP", "CodingKey"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "dotPath"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s17CustomReflectableP", "map"]
+- ["s23CustomStringConvertibleP", "CodingKey"]
+- ["s23CustomStringConvertibleP", "HTTPHeaders"]
+- ["s23CustomStringConvertibleP", "HTTPResponseStatus"]
+- ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "dataCorrupted"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "documentationLinks"]
+- !private ["s23CustomStringConvertibleP", "dotPath"]
+- ["s23CustomStringConvertibleP", "gitHubIssues"]
+- ["s23CustomStringConvertibleP", "headers"]
+- ["s23CustomStringConvertibleP", "identifier"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- ["s23CustomStringConvertibleP", "keyNotFound"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- ["s23CustomStringConvertibleP", "possibleCauses"]
+- ["s23CustomStringConvertibleP", "readableName"]
+- ["s23CustomStringConvertibleP", "reason"]
+- ["s23CustomStringConvertibleP", "sourceLocation"]
+- ["s23CustomStringConvertibleP", "stackOverflowQuestions"]
+- ["s23CustomStringConvertibleP", "stackTrace"]
+- ["s23CustomStringConvertibleP", "status"]
+- !private ["s23CustomStringConvertibleP", "stringValue"]
+- ["s23CustomStringConvertibleP", "suggestedFixes"]
+- ["s23CustomStringConvertibleP", "typeIdentifier"]
+- ["s23CustomStringConvertibleP", "typeMismatch"]
+- ["s23CustomStringConvertibleP", "valueNotFound"]
+- ["9Debugging10DebuggableP", "HTTPHeaders"]
+- ["9Debugging10DebuggableP", "HTTPResponseStatus"]
+- ["9Debugging10DebuggableP", "String"]
+- ["9Debugging10DebuggableP", ""]
+- ["9Debugging10DebuggableP", "dataCorrupted"]
+- ["9Debugging10DebuggableP", "debugDescription"]
+- ["9Debugging10DebuggableP", "description"]
+- ["9Debugging10DebuggableP", "documentationLinks"]
+- ["9Debugging10DebuggableP", "gitHubIssues"]
+- ["9Debugging10DebuggableP", "headers"]
+- ["9Debugging10DebuggableP", "identifier"]
+- ["9Debugging10DebuggableP", "keyNotFound"]
+- ["9Debugging10DebuggableP", "possibleCauses"]
+- ["9Debugging10DebuggableP", "readableName"]
+- ["9Debugging10DebuggableP", "reason"]
+- ["9Debugging10DebuggableP", "sourceLocation"]
+- ["9Debugging10DebuggableP", "stackOverflowQuestions"]
+- ["9Debugging10DebuggableP", "stackTrace"]
+- ["9Debugging10DebuggableP", "status"]
+- ["9Debugging10DebuggableP", "suggestedFixes"]
+- ["9Debugging10DebuggableP", "typeIdentifier"]
+- ["9Debugging10DebuggableP", "typeMismatch"]
+- ["9Debugging10DebuggableP", "valueNotFound"]
+- ["s9DecodableP", "CodingKey"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "dotPath"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "joined"]
+- !private ["s9DecodableP", "map"]
+- ["s13DecodingErrorO", "HTTPResponseStatus"]
+- ["s13DecodingErrorO", "String"]
+- ["s13DecodingErrorO", "dataCorrupted"]
+- ["s13DecodingErrorO", "debugDescription"]
+- ["s13DecodingErrorO", "deinit"]
+- ["s13DecodingErrorO", "description"]
+- ["s13DecodingErrorO", "documentationLinks"]
+- ["s13DecodingErrorO", "gitHubIssues"]
+- ["s13DecodingErrorO", "headers"]
+- ["s13DecodingErrorO", "identifier"]
+- ["s13DecodingErrorO", "keyNotFound"]
+- ["s13DecodingErrorO", "possibleCauses"]
+- ["s13DecodingErrorO", "readableName"]
+- ["s13DecodingErrorO", "reason"]
+- ["s13DecodingErrorO", "sourceLocation"]
+- ["s13DecodingErrorO", "stackOverflowQuestions"]
+- ["s13DecodingErrorO", "stackTrace"]
+- ["s13DecodingErrorO", "status"]
+- ["s13DecodingErrorO", "suggestedFixes"]
+- ["s13DecodingErrorO", "typeIdentifier"]
+- ["s13DecodingErrorO", "typeMismatch"]
+- ["s13DecodingErrorO", "valueNotFound"]
+- ["s9EncodableP", "CodingKey"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "dotPath"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "joined"]
+- !private ["s9EncodableP", "map"]
+- ["s9EquatableP", "CodingKey"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "badRequest"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "dotPath"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "joined"]
+- !private ["s9EquatableP", "map"]
+- ["s5ErrorP", "HTTPHeaders"]
+- ["s5ErrorP", "HTTPResponseStatus"]
+- ["s5ErrorP", "String"]
+- ["s5ErrorP", "dataCorrupted"]
+- ["s5ErrorP", "debugDescription"]
+- ["s5ErrorP", "description"]
+- ["s5ErrorP", "documentationLinks"]
+- ["s5ErrorP", "gitHubIssues"]
+- ["s5ErrorP", "headers"]
+- ["s5ErrorP", "identifier"]
+- ["s5ErrorP", "keyNotFound"]
+- ["s5ErrorP", "possibleCauses"]
+- ["s5ErrorP", "readableName"]
+- ["s5ErrorP", "reason"]
+- ["s5ErrorP", "sourceLocation"]
+- ["s5ErrorP", "stackOverflowQuestions"]
+- ["s5ErrorP", "stackTrace"]
+- ["s5ErrorP", "status"]
+- ["s5ErrorP", "suggestedFixes"]
+- ["s5ErrorP", "typeIdentifier"]
+- ["s5ErrorP", "typeMismatch"]
+- ["s5ErrorP", "valueNotFound"]
+- ["s25ExpressibleByArrayLiteralP", "CodingKey"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "dotPath"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["8NIOHTTP118HTTPResponseStatusO", "badRequest"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "init"]
+- ["10Foundation14LocalizedErrorP", "HTTPHeaders"]
+- ["10Foundation14LocalizedErrorP", "HTTPResponseStatus"]
+- ["10Foundation14LocalizedErrorP", "String"]
+- ["10Foundation14LocalizedErrorP", "dataCorrupted"]
+- ["10Foundation14LocalizedErrorP", "debugDescription"]
+- ["10Foundation14LocalizedErrorP", "description"]
+- ["10Foundation14LocalizedErrorP", "documentationLinks"]
+- ["10Foundation14LocalizedErrorP", "gitHubIssues"]
+- ["10Foundation14LocalizedErrorP", "headers"]
+- ["10Foundation14LocalizedErrorP", "identifier"]
+- ["10Foundation14LocalizedErrorP", "keyNotFound"]
+- ["10Foundation14LocalizedErrorP", "possibleCauses"]
+- ["10Foundation14LocalizedErrorP", "readableName"]
+- ["10Foundation14LocalizedErrorP", "reason"]
+- ["10Foundation14LocalizedErrorP", "sourceLocation"]
+- ["10Foundation14LocalizedErrorP", "stackOverflowQuestions"]
+- ["10Foundation14LocalizedErrorP", "stackTrace"]
+- ["10Foundation14LocalizedErrorP", "status"]
+- ["10Foundation14LocalizedErrorP", "suggestedFixes"]
+- ["10Foundation14LocalizedErrorP", "typeIdentifier"]
+- ["10Foundation14LocalizedErrorP", "typeMismatch"]
+- ["10Foundation14LocalizedErrorP", "valueNotFound"]
+- ["4Core23LosslessDataConvertibleP", "CodingKey"]
+- !private ["4Core23LosslessDataConvertibleP", "count"]
+- !private ["4Core23LosslessDataConvertibleP", "dotPath"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "joined"]
+- !private ["4Core23LosslessDataConvertibleP", "map"]
+- !private ["4HTTP29LosslessHTTPBodyRepresentableP", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["9Multipart0A15PartConvertibleP", "init"]
+- ["s17MutableCollectionP", "CodingKey"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "dotPath"]
+- !private ["s17MutableCollectionP", "joined"]
+- !private ["s17MutableCollectionP", "map"]
+- !private ["7Routing9ParameterP", "init"]
+- ["7Routing27PathComponentsRepresentableP", "CodingKey"]
+- !private ["7Routing27PathComponentsRepresentableP", "count"]
+- !private ["7Routing27PathComponentsRepresentableP", "dotPath"]
+- !private ["7Routing27PathComponentsRepresentableP", "init"]
+- !private ["7Routing27PathComponentsRepresentableP", "joined"]
+- !private ["7Routing27PathComponentsRepresentableP", "map"]
+- ["s22RandomAccessCollectionP", "CodingKey"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "dotPath"]
+- !private ["s22RandomAccessCollectionP", "joined"]
+- !private ["s22RandomAccessCollectionP", "map"]
+- ["s26RangeReplaceableCollectionP", "CodingKey"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "dotPath"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "joined"]
+- !private ["s26RangeReplaceableCollectionP", "map"]
+- ["4Core19ReflectionDecodableP", "CodingKey"]
+- !private ["4Core19ReflectionDecodableP", "_getBuiltinLogicValue"]
+- !private ["4Core19ReflectionDecodableP", "count"]
+- !private ["4Core19ReflectionDecodableP", "dotPath"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "joined"]
+- !private ["4Core19ReflectionDecodableP", "map"]
+- ["5Vapor16RequestDecodableP", "CodingKey"]
+- !private ["5Vapor16RequestDecodableP", "count"]
+- !private ["5Vapor16RequestDecodableP", "dotPath"]
+- !private ["5Vapor16RequestDecodableP", "init"]
+- !private ["5Vapor16RequestDecodableP", "joined"]
+- !private ["5Vapor16RequestDecodableP", "map"]
+- ["5Vapor16RequestEncodableP", "CodingKey"]
+- !private ["5Vapor16RequestEncodableP", "count"]
+- !private ["5Vapor16RequestEncodableP", "dotPath"]
+- !private ["5Vapor16RequestEncodableP", "init"]
+- !private ["5Vapor16RequestEncodableP", "joined"]
+- !private ["5Vapor16RequestEncodableP", "map"]
+- ["5Vapor17ResponseDecodableP", "CodingKey"]
+- !private ["5Vapor17ResponseDecodableP", "count"]
+- !private ["5Vapor17ResponseDecodableP", "dotPath"]
+- !private ["5Vapor17ResponseDecodableP", "init"]
+- !private ["5Vapor17ResponseDecodableP", "joined"]
+- !private ["5Vapor17ResponseDecodableP", "map"]
+- ["5Vapor17ResponseEncodableP", "CodingKey"]
+- !private ["5Vapor17ResponseEncodableP", "badRequest"]
+- !private ["5Vapor17ResponseEncodableP", "count"]
+- !private ["5Vapor17ResponseEncodableP", "dotPath"]
+- !private ["5Vapor17ResponseEncodableP", "init"]
+- !private ["5Vapor17ResponseEncodableP", "joined"]
+- !private ["5Vapor17ResponseEncodableP", "map"]
+- !private ["7Routing17RoutableComponentP", "init"]
+- ["s8SequenceP", "CodingKey"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "dotPath"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "joined"]
+- !private ["s8SequenceP", "map"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["11TemplateKit0A17DataRepresentableP", "_getBuiltinLogicValue"]
+- !private ["11TemplateKit0A17DataRepresentableP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["14URLEncodedForm0aB15DataConvertibleP", "CodingKey"]
+- !private ["14URLEncodedForm0aB15DataConvertibleP", "_getBuiltinLogicValue"]
+- !private ["14URLEncodedForm0aB15DataConvertibleP", "count"]
+- !private ["14URLEncodedForm0aB15DataConvertibleP", "dotPath"]
+- !private ["14URLEncodedForm0aB15DataConvertibleP", "init"]
+- !private ["14URLEncodedForm0aB15DataConvertibleP", "joined"]
+- !private ["14URLEncodedForm0aB15DataConvertibleP", "map"]
+- !private ["4HTTP16URLRepresentableP", "init"]
+- ["s14_ArrayProtocolP", "CodingKey"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "dotPath"]
+- !private ["s14_ArrayProtocolP", "joined"]
+- !private ["s14_ArrayProtocolP", "map"]
+- ["s24_DestructorSafeContainerP", "CodingKey"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "dotPath"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s21_ObjectiveCBridgeableP", "CodingKey"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "dotPath"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "5Vapor10AbortErrorP"
+- "4Core22AnyReflectionDecodableP"
+- "Sa"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "4Core21BasicKeyRepresentableP"
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "s9CodingKeyP"
+- "s10CollectionP"
+- !private "s10ComparableP"
+- "5Vapor7ContentP"
+- !private "s13DecodingErrorO7ContextV"
+- "3NIO20ContiguousCollectionP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "9Debugging10DebuggableP"
+- "s9DecodableP"
+- "s13DecodingErrorO"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s5ErrorP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "8NIOHTTP118HTTPResponseStatusO"
+- !private "s8HashableP"
+- "10Foundation14LocalizedErrorP"
+- "4Core23LosslessDataConvertibleP"
+- !private "4HTTP29LosslessHTTPBodyRepresentableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "9Multipart0A15PartConvertibleP"
+- "s17MutableCollectionP"
+- !private "7Routing9ParameterP"
+- "7Routing27PathComponentsRepresentableP"
+- "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- "4Core19ReflectionDecodableP"
+- "5Vapor16RequestDecodableP"
+- "5Vapor16RequestEncodableP"
+- "5Vapor17ResponseDecodableP"
+- "5Vapor17ResponseEncodableP"
+- !private "7Routing17RoutableComponentP"
+- "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "11TemplateKit0A17DataRepresentableP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "14URLEncodedForm0aB15DataConvertibleP"
+- !private "4HTTP16URLRepresentableP"
+- "s14_ArrayProtocolP"
+- "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOHTTP1.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/HTTP.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOTLS.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Async.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Command.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Service.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Console.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Logging.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Routing.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/COperatingSystem.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Random.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/URLEncodedForm.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Validation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOFoundationCompat.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/WebSocket.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOWebSocket.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/DatabaseKit.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/TemplateKit.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Multipart.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOSHA1/include/c_nio_sha1.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/asn1.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/tls1.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/dtls1.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/pkcs12.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/ssl2.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/pem2.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/ssl23.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/ssl3.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/x509v3.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/md5.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/pkcs7.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/x509.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/sha.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/dsa.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/ecdsa.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/rsa.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOZlib/include/c_nio_zlib.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/obj_mac.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/hmac.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/ec.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/rand.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/conf.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/opensslconf.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/dh.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/ecdh.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/lhash.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/stack.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/safestack.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/ssl.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio-ssl.git-1370587408992578247/Sources/CNIOOpenSSL/include/c_nio_openssl.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/pem.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/bn.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/bio.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/crypto.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/srtp.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/evp.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/ossl_typ.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/buffer.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOHTTPParser/include/c_nio_http_parser.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/err.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/c-atomics.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/opensslfeatures.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/objects.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/opensslv.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/x509_vfy.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio-ssl-support.git--2359138821295600615/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio-zlib-support.git--1071467962839356487/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/crypto.git-7980259129511365902/Sources/libbcrypt/include/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "0574930e00b875a68204ec81dad4b339"

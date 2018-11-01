@@ -1,0 +1,12 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "267e81f7ac7282c581fa6b6cbc513ce3"
+build_time: [1529112123, 465499000]
+inputs:
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/NIOWebSocket/Base64.swift": [1529105363, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/NIOWebSocket/SHA1.swift": [1529105363, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/NIOWebSocket/WebSocketErrorCodes.swift": [1529105363, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/NIOWebSocket/WebSocketFrame.swift": [1529105363, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/NIOWebSocket/WebSocketFrameDecoder.swift": [1529105363, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/NIOWebSocket/WebSocketFrameEncoder.swift": [1529105363, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/NIOWebSocket/WebSocketOpcode.swift": [1529105363, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/NIOWebSocket/WebSocketUpgrader.swift": [1529105363, 0]

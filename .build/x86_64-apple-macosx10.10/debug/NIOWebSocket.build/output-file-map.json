@@ -1,0 +1,53 @@
+{
+  "": {
+    "swift-dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOWebSocket.build/master.swiftdeps"
+  },
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/NIOWebSocket/Base64.swift": {
+    "dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOWebSocket.build/Base64.d",
+    "object": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOWebSocket.build/Base64.swift.o",
+    "swiftmodule": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOWebSocket.build/Base64~partial.swiftmodule",
+    "swift-dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOWebSocket.build/Base64.swiftdeps"
+  },
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/NIOWebSocket/SHA1.swift": {
+    "dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOWebSocket.build/SHA1.d",
+    "object": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOWebSocket.build/SHA1.swift.o",
+    "swiftmodule": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOWebSocket.build/SHA1~partial.swiftmodule",
+    "swift-dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOWebSocket.build/SHA1.swiftdeps"
+  },
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/NIOWebSocket/WebSocketErrorCodes.swift": {
+    "dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOWebSocket.build/WebSocketErrorCodes.d",
+    "object": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOWebSocket.build/WebSocketErrorCodes.swift.o",
+    "swiftmodule": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOWebSocket.build/WebSocketErrorCodes~partial.swiftmodule",
+    "swift-dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOWebSocket.build/WebSocketErrorCodes.swiftdeps"
+  },
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/NIOWebSocket/WebSocketFrame.swift": {
+    "dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOWebSocket.build/WebSocketFrame.d",
+    "object": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOWebSocket.build/WebSocketFrame.swift.o",
+    "swiftmodule": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOWebSocket.build/WebSocketFrame~partial.swiftmodule",
+    "swift-dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOWebSocket.build/WebSocketFrame.swiftdeps"
+  },
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/NIOWebSocket/WebSocketFrameDecoder.swift": {
+    "dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOWebSocket.build/WebSocketFrameDecoder.d",
+    "object": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOWebSocket.build/WebSocketFrameDecoder.swift.o",
+    "swiftmodule": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOWebSocket.build/WebSocketFrameDecoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOWebSocket.build/WebSocketFrameDecoder.swiftdeps"
+  },
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/NIOWebSocket/WebSocketFrameEncoder.swift": {
+    "dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOWebSocket.build/WebSocketFrameEncoder.d",
+    "object": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOWebSocket.build/WebSocketFrameEncoder.swift.o",
+    "swiftmodule": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOWebSocket.build/WebSocketFrameEncoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOWebSocket.build/WebSocketFrameEncoder.swiftdeps"
+  },
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/NIOWebSocket/WebSocketOpcode.swift": {
+    "dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOWebSocket.build/WebSocketOpcode.d",
+    "object": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOWebSocket.build/WebSocketOpcode.swift.o",
+    "swiftmodule": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOWebSocket.build/WebSocketOpcode~partial.swiftmodule",
+    "swift-dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOWebSocket.build/WebSocketOpcode.swiftdeps"
+  },
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/NIOWebSocket/WebSocketUpgrader.swift": {
+    "dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOWebSocket.build/WebSocketUpgrader.d",
+    "object": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOWebSocket.build/WebSocketUpgrader.swift.o",
+    "swiftmodule": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOWebSocket.build/WebSocketUpgrader~partial.swiftmodule",
+    "swift-dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOWebSocket.build/WebSocketUpgrader.swiftdeps"
+  }
+}

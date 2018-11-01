@@ -1,0 +1,15 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "f1061fb269ac67463b1c2fbac97a6381"
+build_time: [1529112122, 345659000]
+inputs:
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio-ssl.git-1370587408992578247/Sources/NIOOpenSSL/IdentityVerification.swift": [1529105364, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio-ssl.git-1370587408992578247/Sources/NIOOpenSSL/OpenSSLClientHandler.swift": [1529105364, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio-ssl.git-1370587408992578247/Sources/NIOOpenSSL/OpenSSLHandler.swift": [1529105364, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio-ssl.git-1370587408992578247/Sources/NIOOpenSSL/OpenSSLServerHandler.swift": [1529105364, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio-ssl.git-1370587408992578247/Sources/NIOOpenSSL/SSLCertificate.swift": [1529105364, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio-ssl.git-1370587408992578247/Sources/NIOOpenSSL/SSLConnection.swift": [1529105364, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio-ssl.git-1370587408992578247/Sources/NIOOpenSSL/SSLContext.swift": [1529105364, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio-ssl.git-1370587408992578247/Sources/NIOOpenSSL/SSLErrors.swift": [1529105364, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio-ssl.git-1370587408992578247/Sources/NIOOpenSSL/SSLInit.swift": [1529105364, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio-ssl.git-1370587408992578247/Sources/NIOOpenSSL/SSLPrivateKey.swift": [1529105364, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio-ssl.git-1370587408992578247/Sources/NIOOpenSSL/TLSConfiguration.swift": [1529105364, 0]

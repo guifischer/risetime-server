@@ -1,0 +1,9 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "d68bc0e0b3aae1c0487c520d1717f138"
+build_time: [1529112134, 898130000]
+inputs:
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/websocket.git-995660844808513665/Sources/WebSocket/Exports.swift": [1529105362, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/websocket.git-995660844808513665/Sources/WebSocket/WebSocket+Client.swift": [1529105362, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/websocket.git-995660844808513665/Sources/WebSocket/WebSocket+Server.swift": [1529105362, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/websocket.git-995660844808513665/Sources/WebSocket/WebSocket.swift": [1529105362, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/websocket.git-995660844808513665/Sources/WebSocket/WebSocketHandler.swift": [1529105362, 0]

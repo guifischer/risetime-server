@@ -1,0 +1,464 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SingleConnectionFailure"
+- "NIOConnectionError"
+- "HappyEyeballsConnector"
+provides-nominal:
+- "3NIO23SingleConnectionFailureV"
+- "3NIO18NIOConnectionErrorV"
+- "3NIO22HappyEyeballsConnectorC"
+provides-member:
+- ["3NIO23SingleConnectionFailureV", ""]
+- ["3NIO18NIOConnectionErrorV", ""]
+- ["3NIO22HappyEyeballsConnectorC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&&"
+- !private "+="
+- !private "<"
+- !private "<="
+- "=="
+- !private "==="
+- !private ">"
+- !private ">="
+- !private "??"
+- "Array"
+- "AssignmentPrecedence"
+- "Channel"
+- !private "ChannelError"
+- "Error"
+- "EventLoop"
+- "EventLoopFuture"
+- "EventLoopPromise"
+- "FloatLiteralType"
+- "HappyEyeballsConnector"
+- "Int"
+- "Int32"
+- "IntegerLiteralType"
+- "IteratorProtocol"
+- "NIOConnectionError"
+- "Resolver"
+- "Scheduled"
+- "SingleConnectionFailure"
+- "SocketAddress"
+- "String"
+- !private "StringLiteralType"
+- "TargetIterator"
+- "TimeAmount"
+- !private "UnicodeScalarType"
+- "Void"
+- !private "assert"
+- !private "fatalError"
+- !private "precondition"
+depends-member:
+- ["Sa", "Channel"]
+- ["Sa", "Element"]
+- ["Sa", "EventLoopFuture"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "index"]
+- !private ["Sa", "remove"]
+- !private ["Sa", "removeFirst"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "_getBuiltinLogicValue"]
+- ["s23BidirectionalCollectionP", "Channel"]
+- ["s23BidirectionalCollectionP", "EventLoopFuture"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "index"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "remove"]
+- !private ["s23BidirectionalCollectionP", "removeFirst"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["3NIO7ChannelP", "close"]
+- !private ["3NIO7ChannelP", "connect"]
+- !private ["3NIO12ChannelErrorO", "connectFailed"]
+- !private ["3NIO12ChannelErrorO", "connectTimeout"]
+- !private ["3NIO12ChannelErrorO", "deinit"]
+- !private ["3NIO22ChannelOutboundInvokerP", "close"]
+- !private ["3NIO22ChannelOutboundInvokerP", "connect"]
+- ["s10CollectionP", "Channel"]
+- ["s10CollectionP", "EventLoopFuture"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "index"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "remove"]
+- !private ["s10CollectionP", "removeFirst"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "milliseconds"]
+- !private ["s10ComparableP", "nanoseconds"]
+- ["3NIO20ContiguousCollectionP", "Channel"]
+- ["3NIO20ContiguousCollectionP", "EventLoopFuture"]
+- !private ["3NIO20ContiguousCollectionP", "append"]
+- !private ["3NIO20ContiguousCollectionP", "count"]
+- !private ["3NIO20ContiguousCollectionP", "index"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "remove"]
+- !private ["3NIO20ContiguousCollectionP", "removeFirst"]
+- ["s28CustomDebugStringConvertibleP", "Channel"]
+- ["s28CustomDebugStringConvertibleP", "EventLoopFuture"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "index"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "remove"]
+- !private ["s28CustomDebugStringConvertibleP", "removeFirst"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s17CustomReflectableP", "Channel"]
+- ["s17CustomReflectableP", "EventLoopFuture"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "index"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "remove"]
+- !private ["s17CustomReflectableP", "removeFirst"]
+- ["s23CustomStringConvertibleP", "Channel"]
+- ["s23CustomStringConvertibleP", "EventLoopFuture"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "index"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "protocolFamily"]
+- !private ["s23CustomStringConvertibleP", "remove"]
+- !private ["s23CustomStringConvertibleP", "removeFirst"]
+- ["s9DecodableP", "Channel"]
+- ["s9DecodableP", "EventLoopFuture"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "index"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "remove"]
+- !private ["s9DecodableP", "removeFirst"]
+- ["s9EncodableP", "Channel"]
+- ["s9EncodableP", "EventLoopFuture"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "index"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "remove"]
+- !private ["s9EncodableP", "removeFirst"]
+- ["s9EquatableP", "Channel"]
+- ["s9EquatableP", "EventLoopFuture"]
+- !private ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "aResolvedConnecting"]
+- ["s9EquatableP", "aResolvedWaiting"]
+- ["s9EquatableP", "aaaaResolved"]
+- ["s9EquatableP", "allResolved"]
+- !private ["s9EquatableP", "append"]
+- ["s9EquatableP", "complete"]
+- ["s9EquatableP", "connectDelayElapsed"]
+- ["s9EquatableP", "connectFailed"]
+- ["s9EquatableP", "connectSuccess"]
+- !private ["s9EquatableP", "connectTimeout"]
+- ["s9EquatableP", "connectTimeoutElapsed"]
+- !private ["s9EquatableP", "count"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "idle"]
+- !private ["s9EquatableP", "index"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "map"]
+- !private ["s9EquatableP", "mapIfError"]
+- !private ["s9EquatableP", "milliseconds"]
+- !private ["s9EquatableP", "nanoseconds"]
+- ["s9EquatableP", "noTargetsRemaining"]
+- !private ["s9EquatableP", "protocolFamily"]
+- !private ["s9EquatableP", "remove"]
+- !private ["s9EquatableP", "removeFirst"]
+- ["s9EquatableP", "resolutionDelayElapsed"]
+- ["s9EquatableP", "resolve"]
+- ["s9EquatableP", "resolverAAAACompleted"]
+- ["s9EquatableP", "resolverACompleted"]
+- ["s9EquatableP", "resolving"]
+- ["s9EquatableP", "v4"]
+- ["s9EquatableP", "v6"]
+- !private ["s9EquatableP", "whenComplete"]
+- !private ["s9EquatableP", "whenFailure"]
+- !private ["s9EquatableP", "whenSuccess"]
+- !private ["s5ErrorP", "connectFailed"]
+- !private ["s5ErrorP", "connectTimeout"]
+- !private ["3NIO9EventLoopP", "execute"]
+- !private ["3NIO9EventLoopP", "newPromise"]
+- !private ["3NIO9EventLoopP", "scheduleTask"]
+- !private ["3NIO15EventLoopFutureC", "deinit"]
+- !private ["3NIO15EventLoopFutureC", "map"]
+- !private ["3NIO15EventLoopFutureC", "mapIfError"]
+- !private ["3NIO15EventLoopFutureC", "whenComplete"]
+- !private ["3NIO15EventLoopFutureC", "whenFailure"]
+- !private ["3NIO15EventLoopFutureC", "whenSuccess"]
+- !private ["3NIO14EventLoopGroupP", "execute"]
+- !private ["3NIO14EventLoopGroupP", "newPromise"]
+- !private ["3NIO14EventLoopGroupP", "scheduleTask"]
+- !private ["3NIO16EventLoopPromiseV", "fail"]
+- !private ["3NIO16EventLoopPromiseV", "futureResult"]
+- !private ["3NIO16EventLoopPromiseV", "succeed"]
+- ["s25ExpressibleByArrayLiteralP", "Channel"]
+- ["s25ExpressibleByArrayLiteralP", "EventLoopFuture"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "index"]
+- !private ["s25ExpressibleByArrayLiteralP", "remove"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeFirst"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["3NIO22HappyEyeballsConnectorC", "Channel"]
+- !private ["3NIO22HappyEyeballsConnectorC", "ChannelError"]
+- ["3NIO22HappyEyeballsConnectorC", "ConnectionState"]
+- ["3NIO22HappyEyeballsConnectorC", "ConnectorInput"]
+- ["3NIO22HappyEyeballsConnectorC", "EventLoop"]
+- ["3NIO22HappyEyeballsConnectorC", "EventLoopFuture"]
+- ["3NIO22HappyEyeballsConnectorC", "EventLoopPromise"]
+- ["3NIO22HappyEyeballsConnectorC", "Int"]
+- ["3NIO22HappyEyeballsConnectorC", "Int32"]
+- ["3NIO22HappyEyeballsConnectorC", "NIOConnectionError"]
+- ["3NIO22HappyEyeballsConnectorC", "Resolver"]
+- ["3NIO22HappyEyeballsConnectorC", "Scheduled"]
+- !private ["3NIO22HappyEyeballsConnectorC", "SingleConnectionFailure"]
+- ["3NIO22HappyEyeballsConnectorC", "SocketAddress"]
+- ["3NIO22HappyEyeballsConnectorC", "String"]
+- ["3NIO22HappyEyeballsConnectorC", "TargetIterator"]
+- ["3NIO22HappyEyeballsConnectorC", "TimeAmount"]
+- ["3NIO22HappyEyeballsConnectorC", "Void"]
+- !private ["3NIO22HappyEyeballsConnectorC", "assert"]
+- !private ["3NIO22HappyEyeballsConnectorC", "beginConnecting"]
+- !private ["3NIO22HappyEyeballsConnectorC", "beginDNSResolution"]
+- !private ["3NIO22HappyEyeballsConnectorC", "beginResolutionDelay"]
+- !private ["3NIO22HappyEyeballsConnectorC", "channelBuilderCallback"]
+- !private ["3NIO22HappyEyeballsConnectorC", "cleanUp"]
+- !private ["3NIO22HappyEyeballsConnectorC", "connectFailed"]
+- !private ["3NIO22HappyEyeballsConnectorC", "connectSuccess"]
+- !private ["3NIO22HappyEyeballsConnectorC", "connectTimeout"]
+- !private ["3NIO22HappyEyeballsConnectorC", "connectToNewTargets"]
+- !private ["3NIO22HappyEyeballsConnectorC", "connectToTarget"]
+- !private ["3NIO22HappyEyeballsConnectorC", "connectionDelay"]
+- !private ["3NIO22HappyEyeballsConnectorC", "connectionDelayElapsed"]
+- !private ["3NIO22HappyEyeballsConnectorC", "connectionTask"]
+- ["3NIO22HappyEyeballsConnectorC", "deinit"]
+- !private ["3NIO22HappyEyeballsConnectorC", "dnsResolutions"]
+- !private ["3NIO22HappyEyeballsConnectorC", "error"]
+- !private ["3NIO22HappyEyeballsConnectorC", "failed"]
+- !private ["3NIO22HappyEyeballsConnectorC", "fatalError"]
+- !private ["3NIO22HappyEyeballsConnectorC", "host"]
+- ["3NIO22HappyEyeballsConnectorC", "init"]
+- !private ["3NIO22HappyEyeballsConnectorC", "loop"]
+- !private ["3NIO22HappyEyeballsConnectorC", "pendingConnections"]
+- !private ["3NIO22HappyEyeballsConnectorC", "port"]
+- !private ["3NIO22HappyEyeballsConnectorC", "precondition"]
+- !private ["3NIO22HappyEyeballsConnectorC", "processInput"]
+- !private ["3NIO22HappyEyeballsConnectorC", "resolutionDelay"]
+- !private ["3NIO22HappyEyeballsConnectorC", "resolutionDelayComplete"]
+- !private ["3NIO22HappyEyeballsConnectorC", "resolutionPromise"]
+- !private ["3NIO22HappyEyeballsConnectorC", "resolutionTask"]
+- ["3NIO22HappyEyeballsConnectorC", "resolveAndConnect"]
+- !private ["3NIO22HappyEyeballsConnectorC", "resolver"]
+- !private ["3NIO22HappyEyeballsConnectorC", "state"]
+- !private ["3NIO22HappyEyeballsConnectorC", "targets"]
+- !private ["3NIO22HappyEyeballsConnectorC", "timedOut"]
+- !private ["3NIO22HappyEyeballsConnectorC", "timeoutTask"]
+- !private ["3NIO22HappyEyeballsConnectorC", "whenAAAALookupComplete"]
+- !private ["3NIO22HappyEyeballsConnectorC", "whenALookupComplete"]
+- !private ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "aResolvedConnecting"]
+- ["s8HashableP", "aResolvedWaiting"]
+- ["s8HashableP", "aaaaResolved"]
+- ["s8HashableP", "allResolved"]
+- ["s8HashableP", "complete"]
+- ["s8HashableP", "connectDelayElapsed"]
+- ["s8HashableP", "connectFailed"]
+- ["s8HashableP", "connectSuccess"]
+- ["s8HashableP", "connectTimeoutElapsed"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "idle"]
+- !private ["s8HashableP", "init"]
+- ["s8HashableP", "noTargetsRemaining"]
+- ["s8HashableP", "resolutionDelayElapsed"]
+- ["s8HashableP", "resolve"]
+- ["s8HashableP", "resolverAAAACompleted"]
+- ["s8HashableP", "resolverACompleted"]
+- ["s8HashableP", "resolving"]
+- ["s8HashableP", "v4"]
+- ["s8HashableP", "v6"]
+- ["s16IteratorProtocolP", "Element"]
+- !private ["s16IteratorProtocolP", ""]
+- !private ["s16IteratorProtocolP", "aQueryResults"]
+- !private ["s16IteratorProtocolP", "aResultsAvailable"]
+- !private ["s16IteratorProtocolP", "aaaaQueryResults"]
+- !private ["s16IteratorProtocolP", "aaaaResultsAvailable"]
+- ["s16IteratorProtocolP", "init"]
+- ["s16IteratorProtocolP", "next"]
+- !private ["s16IteratorProtocolP", "popA"]
+- !private ["s16IteratorProtocolP", "popAAAA"]
+- !private ["s16IteratorProtocolP", "previousAddressFamily"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- ["s17MutableCollectionP", "Channel"]
+- ["s17MutableCollectionP", "EventLoopFuture"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "index"]
+- !private ["s17MutableCollectionP", "remove"]
+- !private ["s17MutableCollectionP", "removeFirst"]
+- ["3NIO18NIOConnectionErrorV", "Error"]
+- ["3NIO18NIOConnectionErrorV", "Int"]
+- ["3NIO18NIOConnectionErrorV", "SingleConnectionFailure"]
+- ["3NIO18NIOConnectionErrorV", "String"]
+- ["3NIO18NIOConnectionErrorV", "connectionErrors"]
+- ["3NIO18NIOConnectionErrorV", "dnsAAAAError"]
+- ["3NIO18NIOConnectionErrorV", "dnsAError"]
+- ["3NIO18NIOConnectionErrorV", "host"]
+- !private ["3NIO18NIOConnectionErrorV", "init"]
+- ["3NIO18NIOConnectionErrorV", "port"]
+- ["s22RandomAccessCollectionP", "Channel"]
+- ["s22RandomAccessCollectionP", "EventLoopFuture"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "index"]
+- !private ["s22RandomAccessCollectionP", "remove"]
+- !private ["s22RandomAccessCollectionP", "removeFirst"]
+- ["s26RangeReplaceableCollectionP", "Channel"]
+- ["s26RangeReplaceableCollectionP", "EventLoopFuture"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "index"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "remove"]
+- !private ["s26RangeReplaceableCollectionP", "removeFirst"]
+- !private ["3NIO8ResolverP", "cancelQueries"]
+- !private ["3NIO8ResolverP", "initiateAAAAQuery"]
+- !private ["3NIO8ResolverP", "initiateAQuery"]
+- !private ["3NIO9ScheduledV", "cancel"]
+- ["s8SequenceP", "Channel"]
+- ["s8SequenceP", "EventLoopFuture"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "index"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "remove"]
+- !private ["s8SequenceP", "removeFirst"]
+- ["3NIO23SingleConnectionFailureV", "Error"]
+- ["3NIO23SingleConnectionFailureV", "SocketAddress"]
+- ["3NIO23SingleConnectionFailureV", "error"]
+- ["3NIO23SingleConnectionFailureV", "init"]
+- ["3NIO23SingleConnectionFailureV", "target"]
+- !private ["3NIO13SocketAddressO", "protocolFamily"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["3NIO10TimeAmountV", "deinit"]
+- !private ["3NIO10TimeAmountV", "milliseconds"]
+- !private ["3NIO10TimeAmountV", "nanoseconds"]
+- ["s14_ArrayProtocolP", "Channel"]
+- ["s14_ArrayProtocolP", "EventLoopFuture"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "index"]
+- !private ["s14_ArrayProtocolP", "remove"]
+- !private ["s14_ArrayProtocolP", "removeFirst"]
+- ["s24_DestructorSafeContainerP", "Channel"]
+- ["s24_DestructorSafeContainerP", "EventLoopFuture"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "index"]
+- !private ["s24_DestructorSafeContainerP", "remove"]
+- !private ["s24_DestructorSafeContainerP", "removeFirst"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "Sa"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "3NIO7ChannelP"
+- !private "3NIO12ChannelErrorO"
+- !private "3NIO22ChannelOutboundInvokerP"
+- "s10CollectionP"
+- !private "s10ComparableP"
+- "3NIO20ContiguousCollectionP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s5ErrorP"
+- !private "3NIO9EventLoopP"
+- !private "3NIO15EventLoopFutureC"
+- !private "3NIO14EventLoopGroupP"
+- !private "3NIO16EventLoopPromiseV"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "3NIO22HappyEyeballsConnectorC"
+- "s8HashableP"
+- "s16IteratorProtocolP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "s17MutableCollectionP"
+- "3NIO18NIOConnectionErrorV"
+- "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- !private "3NIO8ResolverP"
+- !private "3NIO9ScheduledV"
+- "s8SequenceP"
+- "3NIO23SingleConnectionFailureV"
+- !private "3NIO13SocketAddressO"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "3NIO10TimeAmountV"
+- "s14_ArrayProtocolP"
+- "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio-zlib-support.git--1071467962839356487/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+interface-hash: "6bc84a00c40f48fec46833f1680285e6"

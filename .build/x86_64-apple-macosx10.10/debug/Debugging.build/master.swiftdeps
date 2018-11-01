@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "ffb59c53b5a94bb4506a09033d1c74bc"
+build_time: [1529112111, 835716000]
+inputs:
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/core.git-9210800844849382486/Sources/Debugging/Debuggable.swift": [1529105362, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/core.git-9210800844849382486/Sources/Debugging/Demangler.swift": [1529105362, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/core.git-9210800844849382486/Sources/Debugging/SourceLocation.swift": [1529105362, 0]

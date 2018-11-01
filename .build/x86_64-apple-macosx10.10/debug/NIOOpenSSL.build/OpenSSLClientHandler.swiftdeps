@@ -1,0 +1,420 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "OpenSSLClientHandler"
+provides-nominal:
+- "10NIOOpenSSL20OpenSSLClientHandlerC"
+provides-member:
+- ["10NIOOpenSSL20OpenSSLClientHandlerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- !private "AF_INET"
+- !private "AF_INET6"
+- !private "Array"
+- "Bool"
+- "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "NIOOpenSSLError"
+- "OpenSSLClientHandler"
+- !private "OpenSSLError"
+- "OpenSSLHandler"
+- "SSLContext"
+- "String"
+- !private "StringLiteralType"
+- !private "in6_addr"
+- !private "in_addr"
+- !private "inet_pton"
+- !private "||"
+depends-member:
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "_getBuiltinLogicValue"]
+- !private ["s23BidirectionalCollectionP", "AF_INET"]
+- !private ["s23BidirectionalCollectionP", "AF_INET6"]
+- !private ["s23BidirectionalCollectionP", "in6_addr"]
+- !private ["s23BidirectionalCollectionP", "in_addr"]
+- !private ["s23BidirectionalCollectionP", "inet_pton"]
+- !private ["s23BidirectionalCollectionP", "isIPAddress"]
+- !private ["s23BidirectionalCollectionP", "withCString"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["3NIO14ChannelHandlerP", "NIOOpenSSLError"]
+- !private ["3NIO14ChannelHandlerP", "OpenSSLError"]
+- ["3NIO14ChannelHandlerP", ""]
+- !private ["3NIO14ChannelHandlerP", "init"]
+- !private ["3NIO21ChannelInboundHandlerP", "NIOOpenSSLError"]
+- !private ["3NIO21ChannelInboundHandlerP", "OpenSSLError"]
+- ["3NIO21ChannelInboundHandlerP", ""]
+- !private ["3NIO21ChannelInboundHandlerP", "init"]
+- !private ["3NIO22ChannelOutboundHandlerP", "NIOOpenSSLError"]
+- !private ["3NIO22ChannelOutboundHandlerP", "OpenSSLError"]
+- ["3NIO22ChannelOutboundHandlerP", ""]
+- !private ["3NIO22ChannelOutboundHandlerP", "init"]
+- !private ["s10CollectionP", "AF_INET"]
+- !private ["s10CollectionP", "AF_INET6"]
+- !private ["s10CollectionP", "in6_addr"]
+- !private ["s10CollectionP", "in_addr"]
+- !private ["s10CollectionP", "inet_pton"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "isIPAddress"]
+- !private ["s10CollectionP", "withCString"]
+- !private ["s10ComparableP", "AF_INET"]
+- !private ["s10ComparableP", "AF_INET6"]
+- !private ["s10ComparableP", "in6_addr"]
+- !private ["s10ComparableP", "in_addr"]
+- !private ["s10ComparableP", "inet_pton"]
+- !private ["s10ComparableP", "isIPAddress"]
+- !private ["s10ComparableP", "withCString"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "AF_INET"]
+- !private ["s28CustomDebugStringConvertibleP", "AF_INET6"]
+- !private ["s28CustomDebugStringConvertibleP", "in6_addr"]
+- !private ["s28CustomDebugStringConvertibleP", "in_addr"]
+- !private ["s28CustomDebugStringConvertibleP", "inet_pton"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isIPAddress"]
+- !private ["s28CustomDebugStringConvertibleP", "withCString"]
+- !private ["s29CustomPlaygroundQuickLookableP", "AF_INET"]
+- !private ["s29CustomPlaygroundQuickLookableP", "AF_INET6"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "in6_addr"]
+- !private ["s29CustomPlaygroundQuickLookableP", "in_addr"]
+- !private ["s29CustomPlaygroundQuickLookableP", "inet_pton"]
+- !private ["s29CustomPlaygroundQuickLookableP", "isIPAddress"]
+- !private ["s29CustomPlaygroundQuickLookableP", "withCString"]
+- !private ["s17CustomReflectableP", "AF_INET"]
+- !private ["s17CustomReflectableP", "AF_INET6"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "in6_addr"]
+- !private ["s17CustomReflectableP", "in_addr"]
+- !private ["s17CustomReflectableP", "inet_pton"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isIPAddress"]
+- !private ["s17CustomReflectableP", "withCString"]
+- !private ["s23CustomStringConvertibleP", "AF_INET"]
+- !private ["s23CustomStringConvertibleP", "AF_INET6"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "in6_addr"]
+- !private ["s23CustomStringConvertibleP", "in_addr"]
+- !private ["s23CustomStringConvertibleP", "inet_pton"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isIPAddress"]
+- !private ["s23CustomStringConvertibleP", "withCString"]
+- !private ["s9DecodableP", "AF_INET"]
+- !private ["s9DecodableP", "AF_INET6"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "in6_addr"]
+- !private ["s9DecodableP", "in_addr"]
+- !private ["s9DecodableP", "inet_pton"]
+- !private ["s9DecodableP", "isIPAddress"]
+- !private ["s9DecodableP", "withCString"]
+- !private ["s9EncodableP", "AF_INET"]
+- !private ["s9EncodableP", "AF_INET6"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "in6_addr"]
+- !private ["s9EncodableP", "in_addr"]
+- !private ["s9EncodableP", "inet_pton"]
+- !private ["s9EncodableP", "isIPAddress"]
+- !private ["s9EncodableP", "withCString"]
+- !private ["s9EquatableP", "AF_INET"]
+- !private ["s9EquatableP", "AF_INET6"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "in6_addr"]
+- !private ["s9EquatableP", "in_addr"]
+- !private ["s9EquatableP", "inet_pton"]
+- !private ["s9EquatableP", "invalidSNIName"]
+- !private ["s9EquatableP", "isIPAddress"]
+- !private ["s9EquatableP", "unableToAllocateOpenSSLObject"]
+- !private ["s9EquatableP", "withCString"]
+- !private ["s5ErrorP", "invalidSNIName"]
+- !private ["s5ErrorP", "unableToAllocateOpenSSLObject"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "AF_INET"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "AF_INET6"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "in6_addr"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "in_addr"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "inet_pton"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isIPAddress"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "withCString"]
+- !private ["s26ExpressibleByStringLiteralP", "AF_INET"]
+- !private ["s26ExpressibleByStringLiteralP", "AF_INET6"]
+- !private ["s26ExpressibleByStringLiteralP", "in6_addr"]
+- !private ["s26ExpressibleByStringLiteralP", "in_addr"]
+- !private ["s26ExpressibleByStringLiteralP", "inet_pton"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "isIPAddress"]
+- !private ["s26ExpressibleByStringLiteralP", "withCString"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "AF_INET"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "AF_INET6"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "in6_addr"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "in_addr"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "inet_pton"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isIPAddress"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "withCString"]
+- !private ["s8HashableP", "AF_INET"]
+- !private ["s8HashableP", "AF_INET6"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "in6_addr"]
+- !private ["s8HashableP", "in_addr"]
+- !private ["s8HashableP", "inet_pton"]
+- !private ["s8HashableP", "isIPAddress"]
+- !private ["s8HashableP", "withCString"]
+- !private ["s25LosslessStringConvertibleP", "AF_INET"]
+- !private ["s25LosslessStringConvertibleP", "AF_INET6"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "in6_addr"]
+- !private ["s25LosslessStringConvertibleP", "in_addr"]
+- !private ["s25LosslessStringConvertibleP", "inet_pton"]
+- !private ["s25LosslessStringConvertibleP", "isIPAddress"]
+- !private ["s25LosslessStringConvertibleP", "withCString"]
+- !private ["s10MirrorPathP", "AF_INET"]
+- !private ["s10MirrorPathP", "AF_INET6"]
+- !private ["s10MirrorPathP", "in6_addr"]
+- !private ["s10MirrorPathP", "in_addr"]
+- !private ["s10MirrorPathP", "inet_pton"]
+- !private ["s10MirrorPathP", "isIPAddress"]
+- !private ["s10MirrorPathP", "withCString"]
+- !private ["10NIOOpenSSL0A8SSLErrorO", "deinit"]
+- !private ["10NIOOpenSSL0A8SSLErrorO", "unableToAllocateOpenSSLObject"]
+- !private ["10NIOOpenSSL20OpenSSLClientHandlerC", "NIOOpenSSLError"]
+- !private ["10NIOOpenSSL20OpenSSLClientHandlerC", "OpenSSLError"]
+- ["10NIOOpenSSL20OpenSSLClientHandlerC", "SSLContext"]
+- ["10NIOOpenSSL20OpenSSLClientHandlerC", "String"]
+- ["10NIOOpenSSL20OpenSSLClientHandlerC", "deinit"]
+- ["10NIOOpenSSL20OpenSSLClientHandlerC", "init"]
+- !private ["10NIOOpenSSL12OpenSSLErrorO", "deinit"]
+- !private ["10NIOOpenSSL12OpenSSLErrorO", "invalidSNIName"]
+- !private ["10NIOOpenSSL14OpenSSLHandlerC", "NIOOpenSSLError"]
+- !private ["10NIOOpenSSL14OpenSSLHandlerC", "OpenSSLError"]
+- ["10NIOOpenSSL14OpenSSLHandlerC", "SSLContext"]
+- ["10NIOOpenSSL14OpenSSLHandlerC", "String"]
+- ["10NIOOpenSSL14OpenSSLHandlerC", ""]
+- ["10NIOOpenSSL14OpenSSLHandlerC", "init"]
+- !private ["s26RangeReplaceableCollectionP", "AF_INET"]
+- !private ["s26RangeReplaceableCollectionP", "AF_INET6"]
+- !private ["s26RangeReplaceableCollectionP", "in6_addr"]
+- !private ["s26RangeReplaceableCollectionP", "in_addr"]
+- !private ["s26RangeReplaceableCollectionP", "inet_pton"]
+- !private ["s26RangeReplaceableCollectionP", "isIPAddress"]
+- !private ["s26RangeReplaceableCollectionP", "withCString"]
+- !private ["10NIOOpenSSL13SSLConnectionC", "setConnectState"]
+- !private ["10NIOOpenSSL13SSLConnectionC", "setSNIServerName"]
+- !private ["10NIOOpenSSL10SSLContextC", "createConnection"]
+- !private ["s8SequenceP", "AF_INET"]
+- !private ["s8SequenceP", "AF_INET6"]
+- !private ["s8SequenceP", "in6_addr"]
+- !private ["s8SequenceP", "in_addr"]
+- !private ["s8SequenceP", "inet_pton"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "isIPAddress"]
+- !private ["s8SequenceP", "withCString"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "AF_INET"]
+- !private ["SS", "AF_INET6"]
+- ["SS", "Bool"]
+- !private ["SS", "in6_addr"]
+- !private ["SS", "in_addr"]
+- !private ["SS", "inet_pton"]
+- !private ["SS", "isIPAddress"]
+- !private ["SS", "withCString"]
+- !private ["s14StringProtocolP", "AF_INET"]
+- !private ["s14StringProtocolP", "AF_INET6"]
+- !private ["s14StringProtocolP", "in6_addr"]
+- !private ["s14StringProtocolP", "in_addr"]
+- !private ["s14StringProtocolP", "inet_pton"]
+- !private ["s14StringProtocolP", "isIPAddress"]
+- !private ["s14StringProtocolP", "withCString"]
+- !private ["s16TextOutputStreamP", "AF_INET"]
+- !private ["s16TextOutputStreamP", "AF_INET6"]
+- !private ["s16TextOutputStreamP", "in6_addr"]
+- !private ["s16TextOutputStreamP", "in_addr"]
+- !private ["s16TextOutputStreamP", "inet_pton"]
+- !private ["s16TextOutputStreamP", "isIPAddress"]
+- !private ["s16TextOutputStreamP", "withCString"]
+- !private ["s20TextOutputStreamableP", "AF_INET"]
+- !private ["s20TextOutputStreamableP", "AF_INET6"]
+- !private ["s20TextOutputStreamableP", "in6_addr"]
+- !private ["s20TextOutputStreamableP", "in_addr"]
+- !private ["s20TextOutputStreamableP", "inet_pton"]
+- !private ["s20TextOutputStreamableP", "isIPAddress"]
+- !private ["s20TextOutputStreamableP", "withCString"]
+- !private ["3NIO22_ChannelInboundHandlerP", "NIOOpenSSLError"]
+- !private ["3NIO22_ChannelInboundHandlerP", "OpenSSLError"]
+- ["3NIO22_ChannelInboundHandlerP", ""]
+- !private ["3NIO22_ChannelInboundHandlerP", "init"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "NIOOpenSSLError"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "OpenSSLError"]
+- ["3NIO23_ChannelOutboundHandlerP", ""]
+- !private ["3NIO23_ChannelOutboundHandlerP", "init"]
+- !private ["3NIO23_EmittingChannelHandlerP", "NIOOpenSSLError"]
+- !private ["3NIO23_EmittingChannelHandlerP", "OpenSSLError"]
+- ["3NIO23_EmittingChannelHandlerP", ""]
+- !private ["3NIO23_EmittingChannelHandlerP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "AF_INET"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "AF_INET6"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "in6_addr"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "in_addr"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "inet_pton"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isIPAddress"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "withCString"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "AF_INET"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "AF_INET6"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "in6_addr"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "in_addr"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "inet_pton"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isIPAddress"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "withCString"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "AF_INET"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "AF_INET6"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "in6_addr"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "in_addr"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "inet_pton"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "isIPAddress"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "withCString"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "AF_INET"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "AF_INET6"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "in6_addr"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "in_addr"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "inet_pton"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isIPAddress"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "withCString"]
+- !private ["s33_ExpressibleByStringInterpolationP", "AF_INET"]
+- !private ["s33_ExpressibleByStringInterpolationP", "AF_INET6"]
+- !private ["s33_ExpressibleByStringInterpolationP", "in6_addr"]
+- !private ["s33_ExpressibleByStringInterpolationP", "in_addr"]
+- !private ["s33_ExpressibleByStringInterpolationP", "inet_pton"]
+- !private ["s33_ExpressibleByStringInterpolationP", "isIPAddress"]
+- !private ["s33_ExpressibleByStringInterpolationP", "withCString"]
+- !private ["s16_SwiftStringViewP", "AF_INET"]
+- !private ["s16_SwiftStringViewP", "AF_INET6"]
+- !private ["s16_SwiftStringViewP", "in6_addr"]
+- !private ["s16_SwiftStringViewP", "in_addr"]
+- !private ["s16_SwiftStringViewP", "inet_pton"]
+- !private ["s16_SwiftStringViewP", "isIPAddress"]
+- !private ["s16_SwiftStringViewP", "withCString"]
+- !private ["SC8in6_addrV", "init"]
+- !private ["SC7in_addrV", "init"]
+depends-nominal:
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- "3NIO14ChannelHandlerP"
+- "3NIO21ChannelInboundHandlerP"
+- "3NIO22ChannelOutboundHandlerP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "3NIO20ContiguousCollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s5ErrorP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "10NIOOpenSSL0A8SSLErrorO"
+- "10NIOOpenSSL20OpenSSLClientHandlerC"
+- !private "10NIOOpenSSL12OpenSSLErrorO"
+- "10NIOOpenSSL14OpenSSLHandlerC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "10NIOOpenSSL13SSLConnectionC"
+- !private "10NIOOpenSSL10SSLContextC"
+- !private "s8SequenceP"
+- !private "s12StaticStringV"
+- "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "3NIO22_ChannelInboundHandlerP"
+- "3NIO23_ChannelOutboundHandlerP"
+- "3NIO23_EmittingChannelHandlerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s16_SwiftStringViewP"
+- !private "SC8in6_addrV"
+- !private "SC7in_addrV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOTLS.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/asn1.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/tls1.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/dtls1.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/pkcs12.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/ssl2.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/pem2.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/ssl23.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/ssl3.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/x509v3.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/md5.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/pkcs7.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/x509.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/sha.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/dsa.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/ecdsa.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/rsa.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/obj_mac.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/hmac.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/ec.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/rand.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/conf.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/opensslconf.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/dh.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/ecdh.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/lhash.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/stack.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/safestack.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/ssl.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio-ssl.git-1370587408992578247/Sources/CNIOOpenSSL/include/c_nio_openssl.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/pem.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/bn.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/bio.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/crypto.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/srtp.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/evp.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/ossl_typ.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/buffer.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/err.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/c-atomics.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/opensslfeatures.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/objects.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/opensslv.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/x509_vfy.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio-ssl-support.git--2359138821295600615/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio-zlib-support.git--1071467962839356487/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+interface-hash: "adca4d0240fbcb870725fae1f87b70ca"

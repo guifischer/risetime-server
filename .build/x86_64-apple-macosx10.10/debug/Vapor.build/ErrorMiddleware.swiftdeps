@@ -1,0 +1,537 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ErrorMiddleware"
+provides-nominal:
+- "5Vapor15ErrorMiddlewareC"
+provides-member:
+- ["5Vapor15ErrorMiddlewareC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "=="
+- !private "AbortError"
+- "AssignmentPrecedence"
+- !private "Bool"
+- "BooleanLiteralType"
+- "Container"
+- !private "Debuggable"
+- "Dictionary"
+- !private "Encodable"
+- "Environment"
+- "Error"
+- "ErrorMiddleware"
+- "Future"
+- !private "HTTPBody"
+- !private "HTTPHeaders"
+- !private "HTTPResponseStatus"
+- !private "JSONEncoder"
+- "Logger"
+- "Middleware"
+- "Request"
+- "Responder"
+- "Response"
+- "ServiceType"
+- !private "String"
+- "StringLiteralType"
+- !private "ValidationError"
+- !private "~="
+depends-member:
+- !private ["5Vapor10AbortErrorP", "headers"]
+- !private ["5Vapor10AbortErrorP", "reason"]
+- !private ["5Vapor10AbortErrorP", "status"]
+- !private ["4Core22AnyReflectionDecodableP", "_getBuiltinLogicValue"]
+- !private ["4Core22AnyReflectionDecodableP", "contentType"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "_getBuiltinLogicValue"]
+- !private ["4Core21BasicKeyRepresentableP", "contentType"]
+- !private ["4Core21BasicKeyRepresentableP", "init"]
+- !private ["5Async11BasicWorkerP", "environment"]
+- !private ["5Async11BasicWorkerP", "eventLoop"]
+- !private ["5Async11BasicWorkerP", "http"]
+- !private ["5Async11BasicWorkerP", "make"]
+- !private ["5Async11BasicWorkerP", "makeResponse"]
+- !private ["s23BidirectionalCollectionP", "contentType"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "contentType"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s9CodingKeyP", ""]
+- !private ["s9CodingKeyP", "debugDescription"]
+- !private ["s9CodingKeyP", "description"]
+- !private ["s9CodingKeyP", "hashValue"]
+- !private ["s9CodingKeyP", "init"]
+- !private ["s9CodingKeyP", "intValue"]
+- !private ["s9CodingKeyP", "stringValue"]
+- !private ["s10CollectionP", "contentType"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "contentType"]
+- !private ["s10ComparableP", "init"]
+- !private ["7Service9ContainerP", "environment"]
+- !private ["7Service9ContainerP", "eventLoop"]
+- !private ["7Service9ContainerP", "http"]
+- !private ["7Service9ContainerP", "make"]
+- !private ["7Service9ContainerP", "makeResponse"]
+- !private ["7Service14ContainerAliasP", "eventLoop"]
+- !private ["7Service14ContainerAliasP", "http"]
+- !private ["7Service14ContainerAliasP", "makeResponse"]
+- !private ["5Vapor7ContentP", "contentType"]
+- !private ["5Vapor7ContentP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "body"]
+- !private ["s28CustomDebugStringConvertibleP", "contentType"]
+- !private ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "eventLoop"]
+- !private ["s28CustomDebugStringConvertibleP", "hashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "headers"]
+- !private ["s28CustomDebugStringConvertibleP", "http"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "makeResponse"]
+- !private ["s28CustomDebugStringConvertibleP", "reason"]
+- !private ["s28CustomDebugStringConvertibleP", "replaceOrAdd"]
+- !private ["s28CustomDebugStringConvertibleP", "status"]
+- !private ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "contentType"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "contentType"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "body"]
+- !private ["s23CustomStringConvertibleP", "contentType"]
+- !private ["s23CustomStringConvertibleP", "debugDescription"]
+- !private ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "eventLoop"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- !private ["s23CustomStringConvertibleP", "headers"]
+- !private ["s23CustomStringConvertibleP", "http"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "makeResponse"]
+- !private ["s23CustomStringConvertibleP", "reason"]
+- !private ["s23CustomStringConvertibleP", "replaceOrAdd"]
+- !private ["s23CustomStringConvertibleP", "status"]
+- !private ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["4Core11DataEncoderP", "encode"]
+- !private ["4Core11DataEncoderP", "init"]
+- !private ["11DatabaseKit0A11ConnectableP", "eventLoop"]
+- !private ["11DatabaseKit0A11ConnectableP", "makeResponse"]
+- !private ["9Debugging10DebuggableP", "headers"]
+- !private ["9Debugging10DebuggableP", "reason"]
+- !private ["9Debugging10DebuggableP", "status"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "contentType"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", ""]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "contentType"]
+- !private ["s9EncodableP", "encode"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "mapIfError"]
+- !private ["s7EncoderP", "container"]
+- !private ["7Service11EnvironmentV", "isRelease"]
+- !private ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "badRequest"]
+- !private ["s9EquatableP", "contentType"]
+- !private ["s9EquatableP", "debugDescription"]
+- !private ["s9EquatableP", "description"]
+- !private ["s9EquatableP", "hashValue"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "intValue"]
+- !private ["s9EquatableP", "internalServerError"]
+- !private ["s9EquatableP", "isRelease"]
+- !private ["s9EquatableP", "mapIfError"]
+- !private ["s9EquatableP", "replaceOrAdd"]
+- !private ["s9EquatableP", "stringValue"]
+- !private ["s5ErrorP", "headers"]
+- !private ["s5ErrorP", "reason"]
+- !private ["s5ErrorP", "status"]
+- !private ["5Vapor15ErrorMiddlewareC", "AbortError"]
+- !private ["5Vapor15ErrorMiddlewareC", "Bool"]
+- ["5Vapor15ErrorMiddlewareC", "Container"]
+- !private ["5Vapor15ErrorMiddlewareC", "Debuggable"]
+- !private ["5Vapor15ErrorMiddlewareC", "Encodable"]
+- ["5Vapor15ErrorMiddlewareC", "Environment"]
+- ["5Vapor15ErrorMiddlewareC", "Error"]
+- ["5Vapor15ErrorMiddlewareC", "ErrorMiddleware"]
+- ["5Vapor15ErrorMiddlewareC", "Future"]
+- !private ["5Vapor15ErrorMiddlewareC", "HTTPBody"]
+- !private ["5Vapor15ErrorMiddlewareC", "HTTPHeaders"]
+- !private ["5Vapor15ErrorMiddlewareC", "HTTPResponseStatus"]
+- !private ["5Vapor15ErrorMiddlewareC", "JSONEncoder"]
+- ["5Vapor15ErrorMiddlewareC", "Logger"]
+- ["5Vapor15ErrorMiddlewareC", "Request"]
+- ["5Vapor15ErrorMiddlewareC", "Responder"]
+- ["5Vapor15ErrorMiddlewareC", "Response"]
+- !private ["5Vapor15ErrorMiddlewareC", "String"]
+- !private ["5Vapor15ErrorMiddlewareC", "ValidationError"]
+- !private ["5Vapor15ErrorMiddlewareC", "closure"]
+- ["5Vapor15ErrorMiddlewareC", "default"]
+- ["5Vapor15ErrorMiddlewareC", "deinit"]
+- ["5Vapor15ErrorMiddlewareC", "init"]
+- ["5Vapor15ErrorMiddlewareC", "makeService"]
+- ["5Vapor15ErrorMiddlewareC", "respond"]
+- ["5Vapor15ErrorMiddlewareC", "serviceSupports"]
+- !private ["3NIO9EventLoopP", "newFailedFuture"]
+- !private ["3NIO15EventLoopFutureC", "mapIfError"]
+- !private ["3NIO14EventLoopGroupP", "environment"]
+- !private ["3NIO14EventLoopGroupP", "eventLoop"]
+- !private ["3NIO14EventLoopGroupP", "http"]
+- !private ["3NIO14EventLoopGroupP", "make"]
+- !private ["3NIO14EventLoopGroupP", "makeResponse"]
+- !private ["3NIO14EventLoopGroupP", "newFailedFuture"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "replaceOrAdd"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "contentType"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "contentType"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "contentType"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["5Async10FutureTypeP", "mapIfError"]
+- !private ["4HTTP8HTTPBodyV", "init"]
+- !private ["4HTTP14HTTPHeaderNameV", "contentType"]
+- !private ["8NIOHTTP111HTTPHeadersV", "replaceOrAdd"]
+- !private ["4HTTP11HTTPMessageP", "body"]
+- !private ["4HTTP11HTTPMessageP", "headers"]
+- !private ["4HTTP11HTTPMessageP", "init"]
+- !private ["5Vapor20HTTPMessageContainerP", "eventLoop"]
+- !private ["5Vapor20HTTPMessageContainerP", "http"]
+- !private ["5Vapor20HTTPMessageContainerP", "makeResponse"]
+- !private ["4HTTP18HTTPMessageEncoderP", "encode"]
+- !private ["4HTTP18HTTPMessageEncoderP", "init"]
+- !private ["4HTTP12HTTPResponseV", "body"]
+- !private ["4HTTP12HTTPResponseV", "headers"]
+- !private ["4HTTP12HTTPResponseV", "init"]
+- !private ["8NIOHTTP118HTTPResponseStatusO", "badRequest"]
+- !private ["8NIOHTTP118HTTPResponseStatusO", "internalServerError"]
+- !private ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "contentType"]
+- !private ["s8HashableP", "debugDescription"]
+- !private ["s8HashableP", "description"]
+- !private ["s8HashableP", "hashValue"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "intValue"]
+- !private ["s8HashableP", "stringValue"]
+- !private ["10Foundation11JSONEncoderC", "encode"]
+- !private ["10Foundation11JSONEncoderC", "init"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["10Foundation14LocalizedErrorP", "headers"]
+- !private ["10Foundation14LocalizedErrorP", "reason"]
+- !private ["10Foundation14LocalizedErrorP", "status"]
+- !private ["7Logging6LoggerP", "report"]
+- !private ["4Core23LosslessDataConvertibleP", "contentType"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["4HTTP29LosslessHTTPBodyRepresentableP", "contentType"]
+- !private ["4HTTP29LosslessHTTPBodyRepresentableP", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "contentType"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["5Vapor10MiddlewareP", "HTTPBody"]
+- !private ["5Vapor10MiddlewareP", "JSONEncoder"]
+- ["5Vapor10MiddlewareP", ""]
+- !private ["5Vapor10MiddlewareP", "closure"]
+- !private ["5Vapor10MiddlewareP", "default"]
+- !private ["5Vapor10MiddlewareP", "init"]
+- ["5Vapor10MiddlewareP", "makeService"]
+- ["5Vapor10MiddlewareP", "respond"]
+- ["5Vapor10MiddlewareP", "serviceSupports"]
+- !private ["s10MirrorPathP", "contentType"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["9Multipart0A15PartConvertibleP", "contentType"]
+- !private ["9Multipart0A15PartConvertibleP", "init"]
+- !private ["7Routing9ParameterP", "contentType"]
+- !private ["7Routing9ParameterP", "init"]
+- !private ["7Routing27PathComponentsRepresentableP", "contentType"]
+- !private ["7Routing27PathComponentsRepresentableP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "contentType"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["4Core19ReflectionDecodableP", "_getBuiltinLogicValue"]
+- !private ["4Core19ReflectionDecodableP", "contentType"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["5Vapor7RequestC", "deinit"]
+- !private ["5Vapor7RequestC", "eventLoop"]
+- !private ["5Vapor7RequestC", "makeResponse"]
+- !private ["5Vapor16RequestDecodableP", "contentType"]
+- !private ["5Vapor16RequestDecodableP", "eventLoop"]
+- !private ["5Vapor16RequestDecodableP", "init"]
+- !private ["5Vapor16RequestDecodableP", "makeResponse"]
+- !private ["5Vapor16RequestEncodableP", "contentType"]
+- !private ["5Vapor16RequestEncodableP", "eventLoop"]
+- !private ["5Vapor16RequestEncodableP", "init"]
+- !private ["5Vapor16RequestEncodableP", "makeResponse"]
+- !private ["5Vapor9ResponderP", "respond"]
+- !private ["5Vapor8ResponseC", "deinit"]
+- !private ["5Vapor8ResponseC", "http"]
+- !private ["5Vapor17ResponseDecodableP", "contentType"]
+- !private ["5Vapor17ResponseDecodableP", "http"]
+- !private ["5Vapor17ResponseDecodableP", "init"]
+- !private ["5Vapor17ResponseEncodableP", "badRequest"]
+- !private ["5Vapor17ResponseEncodableP", "body"]
+- !private ["5Vapor17ResponseEncodableP", "contentType"]
+- !private ["5Vapor17ResponseEncodableP", "headers"]
+- !private ["5Vapor17ResponseEncodableP", "http"]
+- !private ["5Vapor17ResponseEncodableP", "init"]
+- !private ["5Vapor17ResponseEncodableP", "internalServerError"]
+- !private ["5Vapor17ResponseEncodableP", "mapIfError"]
+- !private ["7Routing17RoutableComponentP", "contentType"]
+- !private ["7Routing17RoutableComponentP", "init"]
+- !private ["s8SequenceP", "contentType"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "replaceOrAdd"]
+- !private ["7ServiceAAP", "HTTPBody"]
+- !private ["7ServiceAAP", "JSONEncoder"]
+- ["7ServiceAAP", ""]
+- !private ["7ServiceAAP", "closure"]
+- !private ["7ServiceAAP", "default"]
+- !private ["7ServiceAAP", "init"]
+- ["7ServiceAAP", "makeService"]
+- ["7ServiceAAP", "respond"]
+- ["7ServiceAAP", "serviceSupports"]
+- !private ["7Service0A4TypeP", "HTTPBody"]
+- !private ["7Service0A4TypeP", "JSONEncoder"]
+- ["7Service0A4TypeP", ""]
+- !private ["7Service0A4TypeP", "closure"]
+- !private ["7Service0A4TypeP", "default"]
+- !private ["7Service0A4TypeP", "init"]
+- ["7Service0A4TypeP", "makeService"]
+- ["7Service0A4TypeP", "respond"]
+- ["7Service0A4TypeP", "serviceSupports"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "contentType"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "contentType"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["11TemplateKit0A17DataRepresentableP", "_getBuiltinLogicValue"]
+- !private ["11TemplateKit0A17DataRepresentableP", "contentType"]
+- !private ["11TemplateKit0A17DataRepresentableP", "init"]
+- !private ["s16TextOutputStreamP", "contentType"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "contentType"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["14URLEncodedForm0aB15DataConvertibleP", "_getBuiltinLogicValue"]
+- !private ["14URLEncodedForm0aB15DataConvertibleP", "contentType"]
+- !private ["14URLEncodedForm0aB15DataConvertibleP", "init"]
+- !private ["4HTTP16URLRepresentableP", "contentType"]
+- !private ["4HTTP16URLRepresentableP", "init"]
+- !private ["10Validation0A5ErrorP", "reason"]
+- !private ["8NIOHTTP128_DeprecateHTTPHeaderIteratorP", "replaceOrAdd"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "contentType"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "contentType"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "contentType"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "contentType"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "contentType"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "contentType"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "contentType"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "5Vapor10AbortErrorP"
+- !private "4Core22AnyReflectionDecodableP"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "4Core21BasicKeyRepresentableP"
+- !private "5Async11BasicWorkerP"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "s9CodingKeyP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "7Service9ContainerP"
+- !private "7Service14ContainerAliasP"
+- !private "5Vapor7ContentP"
+- !private "3NIO20ContiguousCollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "4Core11DataEncoderP"
+- !private "11DatabaseKit0A11ConnectableP"
+- !private "9Debugging10DebuggableP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s7EncoderP"
+- !private "7Service11EnvironmentV"
+- !private "s9EquatableP"
+- !private "s5ErrorP"
+- "5Vapor15ErrorMiddlewareC"
+- !private "3NIO9EventLoopP"
+- !private "3NIO15EventLoopFutureC"
+- !private "3NIO14EventLoopGroupP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "5Async10FutureTypeP"
+- !private "4HTTP8HTTPBodyV"
+- !private "4HTTP14HTTPHeaderNameV"
+- !private "8NIOHTTP111HTTPHeadersV"
+- !private "4HTTP11HTTPMessageP"
+- !private "5Vapor20HTTPMessageContainerP"
+- !private "4HTTP18HTTPMessageEncoderP"
+- !private "4HTTP12HTTPResponseV"
+- !private "8NIOHTTP118HTTPResponseStatusO"
+- !private "s8HashableP"
+- !private "10Foundation11JSONEncoderC"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- !private "10Foundation14LocalizedErrorP"
+- !private "7Logging6LoggerP"
+- !private "4Core23LosslessDataConvertibleP"
+- !private "4HTTP29LosslessHTTPBodyRepresentableP"
+- !private "s25LosslessStringConvertibleP"
+- "5Vapor10MiddlewareP"
+- !private "s10MirrorPathP"
+- !private "9Multipart0A15PartConvertibleP"
+- !private "7Routing9ParameterP"
+- !private "7Routing27PathComponentsRepresentableP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "4Core19ReflectionDecodableP"
+- !private "5Vapor7RequestC"
+- !private "5Vapor16RequestDecodableP"
+- !private "5Vapor16RequestEncodableP"
+- !private "5Vapor9ResponderP"
+- !private "5Vapor8ResponseC"
+- !private "5Vapor17ResponseDecodableP"
+- !private "5Vapor17ResponseEncodableP"
+- !private "7Routing17RoutableComponentP"
+- !private "s8SequenceP"
+- "7ServiceAAP"
+- "7Service0A4TypeP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "11TemplateKit0A17DataRepresentableP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "14URLEncodedForm0aB15DataConvertibleP"
+- !private "4HTTP16URLRepresentableP"
+- !private "10Validation0A5ErrorP"
+- !private "8NIOHTTP128_DeprecateHTTPHeaderIteratorP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOHTTP1.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/HTTP.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOTLS.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Async.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Command.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Service.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Console.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Logging.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Routing.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/COperatingSystem.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Random.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/URLEncodedForm.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Validation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Crypto.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOFoundationCompat.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/WebSocket.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOWebSocket.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/DatabaseKit.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/TemplateKit.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Multipart.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOSHA1/include/c_nio_sha1.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/asn1.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/tls1.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/dtls1.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/pkcs12.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/ssl2.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/pem2.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/ssl23.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/ssl3.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/x509v3.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/md5.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/pkcs7.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/x509.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/sha.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/dsa.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/ecdsa.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/rsa.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOZlib/include/c_nio_zlib.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/obj_mac.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/hmac.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/ec.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/rand.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/conf.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/opensslconf.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/dh.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/ecdh.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/lhash.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/stack.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/safestack.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/ssl.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio-ssl.git-1370587408992578247/Sources/CNIOOpenSSL/include/c_nio_openssl.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/pem.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/bn.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/bio.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/crypto.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/srtp.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/evp.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/ossl_typ.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/buffer.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOHTTPParser/include/c_nio_http_parser.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/err.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/c-atomics.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/opensslfeatures.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/objects.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/opensslv.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/x509_vfy.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio-ssl-support.git--2359138821295600615/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio-zlib-support.git--1071467962839356487/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/crypto.git-7980259129511365902/Sources/libbcrypt/include/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "aa3e13033bebb3e140986e51dd4c6e29"

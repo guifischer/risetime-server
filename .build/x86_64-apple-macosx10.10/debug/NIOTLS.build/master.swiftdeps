@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "0e93045fda777ceb4b9a51ccffbe95ff"
+build_time: [1529112120, 869794000]
+inputs:
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/NIOTLS/ApplicationProtocolNegotiationHandler.swift": [1529105363, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/NIOTLS/SNIHandler.swift": [1529105363, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/NIOTLS/TLSEvents.swift": [1529105363, 0]

@@ -1,0 +1,476 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "WebSocketMaskingKey"
+- "WebSocketFrame"
+- "=="
+- "=="
+provides-nominal:
+- "12NIOWebSocket03WebB10MaskingKeyV"
+- "12NIOWebSocket03WebB5FrameV"
+provides-member:
+- ["12NIOWebSocket03WebB10MaskingKeyV", ""]
+- ["12NIOWebSocket03WebB5FrameV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "%"
+- !private "&"
+- !private "&&"
+- !private "&="
+- !private "+"
+- "=="
+- !private ">>"
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "ByteBuffer"
+- "ByteBufferAllocator"
+- "Collection"
+- "Equatable"
+- "ExpressibleByArrayLiteral"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- !private "StringLiteralType"
+- "UInt32"
+- "UInt8"
+- "WebSocketFrame"
+- "WebSocketMaskingKey"
+- "WebSocketOpcode"
+- !private "fatalError"
+- !private "|="
+- !private "~"
+- !private "~="
+depends-member:
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "_getBuiltinLogicValue"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "changingBitsInMask"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "init"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "isAnyBitSetInMask"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s13BinaryIntegerP", "changingBitsInMask"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["s13BinaryIntegerP", "isAnyBitSetInMask"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["3NIO10ByteBufferV", "readableBytes"]
+- !private ["3NIO10ByteBufferV", "webSocketUnmask"]
+- !private ["3NIO19ByteBufferAllocatorV", "buffer"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "changingBitsInMask"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isAnyBitSetInMask"]
+- ["s10CollectionP", "ArrayLiteralElement"]
+- ["s10CollectionP", "Element"]
+- ["s10CollectionP", "Index"]
+- ["s10CollectionP", "Indices"]
+- ["s10CollectionP", "Iterator"]
+- ["s10CollectionP", "SubSequence"]
+- !private ["s10CollectionP", "UInt8"]
+- ["s10CollectionP", ""]
+- ["s10CollectionP", "_Default_Indices"]
+- ["s10CollectionP", "_Default_Iterator"]
+- ["s10CollectionP", "_Default_SubSequence"]
+- ["s10CollectionP", "_copyContents"]
+- ["s10CollectionP", "_copyToContiguousArray"]
+- ["s10CollectionP", "_customContainsEquatableElement"]
+- ["s10CollectionP", "_customIndexOfEquatableElement"]
+- ["s10CollectionP", "_failEarlyRangeCheck"]
+- ["s10CollectionP", "_preprocessingPass"]
+- ["s10CollectionP", "count"]
+- ["s10CollectionP", "distance"]
+- ["s10CollectionP", "drop"]
+- ["s10CollectionP", "dropFirst"]
+- ["s10CollectionP", "dropLast"]
+- ["s10CollectionP", "endIndex"]
+- !private ["s10CollectionP", "fatalError"]
+- ["s10CollectionP", "filter"]
+- ["s10CollectionP", "first"]
+- ["s10CollectionP", "forEach"]
+- ["s10CollectionP", "formIndex"]
+- ["s10CollectionP", "index"]
+- ["s10CollectionP", "indices"]
+- ["s10CollectionP", "init"]
+- ["s10CollectionP", "isEmpty"]
+- !private ["s10CollectionP", "key"]
+- ["s10CollectionP", "makeIterator"]
+- ["s10CollectionP", "map"]
+- ["s10CollectionP", "prefix"]
+- ["s10CollectionP", "split"]
+- ["s10CollectionP", "startIndex"]
+- ["s10CollectionP", "subscript"]
+- ["s10CollectionP", "suffix"]
+- ["s10CollectionP", "underestimatedCount"]
+- !private ["s10ComparableP", "changingBitsInMask"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "isAnyBitSetInMask"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "changingBitsInMask"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "isAnyBitSetInMask"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "changingBitsInMask"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isAnyBitSetInMask"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "changingBitsInMask"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isAnyBitSetInMask"]
+- !private ["s23CustomStringConvertibleP", "readableBytes"]
+- !private ["s23CustomStringConvertibleP", "webSocketUnmask"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "changingBitsInMask"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "isAnyBitSetInMask"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "changingBitsInMask"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "isAnyBitSetInMask"]
+- ["s9EquatableP", "ArrayLiteralElement"]
+- ["s9EquatableP", "Element"]
+- ["s9EquatableP", "Index"]
+- ["s9EquatableP", "Indices"]
+- ["s9EquatableP", "Iterator"]
+- ["s9EquatableP", "SubSequence"]
+- !private ["s9EquatableP", "UInt8"]
+- !private ["s9EquatableP", "WebSocketOpcode"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "_Default_Indices"]
+- ["s9EquatableP", "_Default_Iterator"]
+- ["s9EquatableP", "_Default_SubSequence"]
+- ["s9EquatableP", "_copyContents"]
+- ["s9EquatableP", "_copyToContiguousArray"]
+- ["s9EquatableP", "_customContainsEquatableElement"]
+- ["s9EquatableP", "_customIndexOfEquatableElement"]
+- ["s9EquatableP", "_failEarlyRangeCheck"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "_preprocessingPass"]
+- !private ["s9EquatableP", "changingBitsInMask"]
+- !private ["s9EquatableP", "continuation"]
+- ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "data"]
+- ["s9EquatableP", "distance"]
+- ["s9EquatableP", "drop"]
+- ["s9EquatableP", "dropFirst"]
+- ["s9EquatableP", "dropLast"]
+- ["s9EquatableP", "endIndex"]
+- !private ["s9EquatableP", "extensionData"]
+- !private ["s9EquatableP", "fatalError"]
+- ["s9EquatableP", "filter"]
+- !private ["s9EquatableP", "fin"]
+- ["s9EquatableP", "first"]
+- !private ["s9EquatableP", "firstByte"]
+- ["s9EquatableP", "forEach"]
+- ["s9EquatableP", "formIndex"]
+- ["s9EquatableP", "index"]
+- ["s9EquatableP", "indices"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isAnyBitSetInMask"]
+- ["s9EquatableP", "isEmpty"]
+- !private ["s9EquatableP", "key"]
+- ["s9EquatableP", "makeIterator"]
+- ["s9EquatableP", "map"]
+- !private ["s9EquatableP", "maskKey"]
+- !private ["s9EquatableP", "opcode"]
+- ["s9EquatableP", "prefix"]
+- !private ["s9EquatableP", "readableBytes"]
+- !private ["s9EquatableP", "rsv1"]
+- !private ["s9EquatableP", "rsv2"]
+- !private ["s9EquatableP", "rsv3"]
+- ["s9EquatableP", "split"]
+- ["s9EquatableP", "startIndex"]
+- ["s9EquatableP", "subscript"]
+- ["s9EquatableP", "suffix"]
+- ["s9EquatableP", "underestimatedCount"]
+- !private ["s9EquatableP", "webSocketUnmask"]
+- ["s25ExpressibleByArrayLiteralP", "ArrayLiteralElement"]
+- ["s25ExpressibleByArrayLiteralP", "Element"]
+- ["s25ExpressibleByArrayLiteralP", "Index"]
+- ["s25ExpressibleByArrayLiteralP", "Indices"]
+- ["s25ExpressibleByArrayLiteralP", "Iterator"]
+- ["s25ExpressibleByArrayLiteralP", "SubSequence"]
+- !private ["s25ExpressibleByArrayLiteralP", "UInt8"]
+- ["s25ExpressibleByArrayLiteralP", ""]
+- ["s25ExpressibleByArrayLiteralP", "_Default_Indices"]
+- ["s25ExpressibleByArrayLiteralP", "_Default_Iterator"]
+- ["s25ExpressibleByArrayLiteralP", "_Default_SubSequence"]
+- ["s25ExpressibleByArrayLiteralP", "_copyContents"]
+- ["s25ExpressibleByArrayLiteralP", "_copyToContiguousArray"]
+- ["s25ExpressibleByArrayLiteralP", "_customContainsEquatableElement"]
+- ["s25ExpressibleByArrayLiteralP", "_customIndexOfEquatableElement"]
+- ["s25ExpressibleByArrayLiteralP", "_failEarlyRangeCheck"]
+- ["s25ExpressibleByArrayLiteralP", "_preprocessingPass"]
+- ["s25ExpressibleByArrayLiteralP", "count"]
+- ["s25ExpressibleByArrayLiteralP", "distance"]
+- ["s25ExpressibleByArrayLiteralP", "drop"]
+- ["s25ExpressibleByArrayLiteralP", "dropFirst"]
+- ["s25ExpressibleByArrayLiteralP", "dropLast"]
+- ["s25ExpressibleByArrayLiteralP", "endIndex"]
+- !private ["s25ExpressibleByArrayLiteralP", "fatalError"]
+- ["s25ExpressibleByArrayLiteralP", "filter"]
+- ["s25ExpressibleByArrayLiteralP", "first"]
+- ["s25ExpressibleByArrayLiteralP", "forEach"]
+- ["s25ExpressibleByArrayLiteralP", "formIndex"]
+- ["s25ExpressibleByArrayLiteralP", "index"]
+- ["s25ExpressibleByArrayLiteralP", "indices"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "key"]
+- ["s25ExpressibleByArrayLiteralP", "makeIterator"]
+- ["s25ExpressibleByArrayLiteralP", "map"]
+- ["s25ExpressibleByArrayLiteralP", "prefix"]
+- ["s25ExpressibleByArrayLiteralP", "split"]
+- ["s25ExpressibleByArrayLiteralP", "startIndex"]
+- ["s25ExpressibleByArrayLiteralP", "subscript"]
+- ["s25ExpressibleByArrayLiteralP", "suffix"]
+- ["s25ExpressibleByArrayLiteralP", "underestimatedCount"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "changingBitsInMask"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "isAnyBitSetInMask"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "changingBitsInMask"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s17FixedWidthIntegerP", "isAnyBitSetInMask"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "changingBitsInMask"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "isAnyBitSetInMask"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "changingBitsInMask"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "isAnyBitSetInMask"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s7NumericP", "changingBitsInMask"]
+- !private ["s7NumericP", "init"]
+- !private ["s7NumericP", "isAnyBitSetInMask"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- ["s8SequenceP", "ArrayLiteralElement"]
+- ["s8SequenceP", "Element"]
+- ["s8SequenceP", "Index"]
+- ["s8SequenceP", "Indices"]
+- ["s8SequenceP", "Iterator"]
+- ["s8SequenceP", "SubSequence"]
+- !private ["s8SequenceP", "UInt8"]
+- ["s8SequenceP", ""]
+- ["s8SequenceP", "_Default_Indices"]
+- ["s8SequenceP", "_Default_Iterator"]
+- ["s8SequenceP", "_Default_SubSequence"]
+- ["s8SequenceP", "_copyContents"]
+- ["s8SequenceP", "_copyToContiguousArray"]
+- ["s8SequenceP", "_customContainsEquatableElement"]
+- ["s8SequenceP", "_customIndexOfEquatableElement"]
+- ["s8SequenceP", "_failEarlyRangeCheck"]
+- ["s8SequenceP", "_preprocessingPass"]
+- ["s8SequenceP", "count"]
+- ["s8SequenceP", "distance"]
+- ["s8SequenceP", "drop"]
+- ["s8SequenceP", "dropFirst"]
+- ["s8SequenceP", "dropLast"]
+- ["s8SequenceP", "endIndex"]
+- !private ["s8SequenceP", "fatalError"]
+- ["s8SequenceP", "filter"]
+- ["s8SequenceP", "first"]
+- ["s8SequenceP", "forEach"]
+- ["s8SequenceP", "formIndex"]
+- ["s8SequenceP", "index"]
+- ["s8SequenceP", "indices"]
+- ["s8SequenceP", "init"]
+- ["s8SequenceP", "isEmpty"]
+- !private ["s8SequenceP", "key"]
+- ["s8SequenceP", "makeIterator"]
+- ["s8SequenceP", "map"]
+- ["s8SequenceP", "prefix"]
+- ["s8SequenceP", "split"]
+- ["s8SequenceP", "startIndex"]
+- ["s8SequenceP", "subscript"]
+- ["s8SequenceP", "suffix"]
+- ["s8SequenceP", "underestimatedCount"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s10StrideableP", "changingBitsInMask"]
+- !private ["s10StrideableP", "init"]
+- !private ["s10StrideableP", "isAnyBitSetInMask"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["s5UInt8V", "Bool"]
+- ["s5UInt8V", "UInt8"]
+- !private ["s5UInt8V", "changingBitsInMask"]
+- !private ["s5UInt8V", "init"]
+- !private ["s5UInt8V", "isAnyBitSetInMask"]
+- !private ["s15UnsignedIntegerP", "changingBitsInMask"]
+- !private ["s15UnsignedIntegerP", "init"]
+- !private ["s15UnsignedIntegerP", "isAnyBitSetInMask"]
+- ["12NIOWebSocket03WebB5FrameV", "=="]
+- ["12NIOWebSocket03WebB5FrameV", "Bool"]
+- ["12NIOWebSocket03WebB5FrameV", "ByteBuffer"]
+- ["12NIOWebSocket03WebB5FrameV", "ByteBufferAllocator"]
+- ["12NIOWebSocket03WebB5FrameV", "Int"]
+- ["12NIOWebSocket03WebB5FrameV", "UInt8"]
+- ["12NIOWebSocket03WebB5FrameV", "WebSocketFrame"]
+- ["12NIOWebSocket03WebB5FrameV", "WebSocketMaskingKey"]
+- ["12NIOWebSocket03WebB5FrameV", "WebSocketOpcode"]
+- ["12NIOWebSocket03WebB5FrameV", "data"]
+- ["12NIOWebSocket03WebB5FrameV", "deinit"]
+- ["12NIOWebSocket03WebB5FrameV", "extensionData"]
+- ["12NIOWebSocket03WebB5FrameV", "fin"]
+- ["12NIOWebSocket03WebB5FrameV", "firstByte"]
+- ["12NIOWebSocket03WebB5FrameV", "init"]
+- ["12NIOWebSocket03WebB5FrameV", "length"]
+- ["12NIOWebSocket03WebB5FrameV", "maskKey"]
+- ["12NIOWebSocket03WebB5FrameV", "opcode"]
+- ["12NIOWebSocket03WebB5FrameV", "rsv1"]
+- ["12NIOWebSocket03WebB5FrameV", "rsv2"]
+- ["12NIOWebSocket03WebB5FrameV", "rsv3"]
+- ["12NIOWebSocket03WebB5FrameV", "unmaskedData"]
+- ["12NIOWebSocket03WebB5FrameV", "unmaskedExtensionData"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "=="]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "ArrayLiteralElement"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "Bool"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "Collection"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "Element"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "Index"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "Indices"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "Int"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "Iterator"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "SubSequence"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "UInt32"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "UInt8"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "WebSocketMaskingKey"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "_Default_Indices"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "_Default_Iterator"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "_Default_SubSequence"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "_copyContents"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "_copyToContiguousArray"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "_customContainsEquatableElement"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "_customIndexOfEquatableElement"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "_failEarlyRangeCheck"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "_preprocessingPass"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "count"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "deinit"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "distance"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "drop"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "dropFirst"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "dropLast"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "endIndex"]
+- !private ["12NIOWebSocket03WebB10MaskingKeyV", "fatalError"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "filter"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "first"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "forEach"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "formIndex"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "index"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "indices"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "init"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "isEmpty"]
+- !private ["12NIOWebSocket03WebB10MaskingKeyV", "key"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "makeIterator"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "map"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "prefix"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "split"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "startIndex"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "subscript"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "suffix"]
+- ["12NIOWebSocket03WebB10MaskingKeyV", "underestimatedCount"]
+- !private ["12NIOWebSocket03WebB6OpcodeO", "continuation"]
+- !private ["12NIOWebSocket03WebB6OpcodeO", "init"]
+- !private ["s18_BitwiseOperationsP", "changingBitsInMask"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s18_BitwiseOperationsP", "isAnyBitSetInMask"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "changingBitsInMask"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "isAnyBitSetInMask"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s14_StringElementP", "changingBitsInMask"]
+- !private ["s14_StringElementP", "init"]
+- !private ["s14_StringElementP", "isAnyBitSetInMask"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- !private "3NIO10ByteBufferV"
+- !private "3NIO19ByteBufferAllocatorV"
+- !private "s7CVarArgP"
+- "s10CollectionP"
+- !private "s10ComparableP"
+- !private "3NIO20ContiguousCollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s7NumericP"
+- !private "s26RangeReplaceableCollectionP"
+- "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "s5UInt8V"
+- !private "s15UnsignedIntegerP"
+- "12NIOWebSocket03WebB5FrameV"
+- "12NIOWebSocket03WebB10MaskingKeyV"
+- !private "12NIOWebSocket03WebB6OpcodeO"
+- !private "s18_BitwiseOperationsP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s14_StringElementP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOHTTP1.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOSHA1/include/c_nio_sha1.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOZlib/include/c_nio_zlib.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOHTTPParser/include/c_nio_http_parser.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio-zlib-support.git--1071467962839356487/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+interface-hash: "364a3a856ffa0c9ad0ffbd733e54a05a"

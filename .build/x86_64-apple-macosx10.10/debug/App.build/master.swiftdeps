@@ -1,0 +1,11 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "9c5b27c75052965f673e338262120a6a"
+build_time: [1529112145, 416484000]
+inputs:
+  "/Users/user/Documents/RiseTimeAssets/server/Sources/App/Controllers/CharacterController.swift": [1529111981, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/Sources/App/Controllers/TodoController.swift": [1529105049, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/Sources/App/Models/Todo.swift": [1529105049, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/Sources/App/app.swift": [1529105049, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/Sources/App/boot.swift": [1529105049, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/Sources/App/configure.swift": [1529105049, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/Sources/App/routes.swift": [1529112097, 0]

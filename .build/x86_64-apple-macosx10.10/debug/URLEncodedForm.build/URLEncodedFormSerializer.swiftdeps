@@ -1,0 +1,680 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "URLEncodedFormSerializer"
+provides-nominal:
+- "14URLEncodedForm0aB10SerializerC"
+provides-member:
+- ["14URLEncodedForm0aB10SerializerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- "Array"
+- "AssignmentPrecedence"
+- "CharacterSet"
+- "Data"
+- "String"
+- "StringLiteralType"
+- "URLEncodedFormData"
+- !private "URLEncodedFormError"
+- "URLEncodedFormSerializer"
+- "UnicodeScalarType"
+- !private "_allowedCharacters"
+depends-member:
+- ["4Core22AnyReflectionDecodableP", "Data"]
+- !private ["4Core22AnyReflectionDecodableP", "URLEncodedFormError"]
+- !private ["4Core22AnyReflectionDecodableP", "_allowedCharacters"]
+- !private ["4Core22AnyReflectionDecodableP", "addingPercentEncoding"]
+- !private ["4Core22AnyReflectionDecodableP", "ampersand"]
+- !private ["4Core22AnyReflectionDecodableP", "append"]
+- !private ["4Core22AnyReflectionDecodableP", "data"]
+- !private ["4Core22AnyReflectionDecodableP", "equals"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "joined"]
+- !private ["4Core22AnyReflectionDecodableP", "joinedWithAmpersands"]
+- !private ["4Core22AnyReflectionDecodableP", "leftSquareBracket"]
+- !private ["4Core22AnyReflectionDecodableP", "map"]
+- !private ["4Core22AnyReflectionDecodableP", "rightSquareBracket"]
+- !private ["4Core22AnyReflectionDecodableP", "urlEncodedFormEncoded"]
+- ["Sa", "Data"]
+- !private ["Sa", "append"]
+- !private ["Sa", "joined"]
+- !private ["Sa", "joinedWithAmpersands"]
+- !private ["Sa", "map"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "ampersand"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "equals"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "leftSquareBracket"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "rightSquareBracket"]
+- !private ["4Core21BasicKeyRepresentableP", "URLEncodedFormError"]
+- !private ["4Core21BasicKeyRepresentableP", "_allowedCharacters"]
+- !private ["4Core21BasicKeyRepresentableP", "addingPercentEncoding"]
+- !private ["4Core21BasicKeyRepresentableP", "data"]
+- !private ["4Core21BasicKeyRepresentableP", "init"]
+- !private ["4Core21BasicKeyRepresentableP", "rightSquareBracket"]
+- !private ["4Core21BasicKeyRepresentableP", "urlEncodedFormEncoded"]
+- ["s23BidirectionalCollectionP", "Data"]
+- !private ["s23BidirectionalCollectionP", "URLEncodedFormError"]
+- !private ["s23BidirectionalCollectionP", "_allowedCharacters"]
+- !private ["s23BidirectionalCollectionP", "addingPercentEncoding"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "data"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "joined"]
+- !private ["s23BidirectionalCollectionP", "joinedWithAmpersands"]
+- !private ["s23BidirectionalCollectionP", "map"]
+- !private ["s23BidirectionalCollectionP", "urlEncodedFormEncoded"]
+- !private ["s13BinaryIntegerP", "ampersand"]
+- !private ["s13BinaryIntegerP", "equals"]
+- !private ["s13BinaryIntegerP", "leftSquareBracket"]
+- !private ["s13BinaryIntegerP", "rightSquareBracket"]
+- ["s7CVarArgP", "Data"]
+- !private ["s7CVarArgP", "URLEncodedFormError"]
+- !private ["s7CVarArgP", "_allowedCharacters"]
+- !private ["s7CVarArgP", "addingPercentEncoding"]
+- !private ["s7CVarArgP", "ampersand"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "equals"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "joined"]
+- !private ["s7CVarArgP", "joinedWithAmpersands"]
+- !private ["s7CVarArgP", "leftSquareBracket"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "rightSquareBracket"]
+- !private ["s7CVarArgP", "urlEncodedFormEncoded"]
+- ["10Foundation12CharacterSetV", "remove"]
+- ["10Foundation12CharacterSetV", "urlQueryAllowed"]
+- ["s10CollectionP", "Data"]
+- !private ["s10CollectionP", "URLEncodedFormError"]
+- !private ["s10CollectionP", "_allowedCharacters"]
+- !private ["s10CollectionP", "addingPercentEncoding"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "data"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "joined"]
+- !private ["s10CollectionP", "joinedWithAmpersands"]
+- !private ["s10CollectionP", "map"]
+- !private ["s10CollectionP", "urlEncodedFormEncoded"]
+- !private ["s10ComparableP", "URLEncodedFormError"]
+- !private ["s10ComparableP", "_allowedCharacters"]
+- !private ["s10ComparableP", "addingPercentEncoding"]
+- !private ["s10ComparableP", "ampersand"]
+- !private ["s10ComparableP", "data"]
+- !private ["s10ComparableP", "equals"]
+- ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "leftSquareBracket"]
+- !private ["s10ComparableP", "rightSquareBracket"]
+- !private ["s10ComparableP", "urlEncodedFormEncoded"]
+- ["3NIO20ContiguousCollectionP", "Data"]
+- !private ["3NIO20ContiguousCollectionP", "append"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "joined"]
+- !private ["3NIO20ContiguousCollectionP", "joinedWithAmpersands"]
+- !private ["3NIO20ContiguousCollectionP", "map"]
+- ["s28CustomDebugStringConvertibleP", "Data"]
+- !private ["s28CustomDebugStringConvertibleP", "URLEncodedFormError"]
+- !private ["s28CustomDebugStringConvertibleP", "_allowedCharacters"]
+- !private ["s28CustomDebugStringConvertibleP", "addingPercentEncoding"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- !private ["s28CustomDebugStringConvertibleP", "joinedWithAmpersands"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- ["s28CustomDebugStringConvertibleP", "remove"]
+- !private ["s28CustomDebugStringConvertibleP", "urlEncodedFormEncoded"]
+- ["s28CustomDebugStringConvertibleP", "urlQueryAllowed"]
+- !private ["s29CustomPlaygroundQuickLookableP", "URLEncodedFormError"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_allowedCharacters"]
+- !private ["s29CustomPlaygroundQuickLookableP", "addingPercentEncoding"]
+- !private ["s29CustomPlaygroundQuickLookableP", "ampersand"]
+- !private ["s29CustomPlaygroundQuickLookableP", "data"]
+- !private ["s29CustomPlaygroundQuickLookableP", "equals"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "leftSquareBracket"]
+- !private ["s29CustomPlaygroundQuickLookableP", "rightSquareBracket"]
+- !private ["s29CustomPlaygroundQuickLookableP", "urlEncodedFormEncoded"]
+- ["s17CustomReflectableP", "Data"]
+- !private ["s17CustomReflectableP", "URLEncodedFormError"]
+- !private ["s17CustomReflectableP", "_allowedCharacters"]
+- !private ["s17CustomReflectableP", "addingPercentEncoding"]
+- !private ["s17CustomReflectableP", "ampersand"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "data"]
+- !private ["s17CustomReflectableP", "equals"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s17CustomReflectableP", "joinedWithAmpersands"]
+- !private ["s17CustomReflectableP", "leftSquareBracket"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "rightSquareBracket"]
+- !private ["s17CustomReflectableP", "urlEncodedFormEncoded"]
+- ["s23CustomStringConvertibleP", "Data"]
+- !private ["s23CustomStringConvertibleP", "URLEncodedFormError"]
+- !private ["s23CustomStringConvertibleP", "_allowedCharacters"]
+- !private ["s23CustomStringConvertibleP", "addingPercentEncoding"]
+- !private ["s23CustomStringConvertibleP", "ampersand"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "equals"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- !private ["s23CustomStringConvertibleP", "joinedWithAmpersands"]
+- !private ["s23CustomStringConvertibleP", "leftSquareBracket"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- ["s23CustomStringConvertibleP", "remove"]
+- !private ["s23CustomStringConvertibleP", "rightSquareBracket"]
+- !private ["s23CustomStringConvertibleP", "urlEncodedFormEncoded"]
+- ["s23CustomStringConvertibleP", "urlQueryAllowed"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["9Debugging10DebuggableP", "init"]
+- ["s9DecodableP", "Data"]
+- !private ["s9DecodableP", "URLEncodedFormError"]
+- !private ["s9DecodableP", "_allowedCharacters"]
+- !private ["s9DecodableP", "addingPercentEncoding"]
+- !private ["s9DecodableP", "ampersand"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "data"]
+- !private ["s9DecodableP", "equals"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "joined"]
+- !private ["s9DecodableP", "joinedWithAmpersands"]
+- !private ["s9DecodableP", "leftSquareBracket"]
+- !private ["s9DecodableP", "map"]
+- ["s9DecodableP", "remove"]
+- !private ["s9DecodableP", "rightSquareBracket"]
+- !private ["s9DecodableP", "urlEncodedFormEncoded"]
+- ["s9DecodableP", "urlQueryAllowed"]
+- !private ["s10DictionaryV", "map"]
+- ["s9EncodableP", "Data"]
+- !private ["s9EncodableP", "URLEncodedFormError"]
+- !private ["s9EncodableP", "_allowedCharacters"]
+- !private ["s9EncodableP", "addingPercentEncoding"]
+- !private ["s9EncodableP", "ampersand"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "data"]
+- !private ["s9EncodableP", "equals"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "joined"]
+- !private ["s9EncodableP", "joinedWithAmpersands"]
+- !private ["s9EncodableP", "leftSquareBracket"]
+- !private ["s9EncodableP", "map"]
+- ["s9EncodableP", "remove"]
+- !private ["s9EncodableP", "rightSquareBracket"]
+- !private ["s9EncodableP", "urlEncodedFormEncoded"]
+- ["s9EncodableP", "urlQueryAllowed"]
+- !private ["SS10FoundationE8EncodingV", "utf8"]
+- ["s9EquatableP", "Data"]
+- !private ["s9EquatableP", "URLEncodedFormError"]
+- !private ["s9EquatableP", "_allowedCharacters"]
+- !private ["s9EquatableP", "addingPercentEncoding"]
+- !private ["s9EquatableP", "ampersand"]
+- !private ["s9EquatableP", "append"]
+- ["s9EquatableP", "arr"]
+- !private ["s9EquatableP", "data"]
+- ["s9EquatableP", "dict"]
+- !private ["s9EquatableP", "equals"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "joined"]
+- !private ["s9EquatableP", "joinedWithAmpersands"]
+- !private ["s9EquatableP", "leftSquareBracket"]
+- !private ["s9EquatableP", "map"]
+- ["s9EquatableP", "remove"]
+- !private ["s9EquatableP", "rightSquareBracket"]
+- ["s9EquatableP", "str"]
+- !private ["s9EquatableP", "urlEncodedFormEncoded"]
+- ["s9EquatableP", "urlQueryAllowed"]
+- !private ["s9EquatableP", "utf8"]
+- !private ["s5ErrorP", "init"]
+- ["s25ExpressibleByArrayLiteralP", "Data"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- ["s25ExpressibleByArrayLiteralP", "arr"]
+- ["s25ExpressibleByArrayLiteralP", "dict"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- !private ["s25ExpressibleByArrayLiteralP", "joinedWithAmpersands"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- ["s25ExpressibleByArrayLiteralP", "remove"]
+- ["s25ExpressibleByArrayLiteralP", "str"]
+- ["s25ExpressibleByArrayLiteralP", "urlQueryAllowed"]
+- ["s30ExpressibleByDictionaryLiteralP", "arr"]
+- ["s30ExpressibleByDictionaryLiteralP", "dict"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "map"]
+- ["s30ExpressibleByDictionaryLiteralP", "str"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "URLEncodedFormError"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_allowedCharacters"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "addingPercentEncoding"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "arr"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "data"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "dict"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "str"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "urlEncodedFormEncoded"]
+- !private ["s27ExpressibleByIntegerLiteralP", "ampersand"]
+- !private ["s27ExpressibleByIntegerLiteralP", "equals"]
+- !private ["s27ExpressibleByIntegerLiteralP", "leftSquareBracket"]
+- !private ["s27ExpressibleByIntegerLiteralP", "rightSquareBracket"]
+- !private ["s26ExpressibleByStringLiteralP", "URLEncodedFormError"]
+- !private ["s26ExpressibleByStringLiteralP", "_allowedCharacters"]
+- !private ["s26ExpressibleByStringLiteralP", "addingPercentEncoding"]
+- ["s26ExpressibleByStringLiteralP", "arr"]
+- !private ["s26ExpressibleByStringLiteralP", "data"]
+- ["s26ExpressibleByStringLiteralP", "dict"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "str"]
+- !private ["s26ExpressibleByStringLiteralP", "urlEncodedFormEncoded"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "URLEncodedFormError"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "_allowedCharacters"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "addingPercentEncoding"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "arr"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "data"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "dict"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "str"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "urlEncodedFormEncoded"]
+- !private ["s17FixedWidthIntegerP", "ampersand"]
+- !private ["s17FixedWidthIntegerP", "equals"]
+- !private ["s17FixedWidthIntegerP", "leftSquareBracket"]
+- !private ["s17FixedWidthIntegerP", "rightSquareBracket"]
+- !private ["s8HashableP", "URLEncodedFormError"]
+- !private ["s8HashableP", "_allowedCharacters"]
+- !private ["s8HashableP", "addingPercentEncoding"]
+- !private ["s8HashableP", "ampersand"]
+- !private ["s8HashableP", "data"]
+- !private ["s8HashableP", "equals"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "leftSquareBracket"]
+- ["s8HashableP", "remove"]
+- !private ["s8HashableP", "rightSquareBracket"]
+- !private ["s8HashableP", "urlEncodedFormEncoded"]
+- ["s8HashableP", "urlQueryAllowed"]
+- !private ["s8HashableP", "utf8"]
+- !private ["Si", "rightSquareBracket"]
+- !private ["10Foundation14LocalizedErrorP", "init"]
+- ["4Core23LosslessDataConvertibleP", "Data"]
+- !private ["4Core23LosslessDataConvertibleP", "URLEncodedFormError"]
+- !private ["4Core23LosslessDataConvertibleP", "_allowedCharacters"]
+- !private ["4Core23LosslessDataConvertibleP", "addingPercentEncoding"]
+- !private ["4Core23LosslessDataConvertibleP", "append"]
+- !private ["4Core23LosslessDataConvertibleP", "data"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "joined"]
+- !private ["4Core23LosslessDataConvertibleP", "joinedWithAmpersands"]
+- !private ["4Core23LosslessDataConvertibleP", "map"]
+- !private ["4Core23LosslessDataConvertibleP", "urlEncodedFormEncoded"]
+- !private ["s25LosslessStringConvertibleP", "URLEncodedFormError"]
+- !private ["s25LosslessStringConvertibleP", "_allowedCharacters"]
+- !private ["s25LosslessStringConvertibleP", "addingPercentEncoding"]
+- !private ["s25LosslessStringConvertibleP", "ampersand"]
+- !private ["s25LosslessStringConvertibleP", "data"]
+- !private ["s25LosslessStringConvertibleP", "equals"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "leftSquareBracket"]
+- !private ["s25LosslessStringConvertibleP", "rightSquareBracket"]
+- !private ["s25LosslessStringConvertibleP", "urlEncodedFormEncoded"]
+- !private ["s10MirrorPathP", "URLEncodedFormError"]
+- !private ["s10MirrorPathP", "_allowedCharacters"]
+- !private ["s10MirrorPathP", "addingPercentEncoding"]
+- !private ["s10MirrorPathP", "data"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "rightSquareBracket"]
+- !private ["s10MirrorPathP", "urlEncodedFormEncoded"]
+- ["s17MutableCollectionP", "Data"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "joined"]
+- !private ["s17MutableCollectionP", "joinedWithAmpersands"]
+- !private ["s17MutableCollectionP", "map"]
+- !private ["So8NSCodingP", "addingPercentEncoding"]
+- !private ["So8NSCodingP", "data"]
+- !private ["So8NSCodingP", "urlEncodedFormEncoded"]
+- !private ["So9NSCopyingP", "addingPercentEncoding"]
+- !private ["So9NSCopyingP", "data"]
+- !private ["So9NSCopyingP", "urlEncodedFormEncoded"]
+- !private ["So21NSItemProviderReadingP", "addingPercentEncoding"]
+- !private ["So21NSItemProviderReadingP", "data"]
+- !private ["So21NSItemProviderReadingP", "urlEncodedFormEncoded"]
+- !private ["So21NSItemProviderWritingP", "addingPercentEncoding"]
+- !private ["So21NSItemProviderWritingP", "data"]
+- !private ["So21NSItemProviderWritingP", "urlEncodedFormEncoded"]
+- !private ["So16NSMutableCopyingP", "addingPercentEncoding"]
+- !private ["So16NSMutableCopyingP", "data"]
+- !private ["So16NSMutableCopyingP", "urlEncodedFormEncoded"]
+- !private ["So8NSObjectC", "addingPercentEncoding"]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectC", "urlEncodedFormEncoded"]
+- !private ["So16NSObjectProtocolP", "addingPercentEncoding"]
+- !private ["So16NSObjectProtocolP", "data"]
+- !private ["So16NSObjectProtocolP", "urlEncodedFormEncoded"]
+- !private ["So14NSSecureCodingP", "addingPercentEncoding"]
+- !private ["So14NSSecureCodingP", "data"]
+- !private ["So14NSSecureCodingP", "urlEncodedFormEncoded"]
+- !private ["So8NSStringC", "addingPercentEncoding"]
+- !private ["So8NSStringC", "data"]
+- !private ["So8NSStringC", "urlEncodedFormEncoded"]
+- ["4Core10NestedDataP", "arr"]
+- ["4Core10NestedDataP", "dict"]
+- ["4Core10NestedDataP", "str"]
+- !private ["s7NumericP", "ampersand"]
+- !private ["s7NumericP", "equals"]
+- !private ["s7NumericP", "leftSquareBracket"]
+- !private ["s7NumericP", "rightSquareBracket"]
+- ["s22RandomAccessCollectionP", "Data"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "joined"]
+- !private ["s22RandomAccessCollectionP", "joinedWithAmpersands"]
+- !private ["s22RandomAccessCollectionP", "map"]
+- ["s26RangeReplaceableCollectionP", "Data"]
+- !private ["s26RangeReplaceableCollectionP", "URLEncodedFormError"]
+- !private ["s26RangeReplaceableCollectionP", "_allowedCharacters"]
+- !private ["s26RangeReplaceableCollectionP", "addingPercentEncoding"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "data"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "joined"]
+- !private ["s26RangeReplaceableCollectionP", "joinedWithAmpersands"]
+- !private ["s26RangeReplaceableCollectionP", "map"]
+- !private ["s26RangeReplaceableCollectionP", "urlEncodedFormEncoded"]
+- !private ["s16RawRepresentableP", "utf8"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- ["10Foundation20ReferenceConvertibleP", "remove"]
+- ["10Foundation20ReferenceConvertibleP", "urlQueryAllowed"]
+- ["4Core19ReflectionDecodableP", "Data"]
+- !private ["4Core19ReflectionDecodableP", "URLEncodedFormError"]
+- !private ["4Core19ReflectionDecodableP", "_allowedCharacters"]
+- !private ["4Core19ReflectionDecodableP", "addingPercentEncoding"]
+- !private ["4Core19ReflectionDecodableP", "ampersand"]
+- !private ["4Core19ReflectionDecodableP", "append"]
+- !private ["4Core19ReflectionDecodableP", "data"]
+- !private ["4Core19ReflectionDecodableP", "equals"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "joined"]
+- !private ["4Core19ReflectionDecodableP", "joinedWithAmpersands"]
+- !private ["4Core19ReflectionDecodableP", "leftSquareBracket"]
+- !private ["4Core19ReflectionDecodableP", "map"]
+- !private ["4Core19ReflectionDecodableP", "rightSquareBracket"]
+- !private ["4Core19ReflectionDecodableP", "urlEncodedFormEncoded"]
+- ["s7UnicodeO6ScalarV", "init"]
+- ["s8SequenceP", "Data"]
+- !private ["s8SequenceP", "URLEncodedFormError"]
+- !private ["s8SequenceP", "_allowedCharacters"]
+- !private ["s8SequenceP", "addingPercentEncoding"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "data"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "joined"]
+- !private ["s8SequenceP", "joinedWithAmpersands"]
+- !private ["s8SequenceP", "map"]
+- !private ["s8SequenceP", "urlEncodedFormEncoded"]
+- ["s10SetAlgebraP", "remove"]
+- ["s10SetAlgebraP", "urlQueryAllowed"]
+- !private ["s13SignedIntegerP", "rightSquareBracket"]
+- !private ["s13SignedNumericP", "rightSquareBracket"]
+- !private ["s10StrideableP", "ampersand"]
+- !private ["s10StrideableP", "equals"]
+- !private ["s10StrideableP", "leftSquareBracket"]
+- !private ["s10StrideableP", "rightSquareBracket"]
+- ["SS", "Data"]
+- !private ["SS", "URLEncodedFormError"]
+- !private ["SS", "_allowedCharacters"]
+- !private ["SS", "addingPercentEncoding"]
+- !private ["SS", "data"]
+- !private ["SS", "init"]
+- !private ["SS", "urlEncodedFormEncoded"]
+- !private ["s14StringProtocolP", "URLEncodedFormError"]
+- !private ["s14StringProtocolP", "_allowedCharacters"]
+- !private ["s14StringProtocolP", "addingPercentEncoding"]
+- !private ["s14StringProtocolP", "data"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "urlEncodedFormEncoded"]
+- !private ["s16TextOutputStreamP", "URLEncodedFormError"]
+- !private ["s16TextOutputStreamP", "_allowedCharacters"]
+- !private ["s16TextOutputStreamP", "addingPercentEncoding"]
+- !private ["s16TextOutputStreamP", "data"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "urlEncodedFormEncoded"]
+- !private ["s20TextOutputStreamableP", "URLEncodedFormError"]
+- !private ["s20TextOutputStreamableP", "_allowedCharacters"]
+- !private ["s20TextOutputStreamableP", "addingPercentEncoding"]
+- !private ["s20TextOutputStreamableP", "data"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "urlEncodedFormEncoded"]
+- !private ["s5UInt8V", "ampersand"]
+- !private ["s5UInt8V", "equals"]
+- !private ["s5UInt8V", "leftSquareBracket"]
+- !private ["s5UInt8V", "rightSquareBracket"]
+- ["14URLEncodedForm0aB4DataO", "arr"]
+- ["14URLEncodedForm0aB4DataO", "dict"]
+- ["14URLEncodedForm0aB4DataO", "str"]
+- ["14URLEncodedForm0aB15DataConvertibleP", "Data"]
+- !private ["14URLEncodedForm0aB15DataConvertibleP", "URLEncodedFormError"]
+- !private ["14URLEncodedForm0aB15DataConvertibleP", "_allowedCharacters"]
+- !private ["14URLEncodedForm0aB15DataConvertibleP", "addingPercentEncoding"]
+- !private ["14URLEncodedForm0aB15DataConvertibleP", "ampersand"]
+- !private ["14URLEncodedForm0aB15DataConvertibleP", "append"]
+- !private ["14URLEncodedForm0aB15DataConvertibleP", "data"]
+- !private ["14URLEncodedForm0aB15DataConvertibleP", "equals"]
+- !private ["14URLEncodedForm0aB15DataConvertibleP", "init"]
+- !private ["14URLEncodedForm0aB15DataConvertibleP", "joined"]
+- !private ["14URLEncodedForm0aB15DataConvertibleP", "joinedWithAmpersands"]
+- !private ["14URLEncodedForm0aB15DataConvertibleP", "leftSquareBracket"]
+- !private ["14URLEncodedForm0aB15DataConvertibleP", "map"]
+- !private ["14URLEncodedForm0aB15DataConvertibleP", "rightSquareBracket"]
+- !private ["14URLEncodedForm0aB15DataConvertibleP", "urlEncodedFormEncoded"]
+- !private ["14URLEncodedForm0aB5ErrorV", "deinit"]
+- !private ["14URLEncodedForm0aB5ErrorV", "init"]
+- ["14URLEncodedForm0aB10SerializerC", "Data"]
+- ["14URLEncodedForm0aB10SerializerC", "String"]
+- ["14URLEncodedForm0aB10SerializerC", "URLEncodedFormData"]
+- ["14URLEncodedForm0aB10SerializerC", "URLEncodedFormSerializer"]
+- ["14URLEncodedForm0aB10SerializerC", "default"]
+- ["14URLEncodedForm0aB10SerializerC", "deinit"]
+- ["14URLEncodedForm0aB10SerializerC", "init"]
+- ["14URLEncodedForm0aB10SerializerC", "serialize"]
+- !private ["s15UnsignedIntegerP", "ampersand"]
+- !private ["s15UnsignedIntegerP", "equals"]
+- !private ["s15UnsignedIntegerP", "leftSquareBracket"]
+- !private ["s15UnsignedIntegerP", "rightSquareBracket"]
+- ["s14_ArrayProtocolP", "Data"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "joined"]
+- !private ["s14_ArrayProtocolP", "joinedWithAmpersands"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s18_BitwiseOperationsP", "ampersand"]
+- !private ["s18_BitwiseOperationsP", "equals"]
+- !private ["s18_BitwiseOperationsP", "leftSquareBracket"]
+- !private ["s18_BitwiseOperationsP", "rightSquareBracket"]
+- ["s24_DestructorSafeContainerP", "Data"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s24_DestructorSafeContainerP", "joinedWithAmpersands"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "URLEncodedFormError"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "_allowedCharacters"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "addingPercentEncoding"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "data"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "urlEncodedFormEncoded"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "ampersand"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "equals"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "leftSquareBracket"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "rightSquareBracket"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "URLEncodedFormError"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "_allowedCharacters"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "addingPercentEncoding"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "data"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "urlEncodedFormEncoded"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "URLEncodedFormError"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "_allowedCharacters"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "addingPercentEncoding"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "data"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "urlEncodedFormEncoded"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "URLEncodedFormError"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "_allowedCharacters"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "addingPercentEncoding"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "data"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "urlEncodedFormEncoded"]
+- !private ["s33_ExpressibleByStringInterpolationP", "URLEncodedFormError"]
+- !private ["s33_ExpressibleByStringInterpolationP", "_allowedCharacters"]
+- !private ["s33_ExpressibleByStringInterpolationP", "addingPercentEncoding"]
+- !private ["s33_ExpressibleByStringInterpolationP", "data"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "urlEncodedFormEncoded"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "addingPercentEncoding"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "data"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "urlEncodedFormEncoded"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addingPercentEncoding"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "urlEncodedFormEncoded"]
+- ["s21_ObjectiveCBridgeableP", "Data"]
+- !private ["s21_ObjectiveCBridgeableP", "URLEncodedFormError"]
+- !private ["s21_ObjectiveCBridgeableP", "_allowedCharacters"]
+- !private ["s21_ObjectiveCBridgeableP", "addingPercentEncoding"]
+- !private ["s21_ObjectiveCBridgeableP", "ampersand"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "data"]
+- !private ["s21_ObjectiveCBridgeableP", "equals"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+- !private ["s21_ObjectiveCBridgeableP", "joinedWithAmpersands"]
+- !private ["s21_ObjectiveCBridgeableP", "leftSquareBracket"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- ["s21_ObjectiveCBridgeableP", "remove"]
+- !private ["s21_ObjectiveCBridgeableP", "rightSquareBracket"]
+- !private ["s21_ObjectiveCBridgeableP", "urlEncodedFormEncoded"]
+- ["s21_ObjectiveCBridgeableP", "urlQueryAllowed"]
+- !private ["s14_StringElementP", "ampersand"]
+- !private ["s14_StringElementP", "equals"]
+- !private ["s14_StringElementP", "leftSquareBracket"]
+- !private ["s14_StringElementP", "rightSquareBracket"]
+- !private ["s16_SwiftStringViewP", "URLEncodedFormError"]
+- !private ["s16_SwiftStringViewP", "_allowedCharacters"]
+- !private ["s16_SwiftStringViewP", "addingPercentEncoding"]
+- !private ["s16_SwiftStringViewP", "data"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "urlEncodedFormEncoded"]
+depends-nominal:
+- "4Core22AnyReflectionDecodableP"
+- "Sa"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "4Core21BasicKeyRepresentableP"
+- "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- "s7CVarArgP"
+- "10Foundation12CharacterSetV"
+- "s10CollectionP"
+- "s10ComparableP"
+- "3NIO20ContiguousCollectionP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "9Debugging10DebuggableP"
+- "s9DecodableP"
+- !private "s10DictionaryV"
+- "s9EncodableP"
+- !private "SS10FoundationE8EncodingV"
+- "s9EquatableP"
+- !private "s5ErrorP"
+- "s25ExpressibleByArrayLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "Si"
+- !private "10Foundation14LocalizedErrorP"
+- "4Core23LosslessDataConvertibleP"
+- "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "4Core10NestedDataP"
+- !private "s7NumericP"
+- "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- "10Foundation20ReferenceConvertibleP"
+- "4Core19ReflectionDecodableP"
+- "s7UnicodeO6ScalarV"
+- "s8SequenceP"
+- "s10SetAlgebraP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "s5UInt8V"
+- "14URLEncodedForm0aB4DataO"
+- "14URLEncodedForm0aB15DataConvertibleP"
+- !private "14URLEncodedForm0aB5ErrorV"
+- "14URLEncodedForm0aB10SerializerC"
+- !private "s15UnsignedIntegerP"
+- "s14_ArrayProtocolP"
+- !private "s18_BitwiseOperationsP"
+- "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s14_StringElementP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Async.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/COperatingSystem.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOFoundationCompat.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio-zlib-support.git--1071467962839356487/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "262ee6d6bccbc92b2a28a7a665837258"

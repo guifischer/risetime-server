@@ -1,0 +1,47 @@
+{
+  "": {
+    "swift-dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/App.build/master.swiftdeps"
+  },
+  "/Users/user/Documents/RiseTimeAssets/server/Sources/App/Controllers/CharacterController.swift": {
+    "dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/App.build/CharacterController.d",
+    "object": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/App.build/Controllers/CharacterController.swift.o",
+    "swiftmodule": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/App.build/CharacterController~partial.swiftmodule",
+    "swift-dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/App.build/CharacterController.swiftdeps"
+  },
+  "/Users/user/Documents/RiseTimeAssets/server/Sources/App/Controllers/TodoController.swift": {
+    "dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/App.build/TodoController.d",
+    "object": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/App.build/Controllers/TodoController.swift.o",
+    "swiftmodule": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/App.build/TodoController~partial.swiftmodule",
+    "swift-dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/App.build/TodoController.swiftdeps"
+  },
+  "/Users/user/Documents/RiseTimeAssets/server/Sources/App/Models/Todo.swift": {
+    "dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/App.build/Todo.d",
+    "object": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/App.build/Models/Todo.swift.o",
+    "swiftmodule": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/App.build/Todo~partial.swiftmodule",
+    "swift-dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/App.build/Todo.swiftdeps"
+  },
+  "/Users/user/Documents/RiseTimeAssets/server/Sources/App/app.swift": {
+    "dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/App.build/app.d",
+    "object": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/App.build/app.swift.o",
+    "swiftmodule": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/App.build/app~partial.swiftmodule",
+    "swift-dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/App.build/app.swiftdeps"
+  },
+  "/Users/user/Documents/RiseTimeAssets/server/Sources/App/boot.swift": {
+    "dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/App.build/boot.d",
+    "object": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/App.build/boot.swift.o",
+    "swiftmodule": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/App.build/boot~partial.swiftmodule",
+    "swift-dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/App.build/boot.swiftdeps"
+  },
+  "/Users/user/Documents/RiseTimeAssets/server/Sources/App/configure.swift": {
+    "dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/App.build/configure.d",
+    "object": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/App.build/configure.swift.o",
+    "swiftmodule": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/App.build/configure~partial.swiftmodule",
+    "swift-dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/App.build/configure.swiftdeps"
+  },
+  "/Users/user/Documents/RiseTimeAssets/server/Sources/App/routes.swift": {
+    "dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/App.build/routes.d",
+    "object": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/App.build/routes.swift.o",
+    "swiftmodule": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/App.build/routes~partial.swiftmodule",
+    "swift-dependencies": "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/App.build/routes.swiftdeps"
+  }
+}

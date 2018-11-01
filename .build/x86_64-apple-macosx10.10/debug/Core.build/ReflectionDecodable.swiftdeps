@@ -1,0 +1,921 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ReflectionDecodable"
+- "AnyReflectionDecodable"
+- "forceCast"
+- "CaseIterable"
+provides-nominal:
+- "4Core19ReflectionDecodableP"
+- "SS"
+- "Su"
+- "s5UInt8V"
+- "s6UInt16V"
+- "s6UInt32V"
+- "s6UInt64V"
+- "Si"
+- "s4Int8V"
+- "s5Int16V"
+- "s5Int32V"
+- "s5Int64V"
+- "Sb"
+- "SC7DecimalV"
+- "Sf"
+- "Sd"
+- "10Foundation4UUIDV"
+- "10Foundation4DataV"
+- "10Foundation4DateV"
+- "Sq"
+- "Sa"
+- "s10DictionaryV"
+- "4Core22AnyReflectionDecodableP"
+- "4Core12CaseIterableP"
+provides-member:
+- ["4Core19ReflectionDecodableP", ""]
+- ["SS", ""]
+- ["s17FixedWidthIntegerP", ""]
+- ["Su", ""]
+- ["s5UInt8V", ""]
+- ["s6UInt16V", ""]
+- ["s6UInt32V", ""]
+- ["s6UInt64V", ""]
+- ["Si", ""]
+- ["s4Int8V", ""]
+- ["s5Int16V", ""]
+- ["s5Int32V", ""]
+- ["s5Int64V", ""]
+- ["Sb", ""]
+- ["s19BinaryFloatingPointP", ""]
+- ["SC7DecimalV", ""]
+- ["Sf", ""]
+- ["Sd", ""]
+- ["10Foundation4UUIDV", ""]
+- ["10Foundation4DataV", ""]
+- ["10Foundation4DateV", ""]
+- ["Sq", ""]
+- ["Sa", ""]
+- ["s10DictionaryV", ""]
+- ["4Core22AnyReflectionDecodableP", ""]
+- ["4Core12CaseIterableP", ""]
+- ["4Core19ReflectionDecodableP", "reflectDecodedIsLeft"]
+- ["s17FixedWidthIntegerP", "reflectDecoded"]
+- ["s19BinaryFloatingPointP", "reflectDecoded"]
+- ["4Core19ReflectionDecodableP", "anyReflectDecoded"]
+- ["4Core19ReflectionDecodableP", "anyReflectDecodedIsLeft"]
+- ["4Core19ReflectionDecodableP", "reflectDecoded"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- !private ">"
+- "AnyReflectionDecodable"
+- "Array"
+- "BinaryFloatingPoint"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CaseIterable"
+- "CastingPrecedence"
+- !private "CoreError"
+- "Data"
+- "Date"
+- "Decimal"
+- "Dictionary"
+- "Double"
+- "Equatable"
+- "FixedWidthInteger"
+- "Float"
+- "Int"
+- "Int16"
+- "Int32"
+- "Int64"
+- "Int8"
+- "Optional"
+- "ReflectionDecodable"
+- "String"
+- !private "StringLiteralType"
+- "UInt"
+- "UInt16"
+- "UInt32"
+- "UInt64"
+- "UInt8"
+- "UUID"
+- !private "UnicodeScalarType"
+- "forceCast"
+depends-member:
+- !private ["4Core15AnyOptionalTypeP", "Wrapped"]
+- ["4Core15AnyOptionalTypeP", "anyReflectDecoded"]
+- ["4Core15AnyOptionalTypeP", "anyReflectDecodedIsLeft"]
+- !private ["4Core15AnyOptionalTypeP", "forceCast"]
+- ["4Core15AnyOptionalTypeP", "reflectDecoded"]
+- ["4Core15AnyOptionalTypeP", "reflectDecodedIsLeft"]
+- ["4Core22AnyReflectionDecodableP", "Bool"]
+- ["4Core22AnyReflectionDecodableP", "CaseIterable"]
+- !private ["4Core22AnyReflectionDecodableP", "CoreError"]
+- !private ["4Core22AnyReflectionDecodableP", "Data"]
+- !private ["4Core22AnyReflectionDecodableP", "Date"]
+- !private ["4Core22AnyReflectionDecodableP", "Element"]
+- ["4Core22AnyReflectionDecodableP", "Equatable"]
+- !private ["4Core22AnyReflectionDecodableP", "Key"]
+- ["4Core22AnyReflectionDecodableP", "Self"]
+- !private ["4Core22AnyReflectionDecodableP", "UUID"]
+- !private ["4Core22AnyReflectionDecodableP", "Value"]
+- !private ["4Core22AnyReflectionDecodableP", "Wrapped"]
+- ["4Core22AnyReflectionDecodableP", ""]
+- !private ["4Core22AnyReflectionDecodableP", "_getBuiltinLogicValue"]
+- !private ["4Core22AnyReflectionDecodableP", "allCases"]
+- ["4Core22AnyReflectionDecodableP", "anyReflectDecoded"]
+- ["4Core22AnyReflectionDecodableP", "anyReflectDecodedIsLeft"]
+- !private ["4Core22AnyReflectionDecodableP", "count"]
+- !private ["4Core22AnyReflectionDecodableP", "first"]
+- !private ["4Core22AnyReflectionDecodableP", "forceCast"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- ["4Core22AnyReflectionDecodableP", "reflectDecoded"]
+- ["4Core22AnyReflectionDecodableP", "reflectDecodedIsLeft"]
+- !private ["4Core22AnyReflectionDecodableP", "subscript"]
+- !private ["4Core22AnyReflectionDecodableP", "suffix"]
+- ["Sa", "Bool"]
+- ["Sa", "Element"]
+- ["Sa", "anyReflectDecoded"]
+- ["Sa", "anyReflectDecodedIsLeft"]
+- !private ["Sa", "count"]
+- ["Sa", "deinit"]
+- !private ["Sa", "first"]
+- !private ["Sa", "forceCast"]
+- ["Sa", "reflectDecoded"]
+- ["Sa", "reflectDecodedIsLeft"]
+- !private ["Sa", "subscript"]
+- !private ["Sa", "suffix"]
+- !private ["s10ArraySliceV", "first"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "_getBuiltinLogicValue"]
+- ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "anyReflectDecoded"]
+- ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "anyReflectDecodedIsLeft"]
+- ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "reflectDecoded"]
+- ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "reflectDecodedIsLeft"]
+- ["4Core21BasicKeyRepresentableP", "anyReflectDecoded"]
+- ["4Core21BasicKeyRepresentableP", "anyReflectDecodedIsLeft"]
+- !private ["4Core21BasicKeyRepresentableP", "init"]
+- ["4Core21BasicKeyRepresentableP", "reflectDecoded"]
+- ["4Core21BasicKeyRepresentableP", "reflectDecodedIsLeft"]
+- !private ["s23BidirectionalCollectionP", "Data"]
+- !private ["s23BidirectionalCollectionP", "Element"]
+- ["s23BidirectionalCollectionP", "anyReflectDecoded"]
+- ["s23BidirectionalCollectionP", "anyReflectDecodedIsLeft"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "first"]
+- !private ["s23BidirectionalCollectionP", "forceCast"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- ["s23BidirectionalCollectionP", "reflectDecoded"]
+- ["s23BidirectionalCollectionP", "reflectDecodedIsLeft"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["s23BidirectionalCollectionP", "suffix"]
+- ["s19BinaryFloatingPointP", "Self"]
+- ["s19BinaryFloatingPointP", "anyReflectDecoded"]
+- ["s19BinaryFloatingPointP", "anyReflectDecodedIsLeft"]
+- ["s19BinaryFloatingPointP", "reflectDecoded"]
+- ["s19BinaryFloatingPointP", "reflectDecodedIsLeft"]
+- ["s13BinaryIntegerP", "Self"]
+- ["s13BinaryIntegerP", "anyReflectDecoded"]
+- ["s13BinaryIntegerP", "anyReflectDecodedIsLeft"]
+- ["s13BinaryIntegerP", "reflectDecoded"]
+- ["s13BinaryIntegerP", "reflectDecodedIsLeft"]
+- ["Sb", "Bool"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "anyReflectDecoded"]
+- ["Sb", "anyReflectDecodedIsLeft"]
+- ["Sb", "deinit"]
+- ["Sb", "reflectDecoded"]
+- ["Sb", "reflectDecodedIsLeft"]
+- !private ["s7CVarArgP", "Element"]
+- !private ["s7CVarArgP", "Key"]
+- !private ["s7CVarArgP", "Value"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "anyReflectDecoded"]
+- ["s7CVarArgP", "anyReflectDecodedIsLeft"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "forceCast"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "reflectDecoded"]
+- ["s7CVarArgP", "reflectDecodedIsLeft"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "suffix"]
+- !private ["4Core12CaseIterableP", "CoreError"]
+- ["4Core12CaseIterableP", "Self"]
+- ["4Core12CaseIterableP", "allCases"]
+- !private ["s10CollectionP", "Data"]
+- !private ["s10CollectionP", "Element"]
+- !private ["s10CollectionP", "Key"]
+- !private ["s10CollectionP", "Value"]
+- ["s10CollectionP", "anyReflectDecoded"]
+- ["s10CollectionP", "anyReflectDecodedIsLeft"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "first"]
+- !private ["s10CollectionP", "forceCast"]
+- !private ["s10CollectionP", "init"]
+- ["s10CollectionP", "reflectDecoded"]
+- ["s10CollectionP", "reflectDecodedIsLeft"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10CollectionP", "suffix"]
+- !private ["s10ComparableP", "Date"]
+- ["s10ComparableP", "Self"]
+- ["s10ComparableP", "anyReflectDecoded"]
+- ["s10ComparableP", "anyReflectDecodedIsLeft"]
+- !private ["s10ComparableP", "init"]
+- ["s10ComparableP", "reflectDecoded"]
+- ["s10ComparableP", "reflectDecodedIsLeft"]
+- !private ["3NIO20ContiguousCollectionP", "Data"]
+- !private ["3NIO20ContiguousCollectionP", "Element"]
+- ["3NIO20ContiguousCollectionP", "anyReflectDecoded"]
+- ["3NIO20ContiguousCollectionP", "anyReflectDecodedIsLeft"]
+- !private ["3NIO20ContiguousCollectionP", "count"]
+- !private ["3NIO20ContiguousCollectionP", "first"]
+- !private ["3NIO20ContiguousCollectionP", "forceCast"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- ["3NIO20ContiguousCollectionP", "reflectDecoded"]
+- ["3NIO20ContiguousCollectionP", "reflectDecodedIsLeft"]
+- !private ["3NIO20ContiguousCollectionP", "subscript"]
+- !private ["3NIO20ContiguousCollectionP", "suffix"]
+- !private ["4Core0A5ErrorV", "deinit"]
+- !private ["4Core0A5ErrorV", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Data"]
+- !private ["s28CustomDebugStringConvertibleP", "Date"]
+- !private ["s28CustomDebugStringConvertibleP", "Element"]
+- !private ["s28CustomDebugStringConvertibleP", "Key"]
+- !private ["s28CustomDebugStringConvertibleP", "UUID"]
+- !private ["s28CustomDebugStringConvertibleP", "Value"]
+- !private ["s28CustomDebugStringConvertibleP", "Wrapped"]
+- ["s28CustomDebugStringConvertibleP", "anyReflectDecoded"]
+- ["s28CustomDebugStringConvertibleP", "anyReflectDecodedIsLeft"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "forceCast"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "reflectDecoded"]
+- ["s28CustomDebugStringConvertibleP", "reflectDecodedIsLeft"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "suffix"]
+- !private ["s29CustomPlaygroundQuickLookableP", "Date"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "anyReflectDecoded"]
+- ["s29CustomPlaygroundQuickLookableP", "anyReflectDecodedIsLeft"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "reflectDecoded"]
+- ["s29CustomPlaygroundQuickLookableP", "reflectDecodedIsLeft"]
+- !private ["s17CustomReflectableP", "Data"]
+- !private ["s17CustomReflectableP", "Date"]
+- !private ["s17CustomReflectableP", "Element"]
+- !private ["s17CustomReflectableP", "Key"]
+- !private ["s17CustomReflectableP", "UUID"]
+- !private ["s17CustomReflectableP", "Value"]
+- !private ["s17CustomReflectableP", "Wrapped"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "anyReflectDecoded"]
+- ["s17CustomReflectableP", "anyReflectDecodedIsLeft"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "forceCast"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "reflectDecoded"]
+- ["s17CustomReflectableP", "reflectDecodedIsLeft"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "suffix"]
+- !private ["s23CustomStringConvertibleP", "Data"]
+- !private ["s23CustomStringConvertibleP", "Date"]
+- !private ["s23CustomStringConvertibleP", "Element"]
+- !private ["s23CustomStringConvertibleP", "Key"]
+- ["s23CustomStringConvertibleP", "Self"]
+- !private ["s23CustomStringConvertibleP", "UUID"]
+- !private ["s23CustomStringConvertibleP", "Value"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "anyReflectDecoded"]
+- ["s23CustomStringConvertibleP", "anyReflectDecodedIsLeft"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "forceCast"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "reflectDecoded"]
+- ["s23CustomStringConvertibleP", "reflectDecodedIsLeft"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "suffix"]
+- ["10Foundation4DataV", "Data"]
+- ["10Foundation4DataV", "anyReflectDecoded"]
+- ["10Foundation4DataV", "anyReflectDecodedIsLeft"]
+- ["10Foundation4DataV", "deinit"]
+- !private ["10Foundation4DataV", "init"]
+- ["10Foundation4DataV", "reflectDecoded"]
+- ["10Foundation4DataV", "reflectDecodedIsLeft"]
+- ["10Foundation4DateV", "Date"]
+- ["10Foundation4DateV", "anyReflectDecoded"]
+- ["10Foundation4DateV", "anyReflectDecodedIsLeft"]
+- ["10Foundation4DateV", "deinit"]
+- !private ["10Foundation4DateV", "init"]
+- ["10Foundation4DateV", "reflectDecoded"]
+- ["10Foundation4DateV", "reflectDecodedIsLeft"]
+- !private ["9Debugging10DebuggableP", "init"]
+- ["SC7DecimalV", "Decimal"]
+- ["SC7DecimalV", "anyReflectDecoded"]
+- ["SC7DecimalV", "anyReflectDecodedIsLeft"]
+- ["SC7DecimalV", "deinit"]
+- ["SC7DecimalV", "reflectDecoded"]
+- ["SC7DecimalV", "reflectDecodedIsLeft"]
+- !private ["s9DecodableP", "Data"]
+- !private ["s9DecodableP", "Date"]
+- !private ["s9DecodableP", "Element"]
+- !private ["s9DecodableP", "Key"]
+- !private ["s9DecodableP", "UUID"]
+- !private ["s9DecodableP", "Value"]
+- !private ["s9DecodableP", "Wrapped"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- ["s9DecodableP", "anyReflectDecoded"]
+- ["s9DecodableP", "anyReflectDecodedIsLeft"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "first"]
+- !private ["s9DecodableP", "forceCast"]
+- !private ["s9DecodableP", "init"]
+- ["s9DecodableP", "reflectDecoded"]
+- ["s9DecodableP", "reflectDecodedIsLeft"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9DecodableP", "suffix"]
+- ["s10DictionaryV", "Bool"]
+- ["s10DictionaryV", "Key"]
+- ["s10DictionaryV", "Value"]
+- ["s10DictionaryV", "anyReflectDecoded"]
+- ["s10DictionaryV", "anyReflectDecodedIsLeft"]
+- ["s10DictionaryV", "deinit"]
+- !private ["s10DictionaryV", "forceCast"]
+- ["s10DictionaryV", "reflectDecoded"]
+- ["s10DictionaryV", "reflectDecodedIsLeft"]
+- !private ["s10DictionaryV", "subscript"]
+- ["Sd", "anyReflectDecoded"]
+- ["Sd", "anyReflectDecodedIsLeft"]
+- ["Sd", "deinit"]
+- ["Sd", "reflectDecoded"]
+- ["Sd", "reflectDecodedIsLeft"]
+- !private ["s9EncodableP", "Data"]
+- !private ["s9EncodableP", "Date"]
+- !private ["s9EncodableP", "Element"]
+- !private ["s9EncodableP", "Key"]
+- !private ["s9EncodableP", "UUID"]
+- !private ["s9EncodableP", "Value"]
+- !private ["s9EncodableP", "Wrapped"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EncodableP", "anyReflectDecoded"]
+- ["s9EncodableP", "anyReflectDecodedIsLeft"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "first"]
+- !private ["s9EncodableP", "forceCast"]
+- !private ["s9EncodableP", "init"]
+- ["s9EncodableP", "reflectDecoded"]
+- ["s9EncodableP", "reflectDecodedIsLeft"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EncodableP", "suffix"]
+- ["s9EquatableP", "Bool"]
+- !private ["s9EquatableP", "Data"]
+- !private ["s9EquatableP", "Date"]
+- !private ["s9EquatableP", "Element"]
+- !private ["s9EquatableP", "Key"]
+- ["s9EquatableP", "Self"]
+- !private ["s9EquatableP", "UUID"]
+- !private ["s9EquatableP", "Value"]
+- !private ["s9EquatableP", "Wrapped"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "anyReflectDecoded"]
+- ["s9EquatableP", "anyReflectDecodedIsLeft"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "first"]
+- !private ["s9EquatableP", "forceCast"]
+- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", "reflectDecoded"]
+- ["s9EquatableP", "reflectDecodedIsLeft"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "suffix"]
+- !private ["s5ErrorP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "Element"]
+- ["s25ExpressibleByArrayLiteralP", "anyReflectDecoded"]
+- ["s25ExpressibleByArrayLiteralP", "anyReflectDecodedIsLeft"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "forceCast"]
+- ["s25ExpressibleByArrayLiteralP", "reflectDecoded"]
+- ["s25ExpressibleByArrayLiteralP", "reflectDecodedIsLeft"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "suffix"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s27ExpressibleByBooleanLiteralP", "anyReflectDecoded"]
+- ["s27ExpressibleByBooleanLiteralP", "anyReflectDecodedIsLeft"]
+- ["s27ExpressibleByBooleanLiteralP", "reflectDecoded"]
+- ["s27ExpressibleByBooleanLiteralP", "reflectDecodedIsLeft"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- ["s30ExpressibleByDictionaryLiteralP", "anyReflectDecoded"]
+- ["s30ExpressibleByDictionaryLiteralP", "anyReflectDecodedIsLeft"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "forceCast"]
+- ["s30ExpressibleByDictionaryLiteralP", "reflectDecoded"]
+- ["s30ExpressibleByDictionaryLiteralP", "reflectDecodedIsLeft"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "anyReflectDecoded"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "anyReflectDecodedIsLeft"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "reflectDecoded"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "reflectDecodedIsLeft"]
+- ["s25ExpressibleByFloatLiteralP", "Self"]
+- ["s25ExpressibleByFloatLiteralP", "anyReflectDecoded"]
+- ["s25ExpressibleByFloatLiteralP", "anyReflectDecodedIsLeft"]
+- ["s25ExpressibleByFloatLiteralP", "reflectDecoded"]
+- ["s25ExpressibleByFloatLiteralP", "reflectDecodedIsLeft"]
+- ["s27ExpressibleByIntegerLiteralP", "Self"]
+- ["s27ExpressibleByIntegerLiteralP", "anyReflectDecoded"]
+- ["s27ExpressibleByIntegerLiteralP", "anyReflectDecodedIsLeft"]
+- ["s27ExpressibleByIntegerLiteralP", "reflectDecoded"]
+- ["s27ExpressibleByIntegerLiteralP", "reflectDecodedIsLeft"]
+- !private ["s23ExpressibleByNilLiteralP", "Wrapped"]
+- ["s23ExpressibleByNilLiteralP", "anyReflectDecoded"]
+- ["s23ExpressibleByNilLiteralP", "anyReflectDecodedIsLeft"]
+- !private ["s23ExpressibleByNilLiteralP", "forceCast"]
+- ["s23ExpressibleByNilLiteralP", "reflectDecoded"]
+- ["s23ExpressibleByNilLiteralP", "reflectDecodedIsLeft"]
+- ["s26ExpressibleByStringLiteralP", "anyReflectDecoded"]
+- ["s26ExpressibleByStringLiteralP", "anyReflectDecodedIsLeft"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "reflectDecoded"]
+- ["s26ExpressibleByStringLiteralP", "reflectDecodedIsLeft"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "anyReflectDecoded"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "anyReflectDecodedIsLeft"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "reflectDecoded"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "reflectDecodedIsLeft"]
+- ["s17FixedWidthIntegerP", "Self"]
+- ["s17FixedWidthIntegerP", "anyReflectDecoded"]
+- ["s17FixedWidthIntegerP", "anyReflectDecodedIsLeft"]
+- ["s17FixedWidthIntegerP", "reflectDecoded"]
+- ["s17FixedWidthIntegerP", "reflectDecodedIsLeft"]
+- ["Sf", "anyReflectDecoded"]
+- ["Sf", "anyReflectDecodedIsLeft"]
+- ["Sf", "deinit"]
+- ["Sf", "reflectDecoded"]
+- ["Sf", "reflectDecodedIsLeft"]
+- ["s13FloatingPointP", "Self"]
+- ["s13FloatingPointP", "anyReflectDecoded"]
+- ["s13FloatingPointP", "anyReflectDecodedIsLeft"]
+- ["s13FloatingPointP", "reflectDecoded"]
+- ["s13FloatingPointP", "reflectDecodedIsLeft"]
+- !private ["s8HashableP", "Data"]
+- !private ["s8HashableP", "Date"]
+- ["s8HashableP", "Self"]
+- !private ["s8HashableP", "UUID"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "anyReflectDecoded"]
+- ["s8HashableP", "anyReflectDecodedIsLeft"]
+- !private ["s8HashableP", "init"]
+- ["s8HashableP", "reflectDecoded"]
+- ["s8HashableP", "reflectDecodedIsLeft"]
+- ["Si", "anyReflectDecoded"]
+- ["Si", "anyReflectDecodedIsLeft"]
+- ["Si", "deinit"]
+- ["Si", "reflectDecoded"]
+- ["Si", "reflectDecodedIsLeft"]
+- ["s5Int16V", "anyReflectDecoded"]
+- ["s5Int16V", "anyReflectDecodedIsLeft"]
+- ["s5Int16V", "deinit"]
+- ["s5Int16V", "reflectDecoded"]
+- ["s5Int16V", "reflectDecodedIsLeft"]
+- ["s5Int32V", "anyReflectDecoded"]
+- ["s5Int32V", "anyReflectDecodedIsLeft"]
+- ["s5Int32V", "deinit"]
+- ["s5Int32V", "reflectDecoded"]
+- ["s5Int32V", "reflectDecodedIsLeft"]
+- ["s5Int64V", "anyReflectDecoded"]
+- ["s5Int64V", "anyReflectDecodedIsLeft"]
+- ["s5Int64V", "deinit"]
+- ["s5Int64V", "reflectDecoded"]
+- ["s5Int64V", "reflectDecodedIsLeft"]
+- ["s4Int8V", "anyReflectDecoded"]
+- ["s4Int8V", "anyReflectDecodedIsLeft"]
+- ["s4Int8V", "deinit"]
+- ["s4Int8V", "reflectDecoded"]
+- ["s4Int8V", "reflectDecodedIsLeft"]
+- !private ["10Foundation14LocalizedErrorP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "Data"]
+- !private ["4Core23LosslessDataConvertibleP", "Element"]
+- ["4Core23LosslessDataConvertibleP", "anyReflectDecoded"]
+- ["4Core23LosslessDataConvertibleP", "anyReflectDecodedIsLeft"]
+- !private ["4Core23LosslessDataConvertibleP", "count"]
+- !private ["4Core23LosslessDataConvertibleP", "first"]
+- !private ["4Core23LosslessDataConvertibleP", "forceCast"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- ["4Core23LosslessDataConvertibleP", "reflectDecoded"]
+- ["4Core23LosslessDataConvertibleP", "reflectDecodedIsLeft"]
+- !private ["4Core23LosslessDataConvertibleP", "subscript"]
+- !private ["4Core23LosslessDataConvertibleP", "suffix"]
+- ["s25LosslessStringConvertibleP", "Self"]
+- !private ["s25LosslessStringConvertibleP", "UUID"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "anyReflectDecoded"]
+- ["s25LosslessStringConvertibleP", "anyReflectDecodedIsLeft"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "reflectDecoded"]
+- ["s25LosslessStringConvertibleP", "reflectDecodedIsLeft"]
+- ["s10MirrorPathP", "anyReflectDecoded"]
+- ["s10MirrorPathP", "anyReflectDecodedIsLeft"]
+- !private ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "reflectDecoded"]
+- ["s10MirrorPathP", "reflectDecodedIsLeft"]
+- !private ["s17MutableCollectionP", "Data"]
+- !private ["s17MutableCollectionP", "Element"]
+- ["s17MutableCollectionP", "anyReflectDecoded"]
+- ["s17MutableCollectionP", "anyReflectDecodedIsLeft"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "first"]
+- !private ["s17MutableCollectionP", "forceCast"]
+- !private ["s17MutableCollectionP", "init"]
+- ["s17MutableCollectionP", "reflectDecoded"]
+- ["s17MutableCollectionP", "reflectDecodedIsLeft"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["s17MutableCollectionP", "suffix"]
+- ["s7NumericP", "Self"]
+- ["s7NumericP", "anyReflectDecoded"]
+- ["s7NumericP", "anyReflectDecodedIsLeft"]
+- ["s7NumericP", "reflectDecoded"]
+- ["s7NumericP", "reflectDecodedIsLeft"]
+- ["Sq", "Bool"]
+- ["Sq", "Wrapped"]
+- ["Sq", "anyReflectDecoded"]
+- ["Sq", "anyReflectDecodedIsLeft"]
+- ["Sq", "deinit"]
+- !private ["Sq", "forceCast"]
+- ["Sq", "reflectDecoded"]
+- ["Sq", "reflectDecodedIsLeft"]
+- !private ["4Core12OptionalTypeP", "Wrapped"]
+- ["4Core12OptionalTypeP", "anyReflectDecoded"]
+- ["4Core12OptionalTypeP", "anyReflectDecodedIsLeft"]
+- !private ["4Core12OptionalTypeP", "forceCast"]
+- ["4Core12OptionalTypeP", "reflectDecoded"]
+- ["4Core12OptionalTypeP", "reflectDecodedIsLeft"]
+- !private ["s22RandomAccessCollectionP", "Data"]
+- !private ["s22RandomAccessCollectionP", "Element"]
+- ["s22RandomAccessCollectionP", "anyReflectDecoded"]
+- ["s22RandomAccessCollectionP", "anyReflectDecodedIsLeft"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "first"]
+- !private ["s22RandomAccessCollectionP", "forceCast"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- ["s22RandomAccessCollectionP", "reflectDecoded"]
+- ["s22RandomAccessCollectionP", "reflectDecodedIsLeft"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s22RandomAccessCollectionP", "suffix"]
+- !private ["s26RangeReplaceableCollectionP", "Data"]
+- !private ["s26RangeReplaceableCollectionP", "Element"]
+- ["s26RangeReplaceableCollectionP", "anyReflectDecoded"]
+- ["s26RangeReplaceableCollectionP", "anyReflectDecodedIsLeft"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "first"]
+- !private ["s26RangeReplaceableCollectionP", "forceCast"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- ["s26RangeReplaceableCollectionP", "reflectDecoded"]
+- ["s26RangeReplaceableCollectionP", "reflectDecodedIsLeft"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "suffix"]
+- !private ["10Foundation20ReferenceConvertibleP", "Data"]
+- !private ["10Foundation20ReferenceConvertibleP", "Date"]
+- !private ["10Foundation20ReferenceConvertibleP", "UUID"]
+- ["10Foundation20ReferenceConvertibleP", "anyReflectDecoded"]
+- ["10Foundation20ReferenceConvertibleP", "anyReflectDecodedIsLeft"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- ["10Foundation20ReferenceConvertibleP", "reflectDecoded"]
+- ["10Foundation20ReferenceConvertibleP", "reflectDecodedIsLeft"]
+- ["4Core19ReflectionDecodableP", "Bool"]
+- ["4Core19ReflectionDecodableP", "CaseIterable"]
+- !private ["4Core19ReflectionDecodableP", "CoreError"]
+- !private ["4Core19ReflectionDecodableP", "Data"]
+- !private ["4Core19ReflectionDecodableP", "Date"]
+- !private ["4Core19ReflectionDecodableP", "Element"]
+- ["4Core19ReflectionDecodableP", "Equatable"]
+- !private ["4Core19ReflectionDecodableP", "Key"]
+- ["4Core19ReflectionDecodableP", "Self"]
+- !private ["4Core19ReflectionDecodableP", "UUID"]
+- !private ["4Core19ReflectionDecodableP", "Value"]
+- !private ["4Core19ReflectionDecodableP", "Wrapped"]
+- ["4Core19ReflectionDecodableP", ""]
+- !private ["4Core19ReflectionDecodableP", "_getBuiltinLogicValue"]
+- !private ["4Core19ReflectionDecodableP", "allCases"]
+- ["4Core19ReflectionDecodableP", "anyReflectDecoded"]
+- ["4Core19ReflectionDecodableP", "anyReflectDecodedIsLeft"]
+- !private ["4Core19ReflectionDecodableP", "count"]
+- !private ["4Core19ReflectionDecodableP", "first"]
+- !private ["4Core19ReflectionDecodableP", "forceCast"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- ["4Core19ReflectionDecodableP", "reflectDecoded"]
+- ["4Core19ReflectionDecodableP", "reflectDecodedIsLeft"]
+- !private ["4Core19ReflectionDecodableP", "subscript"]
+- !private ["4Core19ReflectionDecodableP", "suffix"]
+- !private ["s8SequenceP", "Data"]
+- !private ["s8SequenceP", "Element"]
+- !private ["s8SequenceP", "Key"]
+- !private ["s8SequenceP", "Value"]
+- ["s8SequenceP", "anyReflectDecoded"]
+- ["s8SequenceP", "anyReflectDecodedIsLeft"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "first"]
+- !private ["s8SequenceP", "forceCast"]
+- !private ["s8SequenceP", "init"]
+- ["s8SequenceP", "reflectDecoded"]
+- ["s8SequenceP", "reflectDecodedIsLeft"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s8SequenceP", "suffix"]
+- ["s13SignedIntegerP", "anyReflectDecoded"]
+- ["s13SignedIntegerP", "anyReflectDecodedIsLeft"]
+- ["s13SignedIntegerP", "reflectDecoded"]
+- ["s13SignedIntegerP", "reflectDecodedIsLeft"]
+- ["s13SignedNumericP", "Self"]
+- ["s13SignedNumericP", "anyReflectDecoded"]
+- ["s13SignedNumericP", "anyReflectDecodedIsLeft"]
+- ["s13SignedNumericP", "reflectDecoded"]
+- ["s13SignedNumericP", "reflectDecodedIsLeft"]
+- ["s10StrideableP", "Self"]
+- ["s10StrideableP", "anyReflectDecoded"]
+- ["s10StrideableP", "anyReflectDecodedIsLeft"]
+- ["s10StrideableP", "reflectDecoded"]
+- ["s10StrideableP", "reflectDecodedIsLeft"]
+- ["SS", "String"]
+- ["SS", "anyReflectDecoded"]
+- ["SS", "anyReflectDecodedIsLeft"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- ["SS", "reflectDecoded"]
+- ["SS", "reflectDecodedIsLeft"]
+- ["s14StringProtocolP", "anyReflectDecoded"]
+- ["s14StringProtocolP", "anyReflectDecodedIsLeft"]
+- !private ["s14StringProtocolP", "init"]
+- ["s14StringProtocolP", "reflectDecoded"]
+- ["s14StringProtocolP", "reflectDecodedIsLeft"]
+- ["s16TextOutputStreamP", "anyReflectDecoded"]
+- ["s16TextOutputStreamP", "anyReflectDecodedIsLeft"]
+- !private ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "reflectDecoded"]
+- ["s16TextOutputStreamP", "reflectDecodedIsLeft"]
+- ["s20TextOutputStreamableP", "anyReflectDecoded"]
+- ["s20TextOutputStreamableP", "anyReflectDecodedIsLeft"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "reflectDecoded"]
+- ["s20TextOutputStreamableP", "reflectDecodedIsLeft"]
+- ["Su", "anyReflectDecoded"]
+- ["Su", "anyReflectDecodedIsLeft"]
+- ["Su", "deinit"]
+- ["Su", "reflectDecoded"]
+- ["Su", "reflectDecodedIsLeft"]
+- ["s6UInt16V", "anyReflectDecoded"]
+- ["s6UInt16V", "anyReflectDecodedIsLeft"]
+- ["s6UInt16V", "deinit"]
+- ["s6UInt16V", "reflectDecoded"]
+- ["s6UInt16V", "reflectDecodedIsLeft"]
+- ["s6UInt32V", "anyReflectDecoded"]
+- ["s6UInt32V", "anyReflectDecodedIsLeft"]
+- ["s6UInt32V", "deinit"]
+- ["s6UInt32V", "reflectDecoded"]
+- ["s6UInt32V", "reflectDecodedIsLeft"]
+- ["s6UInt64V", "anyReflectDecoded"]
+- ["s6UInt64V", "anyReflectDecodedIsLeft"]
+- ["s6UInt64V", "deinit"]
+- ["s6UInt64V", "reflectDecoded"]
+- ["s6UInt64V", "reflectDecodedIsLeft"]
+- ["s5UInt8V", "anyReflectDecoded"]
+- ["s5UInt8V", "anyReflectDecodedIsLeft"]
+- ["s5UInt8V", "deinit"]
+- ["s5UInt8V", "reflectDecoded"]
+- ["s5UInt8V", "reflectDecodedIsLeft"]
+- ["10Foundation4UUIDV", "UUID"]
+- ["10Foundation4UUIDV", "anyReflectDecoded"]
+- ["10Foundation4UUIDV", "anyReflectDecodedIsLeft"]
+- ["10Foundation4UUIDV", "deinit"]
+- !private ["10Foundation4UUIDV", "init"]
+- ["10Foundation4UUIDV", "reflectDecoded"]
+- ["10Foundation4UUIDV", "reflectDecodedIsLeft"]
+- ["s15UnsignedIntegerP", "anyReflectDecoded"]
+- ["s15UnsignedIntegerP", "anyReflectDecodedIsLeft"]
+- ["s15UnsignedIntegerP", "reflectDecoded"]
+- ["s15UnsignedIntegerP", "reflectDecodedIsLeft"]
+- !private ["s14_ArrayProtocolP", "Element"]
+- ["s14_ArrayProtocolP", "anyReflectDecoded"]
+- ["s14_ArrayProtocolP", "anyReflectDecodedIsLeft"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "forceCast"]
+- ["s14_ArrayProtocolP", "reflectDecoded"]
+- ["s14_ArrayProtocolP", "reflectDecodedIsLeft"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s14_ArrayProtocolP", "suffix"]
+- ["s18_BitwiseOperationsP", "Self"]
+- ["s18_BitwiseOperationsP", "anyReflectDecoded"]
+- ["s18_BitwiseOperationsP", "anyReflectDecodedIsLeft"]
+- ["s18_BitwiseOperationsP", "reflectDecoded"]
+- ["s18_BitwiseOperationsP", "reflectDecodedIsLeft"]
+- ["s15_CVarArgAlignedP", "anyReflectDecoded"]
+- ["s15_CVarArgAlignedP", "anyReflectDecodedIsLeft"]
+- ["s15_CVarArgAlignedP", "reflectDecoded"]
+- ["s15_CVarArgAlignedP", "reflectDecodedIsLeft"]
+- ["s22_CVarArgPassedAsDoubleP", "anyReflectDecoded"]
+- ["s22_CVarArgPassedAsDoubleP", "anyReflectDecodedIsLeft"]
+- ["s22_CVarArgPassedAsDoubleP", "reflectDecoded"]
+- ["s22_CVarArgPassedAsDoubleP", "reflectDecodedIsLeft"]
+- !private ["s24_DestructorSafeContainerP", "Element"]
+- ["s24_DestructorSafeContainerP", "anyReflectDecoded"]
+- ["s24_DestructorSafeContainerP", "anyReflectDecodedIsLeft"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "forceCast"]
+- ["s24_DestructorSafeContainerP", "reflectDecoded"]
+- ["s24_DestructorSafeContainerP", "reflectDecodedIsLeft"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "suffix"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "anyReflectDecoded"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "anyReflectDecodedIsLeft"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "reflectDecoded"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "reflectDecodedIsLeft"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "anyReflectDecoded"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "anyReflectDecodedIsLeft"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "reflectDecoded"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "reflectDecodedIsLeft"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "anyReflectDecoded"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "anyReflectDecodedIsLeft"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "reflectDecoded"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "reflectDecodedIsLeft"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "anyReflectDecoded"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "anyReflectDecodedIsLeft"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "reflectDecoded"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "reflectDecodedIsLeft"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "anyReflectDecoded"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "anyReflectDecodedIsLeft"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "reflectDecoded"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "reflectDecodedIsLeft"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "anyReflectDecoded"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "anyReflectDecodedIsLeft"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "reflectDecoded"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "reflectDecodedIsLeft"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "anyReflectDecoded"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "anyReflectDecodedIsLeft"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "reflectDecoded"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "reflectDecodedIsLeft"]
+- ["s33_ExpressibleByStringInterpolationP", "anyReflectDecoded"]
+- ["s33_ExpressibleByStringInterpolationP", "anyReflectDecodedIsLeft"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "reflectDecoded"]
+- ["s33_ExpressibleByStringInterpolationP", "reflectDecodedIsLeft"]
+- !private ["s21_ObjectiveCBridgeableP", "Data"]
+- !private ["s21_ObjectiveCBridgeableP", "Date"]
+- !private ["s21_ObjectiveCBridgeableP", "Element"]
+- !private ["s21_ObjectiveCBridgeableP", "Key"]
+- !private ["s21_ObjectiveCBridgeableP", "UUID"]
+- !private ["s21_ObjectiveCBridgeableP", "Value"]
+- !private ["s21_ObjectiveCBridgeableP", "Wrapped"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "anyReflectDecoded"]
+- ["s21_ObjectiveCBridgeableP", "anyReflectDecodedIsLeft"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "forceCast"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "reflectDecoded"]
+- ["s21_ObjectiveCBridgeableP", "reflectDecodedIsLeft"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "suffix"]
+- ["s14_StringElementP", "anyReflectDecoded"]
+- ["s14_StringElementP", "anyReflectDecodedIsLeft"]
+- ["s14_StringElementP", "reflectDecoded"]
+- ["s14_StringElementP", "reflectDecodedIsLeft"]
+- ["s16_SwiftStringViewP", "anyReflectDecoded"]
+- ["s16_SwiftStringViewP", "anyReflectDecodedIsLeft"]
+- !private ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "reflectDecoded"]
+- ["s16_SwiftStringViewP", "reflectDecodedIsLeft"]
+depends-nominal:
+- "4Core15AnyOptionalTypeP"
+- "4Core22AnyReflectionDecodableP"
+- "Sa"
+- !private "s10ArraySliceV"
+- "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- "4Core21BasicKeyRepresentableP"
+- "s23BidirectionalCollectionP"
+- "s19BinaryFloatingPointP"
+- "s13BinaryIntegerP"
+- "Sb"
+- "s7CVarArgP"
+- "4Core12CaseIterableP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "3NIO20ContiguousCollectionP"
+- !private "4Core0A5ErrorV"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation4DataV"
+- "10Foundation4DateV"
+- !private "9Debugging10DebuggableP"
+- "SC7DecimalV"
+- "s9DecodableP"
+- "s10DictionaryV"
+- "Sd"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s5ErrorP"
+- "s25ExpressibleByArrayLiteralP"
+- "s27ExpressibleByBooleanLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s23ExpressibleByNilLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s17FixedWidthIntegerP"
+- "Sf"
+- "s13FloatingPointP"
+- "s8HashableP"
+- "Si"
+- "s5Int16V"
+- "s5Int32V"
+- "s5Int64V"
+- "s4Int8V"
+- !private "10Foundation14LocalizedErrorP"
+- "4Core23LosslessDataConvertibleP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "s17MutableCollectionP"
+- "s7NumericP"
+- "Sq"
+- "4Core12OptionalTypeP"
+- "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- "10Foundation20ReferenceConvertibleP"
+- "4Core19ReflectionDecodableP"
+- "s8SequenceP"
+- "s13SignedIntegerP"
+- "s13SignedNumericP"
+- "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "Su"
+- "s6UInt16V"
+- "s6UInt32V"
+- "s6UInt64V"
+- "s5UInt8V"
+- "10Foundation4UUIDV"
+- "s15UnsignedIntegerP"
+- "s14_ArrayProtocolP"
+- "s18_BitwiseOperationsP"
+- "s15_CVarArgAlignedP"
+- "s22_CVarArgPassedAsDoubleP"
+- "s24_DestructorSafeContainerP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s21_ObjectiveCBridgeableP"
+- "s14_StringElementP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Async.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/COperatingSystem.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOFoundationCompat.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio-zlib-support.git--1071467962839356487/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "796d3ea2caeb8b4de3566a716c692bbf"

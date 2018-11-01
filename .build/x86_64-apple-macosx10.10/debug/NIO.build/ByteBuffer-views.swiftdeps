@@ -1,0 +1,464 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ByteBufferView"
+provides-nominal:
+- "3NIO14ByteBufferViewV"
+provides-member:
+- ["3NIO14ByteBufferViewV", ""]
+- ["3NIO10ByteBufferV", ""]
+- ["3NIO10ByteBufferV", "readableBytesView"]
+- ["3NIO10ByteBufferV", "viewBytes"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&&"
+- !private "+"
+- !private "..<"
+- !private "<"
+- !private ">="
+- "AssignmentPrecedence"
+- "ByteBuffer"
+- "ByteBufferView"
+- "ContiguousCollection"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "RandomAccessCollection"
+- "Range"
+- !private "StringLiteralType"
+- "UInt8"
+- "UnsafeRawBufferPointer"
+- !private "precondition"
+- !private "preconditionFailure"
+depends-member:
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "_getBuiltinLogicValue"]
+- !private ["s23BidirectionalCollectionP", "ByteBufferView"]
+- ["s23BidirectionalCollectionP", "Element"]
+- ["s23BidirectionalCollectionP", "Index"]
+- ["s23BidirectionalCollectionP", "Indices"]
+- ["s23BidirectionalCollectionP", "Iterator"]
+- ["s23BidirectionalCollectionP", "SubSequence"]
+- !private ["s23BidirectionalCollectionP", "UnsafeRawBufferPointer"]
+- ["s23BidirectionalCollectionP", ""]
+- ["s23BidirectionalCollectionP", "_Default_Indices"]
+- ["s23BidirectionalCollectionP", "_Default_Iterator"]
+- ["s23BidirectionalCollectionP", "_copyContents"]
+- ["s23BidirectionalCollectionP", "_copyToContiguousArray"]
+- ["s23BidirectionalCollectionP", "_customContainsEquatableElement"]
+- ["s23BidirectionalCollectionP", "_customIndexOfEquatableElement"]
+- ["s23BidirectionalCollectionP", "_failEarlyRangeCheck"]
+- ["s23BidirectionalCollectionP", "_preprocessingPass"]
+- !private ["s23BidirectionalCollectionP", "baseAddress"]
+- !private ["s23BidirectionalCollectionP", "buffer"]
+- ["s23BidirectionalCollectionP", "count"]
+- ["s23BidirectionalCollectionP", "distance"]
+- ["s23BidirectionalCollectionP", "drop"]
+- ["s23BidirectionalCollectionP", "dropFirst"]
+- ["s23BidirectionalCollectionP", "dropLast"]
+- ["s23BidirectionalCollectionP", "endIndex"]
+- ["s23BidirectionalCollectionP", "filter"]
+- ["s23BidirectionalCollectionP", "first"]
+- ["s23BidirectionalCollectionP", "forEach"]
+- ["s23BidirectionalCollectionP", "formIndex"]
+- ["s23BidirectionalCollectionP", "index"]
+- ["s23BidirectionalCollectionP", "indices"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- ["s23BidirectionalCollectionP", "isEmpty"]
+- ["s23BidirectionalCollectionP", "last"]
+- ["s23BidirectionalCollectionP", "makeIterator"]
+- ["s23BidirectionalCollectionP", "map"]
+- !private ["s23BidirectionalCollectionP", "precondition"]
+- !private ["s23BidirectionalCollectionP", "preconditionFailure"]
+- ["s23BidirectionalCollectionP", "prefix"]
+- !private ["s23BidirectionalCollectionP", "range"]
+- ["s23BidirectionalCollectionP", "split"]
+- ["s23BidirectionalCollectionP", "startIndex"]
+- ["s23BidirectionalCollectionP", "subscript"]
+- ["s23BidirectionalCollectionP", "suffix"]
+- ["s23BidirectionalCollectionP", "underestimatedCount"]
+- ["s23BidirectionalCollectionP", "withUnsafeBytes"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["3NIO10ByteBufferV", "ByteBufferView"]
+- ["3NIO10ByteBufferV", "Int"]
+- !private ["3NIO10ByteBufferV", "capacity"]
+- !private ["3NIO10ByteBufferV", "getInteger"]
+- !private ["3NIO10ByteBufferV", "readableBytes"]
+- ["3NIO10ByteBufferV", "readableBytesView"]
+- !private ["3NIO10ByteBufferV", "readerIndex"]
+- ["3NIO10ByteBufferV", "viewBytes"]
+- !private ["3NIO10ByteBufferV", "withVeryUnsafeBytes"]
+- ["3NIO14ByteBufferViewV", "ByteBuffer"]
+- ["3NIO14ByteBufferViewV", "ByteBufferView"]
+- ["3NIO14ByteBufferViewV", "Element"]
+- ["3NIO14ByteBufferViewV", "Index"]
+- ["3NIO14ByteBufferViewV", "Indices"]
+- ["3NIO14ByteBufferViewV", "Int"]
+- ["3NIO14ByteBufferViewV", "Iterator"]
+- ["3NIO14ByteBufferViewV", "Range"]
+- ["3NIO14ByteBufferViewV", "SubSequence"]
+- ["3NIO14ByteBufferViewV", "UInt8"]
+- ["3NIO14ByteBufferViewV", "UnsafeRawBufferPointer"]
+- ["3NIO14ByteBufferViewV", "_Default_Indices"]
+- ["3NIO14ByteBufferViewV", "_Default_Iterator"]
+- ["3NIO14ByteBufferViewV", "_copyContents"]
+- ["3NIO14ByteBufferViewV", "_copyToContiguousArray"]
+- ["3NIO14ByteBufferViewV", "_customContainsEquatableElement"]
+- ["3NIO14ByteBufferViewV", "_customIndexOfEquatableElement"]
+- ["3NIO14ByteBufferViewV", "_failEarlyRangeCheck"]
+- ["3NIO14ByteBufferViewV", "_preprocessingPass"]
+- !private ["3NIO14ByteBufferViewV", "buffer"]
+- ["3NIO14ByteBufferViewV", "count"]
+- ["3NIO14ByteBufferViewV", "deinit"]
+- ["3NIO14ByteBufferViewV", "distance"]
+- ["3NIO14ByteBufferViewV", "drop"]
+- ["3NIO14ByteBufferViewV", "dropFirst"]
+- ["3NIO14ByteBufferViewV", "dropLast"]
+- ["3NIO14ByteBufferViewV", "endIndex"]
+- ["3NIO14ByteBufferViewV", "filter"]
+- ["3NIO14ByteBufferViewV", "first"]
+- ["3NIO14ByteBufferViewV", "forEach"]
+- ["3NIO14ByteBufferViewV", "formIndex"]
+- ["3NIO14ByteBufferViewV", "index"]
+- ["3NIO14ByteBufferViewV", "indices"]
+- ["3NIO14ByteBufferViewV", "init"]
+- ["3NIO14ByteBufferViewV", "isEmpty"]
+- ["3NIO14ByteBufferViewV", "last"]
+- ["3NIO14ByteBufferViewV", "makeIterator"]
+- ["3NIO14ByteBufferViewV", "map"]
+- !private ["3NIO14ByteBufferViewV", "precondition"]
+- !private ["3NIO14ByteBufferViewV", "preconditionFailure"]
+- ["3NIO14ByteBufferViewV", "prefix"]
+- !private ["3NIO14ByteBufferViewV", "range"]
+- ["3NIO14ByteBufferViewV", "split"]
+- ["3NIO14ByteBufferViewV", "startIndex"]
+- ["3NIO14ByteBufferViewV", "subscript"]
+- ["3NIO14ByteBufferViewV", "suffix"]
+- ["3NIO14ByteBufferViewV", "underestimatedCount"]
+- ["3NIO14ByteBufferViewV", "withUnsafeBytes"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s10CollectionP", "ByteBufferView"]
+- ["s10CollectionP", "Element"]
+- ["s10CollectionP", "Index"]
+- ["s10CollectionP", "Indices"]
+- ["s10CollectionP", "Iterator"]
+- ["s10CollectionP", "SubSequence"]
+- !private ["s10CollectionP", "UnsafeRawBufferPointer"]
+- ["s10CollectionP", ""]
+- ["s10CollectionP", "_Default_Indices"]
+- ["s10CollectionP", "_Default_Iterator"]
+- ["s10CollectionP", "_copyContents"]
+- ["s10CollectionP", "_copyToContiguousArray"]
+- ["s10CollectionP", "_customContainsEquatableElement"]
+- ["s10CollectionP", "_customIndexOfEquatableElement"]
+- ["s10CollectionP", "_failEarlyRangeCheck"]
+- ["s10CollectionP", "_preprocessingPass"]
+- !private ["s10CollectionP", "baseAddress"]
+- !private ["s10CollectionP", "buffer"]
+- ["s10CollectionP", "count"]
+- ["s10CollectionP", "distance"]
+- ["s10CollectionP", "drop"]
+- ["s10CollectionP", "dropFirst"]
+- ["s10CollectionP", "dropLast"]
+- ["s10CollectionP", "endIndex"]
+- ["s10CollectionP", "filter"]
+- ["s10CollectionP", "first"]
+- ["s10CollectionP", "forEach"]
+- ["s10CollectionP", "formIndex"]
+- ["s10CollectionP", "index"]
+- ["s10CollectionP", "indices"]
+- !private ["s10CollectionP", "init"]
+- ["s10CollectionP", "isEmpty"]
+- ["s10CollectionP", "last"]
+- ["s10CollectionP", "makeIterator"]
+- ["s10CollectionP", "map"]
+- !private ["s10CollectionP", "precondition"]
+- !private ["s10CollectionP", "preconditionFailure"]
+- ["s10CollectionP", "prefix"]
+- !private ["s10CollectionP", "range"]
+- ["s10CollectionP", "split"]
+- ["s10CollectionP", "startIndex"]
+- ["s10CollectionP", "subscript"]
+- ["s10CollectionP", "suffix"]
+- ["s10CollectionP", "underestimatedCount"]
+- ["s10CollectionP", "withUnsafeBytes"]
+- !private ["s10ComparableP", "advanced"]
+- !private ["s10ComparableP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "ByteBufferView"]
+- ["3NIO20ContiguousCollectionP", "Element"]
+- ["3NIO20ContiguousCollectionP", "Index"]
+- ["3NIO20ContiguousCollectionP", "Indices"]
+- ["3NIO20ContiguousCollectionP", "Iterator"]
+- ["3NIO20ContiguousCollectionP", "SubSequence"]
+- !private ["3NIO20ContiguousCollectionP", "UnsafeRawBufferPointer"]
+- ["3NIO20ContiguousCollectionP", ""]
+- ["3NIO20ContiguousCollectionP", "_Default_Indices"]
+- ["3NIO20ContiguousCollectionP", "_Default_Iterator"]
+- ["3NIO20ContiguousCollectionP", "_copyContents"]
+- ["3NIO20ContiguousCollectionP", "_copyToContiguousArray"]
+- ["3NIO20ContiguousCollectionP", "_customContainsEquatableElement"]
+- ["3NIO20ContiguousCollectionP", "_customIndexOfEquatableElement"]
+- ["3NIO20ContiguousCollectionP", "_failEarlyRangeCheck"]
+- ["3NIO20ContiguousCollectionP", "_preprocessingPass"]
+- !private ["3NIO20ContiguousCollectionP", "baseAddress"]
+- !private ["3NIO20ContiguousCollectionP", "buffer"]
+- ["3NIO20ContiguousCollectionP", "count"]
+- ["3NIO20ContiguousCollectionP", "distance"]
+- ["3NIO20ContiguousCollectionP", "drop"]
+- ["3NIO20ContiguousCollectionP", "dropFirst"]
+- ["3NIO20ContiguousCollectionP", "dropLast"]
+- ["3NIO20ContiguousCollectionP", "endIndex"]
+- ["3NIO20ContiguousCollectionP", "filter"]
+- ["3NIO20ContiguousCollectionP", "first"]
+- ["3NIO20ContiguousCollectionP", "forEach"]
+- ["3NIO20ContiguousCollectionP", "formIndex"]
+- ["3NIO20ContiguousCollectionP", "index"]
+- ["3NIO20ContiguousCollectionP", "indices"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- ["3NIO20ContiguousCollectionP", "isEmpty"]
+- ["3NIO20ContiguousCollectionP", "last"]
+- ["3NIO20ContiguousCollectionP", "makeIterator"]
+- ["3NIO20ContiguousCollectionP", "map"]
+- !private ["3NIO20ContiguousCollectionP", "precondition"]
+- !private ["3NIO20ContiguousCollectionP", "preconditionFailure"]
+- ["3NIO20ContiguousCollectionP", "prefix"]
+- !private ["3NIO20ContiguousCollectionP", "range"]
+- ["3NIO20ContiguousCollectionP", "split"]
+- ["3NIO20ContiguousCollectionP", "startIndex"]
+- ["3NIO20ContiguousCollectionP", "subscript"]
+- ["3NIO20ContiguousCollectionP", "suffix"]
+- ["3NIO20ContiguousCollectionP", "underestimatedCount"]
+- ["3NIO20ContiguousCollectionP", "withUnsafeBytes"]
+- !private ["s28CustomDebugStringConvertibleP", "advanced"]
+- !private ["s28CustomDebugStringConvertibleP", "baseAddress"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lowerBound"]
+- !private ["s28CustomDebugStringConvertibleP", "upperBound"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "advanced"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "advanced"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "lowerBound"]
+- !private ["s17CustomReflectableP", "upperBound"]
+- !private ["s23CustomStringConvertibleP", "ByteBufferView"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "capacity"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "getInteger"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lowerBound"]
+- !private ["s23CustomStringConvertibleP", "readableBytes"]
+- !private ["s23CustomStringConvertibleP", "readerIndex"]
+- !private ["s23CustomStringConvertibleP", "upperBound"]
+- !private ["s23CustomStringConvertibleP", "withVeryUnsafeBytes"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "ByteBufferView"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "advanced"]
+- !private ["s9EquatableP", "capacity"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "getInteger"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "lowerBound"]
+- !private ["s9EquatableP", "readableBytes"]
+- !private ["s9EquatableP", "readerIndex"]
+- !private ["s9EquatableP", "upperBound"]
+- !private ["s9EquatableP", "withVeryUnsafeBytes"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "advanced"]
+- !private ["s8HashableP", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s22RandomAccessCollectionP", "ByteBufferView"]
+- ["s22RandomAccessCollectionP", "Element"]
+- ["s22RandomAccessCollectionP", "Index"]
+- ["s22RandomAccessCollectionP", "Indices"]
+- ["s22RandomAccessCollectionP", "Iterator"]
+- ["s22RandomAccessCollectionP", "SubSequence"]
+- !private ["s22RandomAccessCollectionP", "UnsafeRawBufferPointer"]
+- ["s22RandomAccessCollectionP", ""]
+- ["s22RandomAccessCollectionP", "_Default_Indices"]
+- ["s22RandomAccessCollectionP", "_Default_Iterator"]
+- ["s22RandomAccessCollectionP", "_copyContents"]
+- ["s22RandomAccessCollectionP", "_copyToContiguousArray"]
+- ["s22RandomAccessCollectionP", "_customContainsEquatableElement"]
+- ["s22RandomAccessCollectionP", "_customIndexOfEquatableElement"]
+- ["s22RandomAccessCollectionP", "_failEarlyRangeCheck"]
+- ["s22RandomAccessCollectionP", "_preprocessingPass"]
+- !private ["s22RandomAccessCollectionP", "baseAddress"]
+- !private ["s22RandomAccessCollectionP", "buffer"]
+- ["s22RandomAccessCollectionP", "count"]
+- ["s22RandomAccessCollectionP", "distance"]
+- ["s22RandomAccessCollectionP", "drop"]
+- ["s22RandomAccessCollectionP", "dropFirst"]
+- ["s22RandomAccessCollectionP", "dropLast"]
+- ["s22RandomAccessCollectionP", "endIndex"]
+- ["s22RandomAccessCollectionP", "filter"]
+- ["s22RandomAccessCollectionP", "first"]
+- ["s22RandomAccessCollectionP", "forEach"]
+- ["s22RandomAccessCollectionP", "formIndex"]
+- ["s22RandomAccessCollectionP", "index"]
+- ["s22RandomAccessCollectionP", "indices"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- ["s22RandomAccessCollectionP", "isEmpty"]
+- ["s22RandomAccessCollectionP", "last"]
+- ["s22RandomAccessCollectionP", "makeIterator"]
+- ["s22RandomAccessCollectionP", "map"]
+- !private ["s22RandomAccessCollectionP", "precondition"]
+- !private ["s22RandomAccessCollectionP", "preconditionFailure"]
+- ["s22RandomAccessCollectionP", "prefix"]
+- !private ["s22RandomAccessCollectionP", "range"]
+- ["s22RandomAccessCollectionP", "split"]
+- ["s22RandomAccessCollectionP", "startIndex"]
+- ["s22RandomAccessCollectionP", "subscript"]
+- ["s22RandomAccessCollectionP", "suffix"]
+- ["s22RandomAccessCollectionP", "underestimatedCount"]
+- ["s22RandomAccessCollectionP", "withUnsafeBytes"]
+- !private ["s5RangeV", "count"]
+- !private ["s5RangeV", "lowerBound"]
+- !private ["s5RangeV", "upperBound"]
+- !private ["s15RangeExpressionP", "count"]
+- !private ["s15RangeExpressionP", "lowerBound"]
+- !private ["s15RangeExpressionP", "upperBound"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "ByteBufferView"]
+- ["s8SequenceP", "Element"]
+- ["s8SequenceP", "Index"]
+- ["s8SequenceP", "Indices"]
+- ["s8SequenceP", "Iterator"]
+- ["s8SequenceP", "SubSequence"]
+- !private ["s8SequenceP", "UnsafeRawBufferPointer"]
+- ["s8SequenceP", ""]
+- ["s8SequenceP", "_Default_Indices"]
+- ["s8SequenceP", "_Default_Iterator"]
+- ["s8SequenceP", "_copyContents"]
+- ["s8SequenceP", "_copyToContiguousArray"]
+- ["s8SequenceP", "_customContainsEquatableElement"]
+- ["s8SequenceP", "_customIndexOfEquatableElement"]
+- ["s8SequenceP", "_failEarlyRangeCheck"]
+- ["s8SequenceP", "_preprocessingPass"]
+- !private ["s8SequenceP", "baseAddress"]
+- !private ["s8SequenceP", "buffer"]
+- ["s8SequenceP", "count"]
+- ["s8SequenceP", "distance"]
+- ["s8SequenceP", "drop"]
+- ["s8SequenceP", "dropFirst"]
+- ["s8SequenceP", "dropLast"]
+- ["s8SequenceP", "endIndex"]
+- ["s8SequenceP", "filter"]
+- ["s8SequenceP", "first"]
+- ["s8SequenceP", "forEach"]
+- ["s8SequenceP", "formIndex"]
+- ["s8SequenceP", "index"]
+- ["s8SequenceP", "indices"]
+- !private ["s8SequenceP", "init"]
+- ["s8SequenceP", "isEmpty"]
+- ["s8SequenceP", "last"]
+- ["s8SequenceP", "makeIterator"]
+- ["s8SequenceP", "map"]
+- !private ["s8SequenceP", "precondition"]
+- !private ["s8SequenceP", "preconditionFailure"]
+- ["s8SequenceP", "prefix"]
+- !private ["s8SequenceP", "range"]
+- ["s8SequenceP", "split"]
+- ["s8SequenceP", "startIndex"]
+- ["s8SequenceP", "subscript"]
+- ["s8SequenceP", "suffix"]
+- ["s8SequenceP", "underestimatedCount"]
+- ["s8SequenceP", "withUnsafeBytes"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s10StrideableP", "advanced"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s22UnsafeRawBufferPointerV", "baseAddress"]
+- !private ["s22UnsafeRawBufferPointerV", "init"]
+- !private ["SV", "advanced"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s8_PointerP", "advanced"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- "3NIO10ByteBufferV"
+- "3NIO14ByteBufferViewV"
+- !private "s7CVarArgP"
+- "s10CollectionP"
+- !private "s10ComparableP"
+- "3NIO20ContiguousCollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "s22RandomAccessCollectionP"
+- !private "s5RangeV"
+- !private "s15RangeExpressionP"
+- !private "s26RangeReplaceableCollectionP"
+- "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s22UnsafeRawBufferPointerV"
+- !private "SV"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s8_PointerP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio-zlib-support.git--1071467962839356487/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+interface-hash: "da2061f9b6c6d532c219a208e01d7583"

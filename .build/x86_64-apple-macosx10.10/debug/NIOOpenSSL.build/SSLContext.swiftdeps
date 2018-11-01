@@ -1,0 +1,720 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SSLContext"
+provides-nominal:
+- "10NIOOpenSSL10SSLContextC"
+provides-member:
+- ["10NIOOpenSSL10SSLContextC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&"
+- !private "+"
+- !private "+="
+- !private "..."
+- !private "<"
+- !private "<="
+- "=="
+- !private ">"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "CNIOOpenSSL_SSL_CTX_get_app_data"
+- !private "CNIOOpenSSL_SSL_CTX_setAutoECDH"
+- !private "CNIOOpenSSL_SSL_CTX_set_alpn_protos"
+- !private "CNIOOpenSSL_SSL_CTX_set_alpn_select_cb"
+- !private "CNIOOpenSSL_SSL_CTX_set_app_data"
+- !private "ExtendedGraphemeClusterType"
+- "FileSystemObject"
+- !private "FloatLiteralType"
+- "Int"
+- "Int32"
+- !private "IntegerLiteralType"
+- !private "NIOOpenSSLError"
+- "OpenSSLCertificate"
+- !private "OpenSSLError"
+- "OpenSSLPrivateKey"
+- "SSL"
+- "SSLConnection"
+- "SSLContext"
+- !private "SSL_CTRL_EXTRA_CHAIN_CERT"
+- !private "SSL_CTRL_MODE"
+- !private "SSL_CTRL_OPTIONS"
+- "SSL_CTX"
+- !private "SSL_CTX_ctrl"
+- !private "SSL_CTX_free"
+- !private "SSL_CTX_get_cert_store"
+- !private "SSL_CTX_load_verify_locations"
+- !private "SSL_CTX_new"
+- !private "SSL_CTX_set_cipher_list"
+- !private "SSL_CTX_set_default_verify_paths"
+- !private "SSL_CTX_set_verify"
+- !private "SSL_CTX_use_PrivateKey"
+- !private "SSL_CTX_use_PrivateKey_file"
+- !private "SSL_CTX_use_certificate"
+- !private "SSL_CTX_use_certificate_chain_file"
+- !private "SSL_FILETYPE_ASN1"
+- !private "SSL_FILETYPE_PEM"
+- !private "SSL_MODE_AUTO_RETRY"
+- !private "SSL_MODE_RELEASE_BUFFERS"
+- !private "SSL_OP_NO_COMPRESSION"
+- !private "SSL_OP_NO_SSLv2"
+- !private "SSL_OP_NO_SSLv3"
+- !private "SSL_OP_NO_TLSv1"
+- !private "SSL_OP_NO_TLSv1_1"
+- !private "SSL_OP_NO_TLSv1_2"
+- !private "SSL_TLSEXT_ERR_ALERT_FATAL"
+- !private "SSL_TLSEXT_ERR_OK"
+- !private "SSL_VERIFY_PEER"
+- !private "SSL_get_SSL_CTX"
+- !private "SSL_new"
+- !private "SSLv23_method"
+- !private "S_IFDIR"
+- "String"
+- !private "StringLiteralType"
+- "TLSConfiguration"
+- "TernaryPrecedence"
+- "UInt32"
+- "UInt8"
+- !private "UnicodeScalarType"
+- !private "Unmanaged"
+- "UnsafeBufferPointer"
+- "UnsafeMutablePointer"
+- "UnsafeMutableRawPointer"
+- "UnsafePointer"
+- "X509_STORE_CTX"
+- !private "X509_STORE_add_cert"
+- !private "X509_dup"
+- !private "alpnCallback"
+- !private "fatalError"
+- "initializeOpenSSL"
+- !private "initialized"
+- !private "precondition"
+- !private "stat"
+- !private "verifyCallback"
+- !private "|"
+- !private "|="
+- !private "~="
+depends-member:
+- !private ["Sa", "count"]
+- !private ["Sa", "forEach"]
+- !private ["Sa", "init"]
+- !private ["Sa", "last"]
+- !private ["Sa", "reduce"]
+- !private ["Sa", "withUnsafeBufferPointer"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "_getBuiltinLogicValue"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "init"]
+- !private ["s23BidirectionalCollectionP", "Int"]
+- ["s23BidirectionalCollectionP", "UInt8"]
+- !private ["s23BidirectionalCollectionP", "baseAddress"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "forEach"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "last"]
+- !private ["s23BidirectionalCollectionP", "locateAlpnIdentifier"]
+- !private ["s23BidirectionalCollectionP", "lowercased"]
+- !private ["s23BidirectionalCollectionP", "precondition"]
+- !private ["s23BidirectionalCollectionP", "reduce"]
+- !private ["s23BidirectionalCollectionP", "split"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["s23BidirectionalCollectionP", "withCString"]
+- !private ["s23BidirectionalCollectionP", "withUnsafeBufferPointer"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "pointee"]
+- ["10NIOOpenSSL23CertificateVerificationO", "fullVerification"]
+- ["10NIOOpenSSL23CertificateVerificationO", "noHostnameVerification"]
+- !private ["s9CharacterV", "init"]
+- !private ["s10CollectionP", "Int"]
+- ["s10CollectionP", "UInt8"]
+- !private ["s10CollectionP", "baseAddress"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "forEach"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "last"]
+- !private ["s10CollectionP", "locateAlpnIdentifier"]
+- !private ["s10CollectionP", "lowercased"]
+- !private ["s10CollectionP", "precondition"]
+- !private ["s10CollectionP", "reduce"]
+- !private ["s10CollectionP", "split"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10CollectionP", "withCString"]
+- !private ["s10CollectionP", "withUnsafeBufferPointer"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "lowercased"]
+- !private ["s10ComparableP", "pointee"]
+- !private ["s10ComparableP", "split"]
+- !private ["s10ComparableP", "withCString"]
+- !private ["3NIO20ContiguousCollectionP", "Int"]
+- ["3NIO20ContiguousCollectionP", "UInt8"]
+- !private ["3NIO20ContiguousCollectionP", "baseAddress"]
+- !private ["3NIO20ContiguousCollectionP", "count"]
+- !private ["3NIO20ContiguousCollectionP", "forEach"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "last"]
+- !private ["3NIO20ContiguousCollectionP", "locateAlpnIdentifier"]
+- !private ["3NIO20ContiguousCollectionP", "precondition"]
+- !private ["3NIO20ContiguousCollectionP", "reduce"]
+- !private ["3NIO20ContiguousCollectionP", "subscript"]
+- !private ["3NIO20ContiguousCollectionP", "withUnsafeBufferPointer"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- ["s28CustomDebugStringConvertibleP", "UInt8"]
+- !private ["s28CustomDebugStringConvertibleP", "baseAddress"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "directory"]
+- !private ["s28CustomDebugStringConvertibleP", "file"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "last"]
+- !private ["s28CustomDebugStringConvertibleP", "locateAlpnIdentifier"]
+- !private ["s28CustomDebugStringConvertibleP", "lowercased"]
+- ["s28CustomDebugStringConvertibleP", "none"]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- !private ["s28CustomDebugStringConvertibleP", "precondition"]
+- !private ["s28CustomDebugStringConvertibleP", "reduce"]
+- ["s28CustomDebugStringConvertibleP", "some"]
+- !private ["s28CustomDebugStringConvertibleP", "split"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "withCString"]
+- !private ["s28CustomDebugStringConvertibleP", "withUnsafeBufferPointer"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "lowercased"]
+- !private ["s29CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s29CustomPlaygroundQuickLookableP", "split"]
+- !private ["s29CustomPlaygroundQuickLookableP", "withCString"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "directory"]
+- !private ["s17CustomReflectableP", "file"]
+- !private ["s17CustomReflectableP", "forEach"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "last"]
+- !private ["s17CustomReflectableP", "lowercased"]
+- ["s17CustomReflectableP", "none"]
+- !private ["s17CustomReflectableP", "pointee"]
+- !private ["s17CustomReflectableP", "reduce"]
+- ["s17CustomReflectableP", "some"]
+- !private ["s17CustomReflectableP", "split"]
+- !private ["s17CustomReflectableP", "withCString"]
+- !private ["s17CustomReflectableP", "withUnsafeBufferPointer"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "last"]
+- !private ["s23CustomStringConvertibleP", "lowercased"]
+- !private ["s23CustomStringConvertibleP", "reduce"]
+- !private ["s23CustomStringConvertibleP", "split"]
+- !private ["s23CustomStringConvertibleP", "withCString"]
+- !private ["s23CustomStringConvertibleP", "withUnsafeBufferPointer"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "directory"]
+- !private ["s9DecodableP", "file"]
+- !private ["s9DecodableP", "forEach"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "last"]
+- ["s9DecodableP", "none"]
+- !private ["s9DecodableP", "reduce"]
+- ["s9DecodableP", "some"]
+- !private ["s9DecodableP", "split"]
+- !private ["s9DecodableP", "withCString"]
+- !private ["s9DecodableP", "withUnsafeBufferPointer"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "directory"]
+- !private ["s9EncodableP", "file"]
+- !private ["s9EncodableP", "forEach"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "last"]
+- ["s9EncodableP", "none"]
+- !private ["s9EncodableP", "reduce"]
+- ["s9EncodableP", "some"]
+- !private ["s9EncodableP", "split"]
+- !private ["s9EncodableP", "withCString"]
+- !private ["s9EncodableP", "withUnsafeBufferPointer"]
+- !private ["s9EquatableP", "S_IFDIR"]
+- !private ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "buildErrorStack"]
+- !private ["s9EquatableP", "count"]
+- ["s9EquatableP", "directory"]
+- !private ["s9EquatableP", "failedToLoadCertificate"]
+- !private ["s9EquatableP", "failedToLoadPrivateKey"]
+- !private ["s9EquatableP", "failedToSetALPN"]
+- ["s9EquatableP", "file"]
+- !private ["s9EquatableP", "forEach"]
+- ["s9EquatableP", "fullVerification"]
+- ["s9EquatableP", "hashValue"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "last"]
+- !private ["s9EquatableP", "lowercased"]
+- ["s9EquatableP", "noHostnameVerification"]
+- !private ["s9EquatableP", "noSuchFilesystemObject"]
+- ["s9EquatableP", "none"]
+- !private ["s9EquatableP", "pathType"]
+- !private ["s9EquatableP", "pointee"]
+- !private ["s9EquatableP", "reduce"]
+- !private ["s9EquatableP", "ref"]
+- ["s9EquatableP", "some"]
+- !private ["s9EquatableP", "split"]
+- ["s9EquatableP", "sslv2"]
+- ["s9EquatableP", "sslv3"]
+- !private ["s9EquatableP", "stat"]
+- ["s9EquatableP", "tlsv1"]
+- ["s9EquatableP", "tlsv11"]
+- ["s9EquatableP", "tlsv12"]
+- ["s9EquatableP", "tlsv13"]
+- !private ["s9EquatableP", "unableToAllocateOpenSSLObject"]
+- !private ["s9EquatableP", "unknownError"]
+- !private ["s9EquatableP", "withCString"]
+- !private ["s9EquatableP", "withUnsafeBufferPointer"]
+- !private ["s5ErrorP", "buildErrorStack"]
+- !private ["s5ErrorP", "failedToLoadCertificate"]
+- !private ["s5ErrorP", "failedToLoadPrivateKey"]
+- !private ["s5ErrorP", "failedToSetALPN"]
+- !private ["s5ErrorP", "noSuchFilesystemObject"]
+- !private ["s5ErrorP", "unableToAllocateOpenSSLObject"]
+- !private ["s5ErrorP", "unknownError"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "last"]
+- !private ["s25ExpressibleByArrayLiteralP", "reduce"]
+- !private ["s25ExpressibleByArrayLiteralP", "withUnsafeBufferPointer"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "split"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "withCString"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "directory"]
+- !private ["s23ExpressibleByNilLiteralP", "file"]
+- ["s23ExpressibleByNilLiteralP", "none"]
+- ["s23ExpressibleByNilLiteralP", "some"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "lowercased"]
+- !private ["s26ExpressibleByStringLiteralP", "split"]
+- !private ["s26ExpressibleByStringLiteralP", "withCString"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "lowercased"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "split"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "withCString"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s8HashableP", "S_IFDIR"]
+- !private ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "directory"]
+- ["s8HashableP", "file"]
+- ["s8HashableP", "fullVerification"]
+- ["s8HashableP", "hashValue"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "lowercased"]
+- ["s8HashableP", "noHostnameVerification"]
+- !private ["s8HashableP", "pathType"]
+- !private ["s8HashableP", "pointee"]
+- !private ["s8HashableP", "split"]
+- ["s8HashableP", "sslv2"]
+- ["s8HashableP", "sslv3"]
+- !private ["s8HashableP", "stat"]
+- ["s8HashableP", "tlsv1"]
+- ["s8HashableP", "tlsv11"]
+- ["s8HashableP", "tlsv12"]
+- ["s8HashableP", "tlsv13"]
+- !private ["s8HashableP", "withCString"]
+- !private ["Si", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "lowercased"]
+- !private ["s25LosslessStringConvertibleP", "split"]
+- !private ["s25LosslessStringConvertibleP", "withCString"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "split"]
+- !private ["s10MirrorPathP", "withCString"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "forEach"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "last"]
+- !private ["s17MutableCollectionP", "reduce"]
+- !private ["s17MutableCollectionP", "withUnsafeBufferPointer"]
+- !private ["10NIOOpenSSL0A8SSLErrorO", "deinit"]
+- !private ["10NIOOpenSSL0A8SSLErrorO", "failedToLoadCertificate"]
+- !private ["10NIOOpenSSL0A8SSLErrorO", "failedToLoadPrivateKey"]
+- !private ["10NIOOpenSSL0A8SSLErrorO", "noSuchFilesystemObject"]
+- !private ["10NIOOpenSSL0A8SSLErrorO", "unableToAllocateOpenSSLObject"]
+- !private ["s7NumericP", "init"]
+- !private ["10NIOOpenSSL18OpenSSLCertificateC", "ref"]
+- !private ["10NIOOpenSSL24OpenSSLCertificateSourceO", "certificate"]
+- !private ["10NIOOpenSSL24OpenSSLCertificateSourceO", "file"]
+- !private ["10NIOOpenSSL12OpenSSLErrorO", "buildErrorStack"]
+- !private ["10NIOOpenSSL12OpenSSLErrorO", "deinit"]
+- !private ["10NIOOpenSSL12OpenSSLErrorO", "failedToSetALPN"]
+- !private ["10NIOOpenSSL12OpenSSLErrorO", "unknownError"]
+- !private ["10NIOOpenSSL17OpenSSLPrivateKeyC", "ref"]
+- ["10NIOOpenSSL23OpenSSLPrivateKeySourceO", "file"]
+- ["10NIOOpenSSL23OpenSSLPrivateKeySourceO", "privateKey"]
+- ["10NIOOpenSSL17OpenSSLTrustRootsO", "certificates"]
+- ["10NIOOpenSSL17OpenSSLTrustRootsO", "default"]
+- ["10NIOOpenSSL17OpenSSLTrustRootsO", "file"]
+- !private ["Sq", "directory"]
+- !private ["Sq", "file"]
+- ["Sq", "none"]
+- ["Sq", "some"]
+- !private ["s22RandomAccessCollectionP", "Int"]
+- ["s22RandomAccessCollectionP", "UInt8"]
+- !private ["s22RandomAccessCollectionP", "baseAddress"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "forEach"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "last"]
+- !private ["s22RandomAccessCollectionP", "locateAlpnIdentifier"]
+- !private ["s22RandomAccessCollectionP", "precondition"]
+- !private ["s22RandomAccessCollectionP", "reduce"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s22RandomAccessCollectionP", "withUnsafeBufferPointer"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "forEach"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "last"]
+- !private ["s26RangeReplaceableCollectionP", "lowercased"]
+- !private ["s26RangeReplaceableCollectionP", "reduce"]
+- !private ["s26RangeReplaceableCollectionP", "split"]
+- !private ["s26RangeReplaceableCollectionP", "withCString"]
+- !private ["s26RangeReplaceableCollectionP", "withUnsafeBufferPointer"]
+- !private ["10NIOOpenSSL13SSLConnectionC", "init"]
+- !private ["10NIOOpenSSL10SSLContextC", "Bool"]
+- !private ["10NIOOpenSSL10SSLContextC", "CNIOOpenSSL_SSL_CTX_setAutoECDH"]
+- !private ["10NIOOpenSSL10SSLContextC", "CNIOOpenSSL_SSL_CTX_set_alpn_protos"]
+- !private ["10NIOOpenSSL10SSLContextC", "CNIOOpenSSL_SSL_CTX_set_alpn_select_cb"]
+- !private ["10NIOOpenSSL10SSLContextC", "CNIOOpenSSL_SSL_CTX_set_app_data"]
+- !private ["10NIOOpenSSL10SSLContextC", "FileSystemObject"]
+- ["10NIOOpenSSL10SSLContextC", "Int"]
+- !private ["10NIOOpenSSL10SSLContextC", "Int32"]
+- !private ["10NIOOpenSSL10SSLContextC", "NIOOpenSSLError"]
+- ["10NIOOpenSSL10SSLContextC", "OpenSSLCertificate"]
+- !private ["10NIOOpenSSL10SSLContextC", "OpenSSLError"]
+- ["10NIOOpenSSL10SSLContextC", "OpenSSLPrivateKey"]
+- ["10NIOOpenSSL10SSLContextC", "SSLConnection"]
+- !private ["10NIOOpenSSL10SSLContextC", "SSLContext"]
+- !private ["10NIOOpenSSL10SSLContextC", "SSL_CTRL_EXTRA_CHAIN_CERT"]
+- !private ["10NIOOpenSSL10SSLContextC", "SSL_CTRL_MODE"]
+- !private ["10NIOOpenSSL10SSLContextC", "SSL_CTRL_OPTIONS"]
+- ["10NIOOpenSSL10SSLContextC", "SSL_CTX"]
+- !private ["10NIOOpenSSL10SSLContextC", "SSL_CTX_ctrl"]
+- !private ["10NIOOpenSSL10SSLContextC", "SSL_CTX_free"]
+- !private ["10NIOOpenSSL10SSLContextC", "SSL_CTX_get_cert_store"]
+- !private ["10NIOOpenSSL10SSLContextC", "SSL_CTX_load_verify_locations"]
+- !private ["10NIOOpenSSL10SSLContextC", "SSL_CTX_new"]
+- !private ["10NIOOpenSSL10SSLContextC", "SSL_CTX_set_cipher_list"]
+- !private ["10NIOOpenSSL10SSLContextC", "SSL_CTX_set_default_verify_paths"]
+- !private ["10NIOOpenSSL10SSLContextC", "SSL_CTX_set_verify"]
+- !private ["10NIOOpenSSL10SSLContextC", "SSL_CTX_use_PrivateKey"]
+- !private ["10NIOOpenSSL10SSLContextC", "SSL_CTX_use_PrivateKey_file"]
+- !private ["10NIOOpenSSL10SSLContextC", "SSL_CTX_use_certificate"]
+- !private ["10NIOOpenSSL10SSLContextC", "SSL_CTX_use_certificate_chain_file"]
+- !private ["10NIOOpenSSL10SSLContextC", "SSL_FILETYPE_ASN1"]
+- !private ["10NIOOpenSSL10SSLContextC", "SSL_FILETYPE_PEM"]
+- !private ["10NIOOpenSSL10SSLContextC", "SSL_MODE_AUTO_RETRY"]
+- !private ["10NIOOpenSSL10SSLContextC", "SSL_MODE_RELEASE_BUFFERS"]
+- !private ["10NIOOpenSSL10SSLContextC", "SSL_OP_NO_COMPRESSION"]
+- !private ["10NIOOpenSSL10SSLContextC", "SSL_OP_NO_SSLv2"]
+- !private ["10NIOOpenSSL10SSLContextC", "SSL_OP_NO_SSLv3"]
+- !private ["10NIOOpenSSL10SSLContextC", "SSL_OP_NO_TLSv1"]
+- !private ["10NIOOpenSSL10SSLContextC", "SSL_OP_NO_TLSv1_1"]
+- !private ["10NIOOpenSSL10SSLContextC", "SSL_OP_NO_TLSv1_2"]
+- !private ["10NIOOpenSSL10SSLContextC", "SSL_VERIFY_PEER"]
+- !private ["10NIOOpenSSL10SSLContextC", "SSL_new"]
+- !private ["10NIOOpenSSL10SSLContextC", "SSLv23_method"]
+- ["10NIOOpenSSL10SSLContextC", "String"]
+- ["10NIOOpenSSL10SSLContextC", "TLSConfiguration"]
+- !private ["10NIOOpenSSL10SSLContextC", "UInt32"]
+- ["10NIOOpenSSL10SSLContextC", "UInt8"]
+- !private ["10NIOOpenSSL10SSLContextC", "Unmanaged"]
+- ["10NIOOpenSSL10SSLContextC", "UnsafeBufferPointer"]
+- ["10NIOOpenSSL10SSLContextC", "UnsafeMutablePointer"]
+- !private ["10NIOOpenSSL10SSLContextC", "X509_STORE_add_cert"]
+- !private ["10NIOOpenSSL10SSLContextC", "X509_dup"]
+- !private ["10NIOOpenSSL10SSLContextC", "addAdditionalChainCertificate"]
+- !private ["10NIOOpenSSL10SSLContextC", "addRootCertificate"]
+- !private ["10NIOOpenSSL10SSLContextC", "alpnCallback"]
+- !private ["10NIOOpenSSL10SSLContextC", "alpnSelectCallback"]
+- ["10NIOOpenSSL10SSLContextC", "configuration"]
+- ["10NIOOpenSSL10SSLContextC", "createConnection"]
+- ["10NIOOpenSSL10SSLContextC", "deinit"]
+- !private ["10NIOOpenSSL10SSLContextC", "fatalError"]
+- ["10NIOOpenSSL10SSLContextC", "init"]
+- !private ["10NIOOpenSSL10SSLContextC", "initialized"]
+- !private ["10NIOOpenSSL10SSLContextC", "loadVerifyLocations"]
+- !private ["10NIOOpenSSL10SSLContextC", "precondition"]
+- !private ["10NIOOpenSSL10SSLContextC", "setAlpnCallback"]
+- !private ["10NIOOpenSSL10SSLContextC", "setAlpnProtocols"]
+- !private ["10NIOOpenSSL10SSLContextC", "setLeafCertificate"]
+- !private ["10NIOOpenSSL10SSLContextC", "setPrivateKey"]
+- !private ["10NIOOpenSSL10SSLContextC", "sslContext"]
+- !private ["10NIOOpenSSL10SSLContextC", "useCertificateChainFile"]
+- !private ["10NIOOpenSSL10SSLContextC", "usePrivateKeyFile"]
+- !private ["10NIOOpenSSL10SSLContextC", "verifyCallback"]
+- !private ["s8SequenceP", "Int"]
+- ["s8SequenceP", "UInt8"]
+- !private ["s8SequenceP", "baseAddress"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "forEach"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "last"]
+- !private ["s8SequenceP", "locateAlpnIdentifier"]
+- !private ["s8SequenceP", "lowercased"]
+- !private ["s8SequenceP", "precondition"]
+- !private ["s8SequenceP", "reduce"]
+- !private ["s8SequenceP", "split"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s8SequenceP", "withCString"]
+- !private ["s8SequenceP", "withUnsafeBufferPointer"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s10StrideableP", "init"]
+- !private ["s10StrideableP", "pointee"]
+- !private ["SS", "init"]
+- !private ["SS", "split"]
+- !private ["SS", "withCString"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "lowercased"]
+- !private ["s14StringProtocolP", "split"]
+- !private ["s14StringProtocolP", "withCString"]
+- !private ["s9SubstringV", "lowercased"]
+- !private ["10NIOOpenSSL16TLSConfigurationV", "applicationProtocols"]
+- !private ["10NIOOpenSSL16TLSConfigurationV", "certificateChain"]
+- !private ["10NIOOpenSSL16TLSConfigurationV", "certificateVerification"]
+- !private ["10NIOOpenSSL16TLSConfigurationV", "cipherSuites"]
+- !private ["10NIOOpenSSL16TLSConfigurationV", "maximumTLSVersion"]
+- !private ["10NIOOpenSSL16TLSConfigurationV", "minimumTLSVersion"]
+- !private ["10NIOOpenSSL16TLSConfigurationV", "privateKey"]
+- !private ["10NIOOpenSSL16TLSConfigurationV", "trustRoots"]
+- ["10NIOOpenSSL10TLSVersionO", "sslv2"]
+- ["10NIOOpenSSL10TLSVersionO", "sslv3"]
+- ["10NIOOpenSSL10TLSVersionO", "tlsv1"]
+- ["10NIOOpenSSL10TLSVersionO", "tlsv11"]
+- ["10NIOOpenSSL10TLSVersionO", "tlsv12"]
+- ["10NIOOpenSSL10TLSVersionO", "tlsv13"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "lowercased"]
+- !private ["s16TextOutputStreamP", "split"]
+- !private ["s16TextOutputStreamP", "withCString"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "lowercased"]
+- !private ["s20TextOutputStreamableP", "split"]
+- !private ["s20TextOutputStreamableP", "withCString"]
+- !private ["s6UInt32V", "init"]
+- !private ["s5UInt8V", "init"]
+- !private ["s9UnmanagedV", "fromOpaque"]
+- !private ["s9UnmanagedV", "passUnretained"]
+- !private ["s9UnmanagedV", "takeUnretainedValue"]
+- !private ["s9UnmanagedV", "toOpaque"]
+- ["SR", "Element"]
+- ["SR", "Int"]
+- ["SR", "UInt8"]
+- ["SR", "UnsafeBufferPointer"]
+- !private ["SR", "baseAddress"]
+- !private ["SR", "count"]
+- !private ["SR", "init"]
+- !private ["SR", "locateAlpnIdentifier"]
+- !private ["SR", "precondition"]
+- !private ["SR", "subscript"]
+- !private ["Sp", "pointee"]
+- !private ["s15UnsignedIntegerP", "init"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "last"]
+- !private ["s14_ArrayProtocolP", "reduce"]
+- !private ["s14_ArrayProtocolP", "withUnsafeBufferPointer"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "last"]
+- !private ["s24_DestructorSafeContainerP", "reduce"]
+- !private ["s24_DestructorSafeContainerP", "withUnsafeBufferPointer"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "split"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "withCString"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "split"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "withCString"]
+- !private ["s56_ExpressibleByBuiltinUTF16ExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "split"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "withCString"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "split"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "withCString"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "split"]
+- !private ["s33_ExpressibleByStringInterpolationP", "withCString"]
+- !private ["s21_ObjectiveCBridgeableP", "directory"]
+- !private ["s21_ObjectiveCBridgeableP", "file"]
+- ["s21_ObjectiveCBridgeableP", "none"]
+- ["s21_ObjectiveCBridgeableP", "some"]
+- !private ["s8_PointerP", "pointee"]
+- !private ["s14_StringElementP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "lowercased"]
+- !private ["s16_SwiftStringViewP", "split"]
+- !private ["s16_SwiftStringViewP", "withCString"]
+- !private ["SC4statV", "init"]
+- !private ["SC4statV", "st_mode"]
+depends-nominal:
+- !private "Sa"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- "10NIOOpenSSL23CertificateVerificationO"
+- !private "s9CharacterV"
+- "s10CollectionP"
+- !private "s10ComparableP"
+- "3NIO20ContiguousCollectionP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "10NIOOpenSSL0A8SSLErrorO"
+- !private "s7NumericP"
+- !private "10NIOOpenSSL18OpenSSLCertificateC"
+- !private "10NIOOpenSSL24OpenSSLCertificateSourceO"
+- !private "10NIOOpenSSL12OpenSSLErrorO"
+- !private "10NIOOpenSSL17OpenSSLPrivateKeyC"
+- "10NIOOpenSSL23OpenSSLPrivateKeySourceO"
+- "10NIOOpenSSL17OpenSSLTrustRootsO"
+- "Sq"
+- "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "10NIOOpenSSL13SSLConnectionC"
+- "10NIOOpenSSL10SSLContextC"
+- "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s9SubstringV"
+- !private "10NIOOpenSSL16TLSConfigurationV"
+- "10NIOOpenSSL10TLSVersionO"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s6UInt32V"
+- !private "s5UInt8V"
+- !private "s9UnmanagedV"
+- "SR"
+- !private "Sp"
+- !private "s15UnsignedIntegerP"
+- !private "s14_ArrayProtocolP"
+- !private "s18_BitwiseOperationsP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s56_ExpressibleByBuiltinUTF16ExtendedGraphemeClusterLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "s14_StringElementP"
+- !private "s16_SwiftStringViewP"
+- !private "SC4statV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOTLS.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/asn1.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/tls1.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/dtls1.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/pkcs12.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/ssl2.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/pem2.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/ssl23.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/ssl3.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/x509v3.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/md5.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/pkcs7.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/x509.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/sha.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/dsa.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/ecdsa.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/rsa.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/obj_mac.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/hmac.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/ec.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/rand.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/conf.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/opensslconf.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/dh.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/ecdh.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/lhash.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/stack.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/safestack.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/ssl.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio-ssl.git-1370587408992578247/Sources/CNIOOpenSSL/include/c_nio_openssl.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/pem.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/bn.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/bio.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/crypto.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/srtp.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/evp.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/ossl_typ.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/buffer.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/err.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/c-atomics.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/opensslfeatures.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/objects.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/opensslv.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/usr/local/Cellar/libressl/2.7.3/include/openssl/x509_vfy.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio-ssl-support.git--2359138821295600615/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio-zlib-support.git--1071467962839356487/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+interface-hash: "449e856e4098ea933d4cc24d7fbb3559"

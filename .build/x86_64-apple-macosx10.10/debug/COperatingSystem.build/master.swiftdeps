@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "b8f737dd243856ebedf3be41cf7c845f"
+build_time: [1529112112, 235013000]
+inputs:
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/core.git-9210800844849382486/Sources/COperatingSystem/libc.swift": [1529105362, 0]

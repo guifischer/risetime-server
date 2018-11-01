@@ -1,0 +1,696 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Parameter"
+provides-nominal:
+- "7Routing9ParameterP"
+- "SS"
+- "Si"
+- "s4Int8V"
+- "s5Int16V"
+- "s5Int32V"
+- "s5Int64V"
+- "Su"
+- "s5UInt8V"
+- "s6UInt16V"
+- "s6UInt32V"
+- "s6UInt64V"
+- "Sf"
+- "Sd"
+- "10Foundation4UUIDV"
+provides-member:
+- ["7Routing9ParameterP", ""]
+- ["SS", ""]
+- ["s17FixedWidthIntegerP", ""]
+- ["Si", ""]
+- ["s4Int8V", ""]
+- ["s5Int16V", ""]
+- ["s5Int32V", ""]
+- ["s5Int64V", ""]
+- ["Su", ""]
+- ["s5UInt8V", ""]
+- ["s6UInt16V", ""]
+- ["s6UInt32V", ""]
+- ["s6UInt64V", ""]
+- ["s19BinaryFloatingPointP", ""]
+- ["Sf", ""]
+- ["Sd", ""]
+- ["10Foundation4UUIDV", ""]
+- ["7Routing9ParameterP", "parameter"]
+- ["7Routing9ParameterP", "routingSlug"]
+- ["s17FixedWidthIntegerP", "resolveParameter"]
+- ["s19BinaryFloatingPointP", "resolveParameter"]
+provides-dynamic-lookup:
+depends-top-level:
+- "BinaryFloatingPoint"
+- "Container"
+- "Double"
+- "FixedWidthInteger"
+- "Float"
+- "Int"
+- "Int16"
+- "Int32"
+- "Int64"
+- "Int8"
+- "Parameter"
+- "PathComponent"
+- !private "RoutingError"
+- "String"
+- !private "StringLiteralType"
+- "UInt"
+- "UInt16"
+- "UInt32"
+- "UInt64"
+- "UInt8"
+- "UUID"
+depends-member:
+- ["4Core22AnyReflectionDecodableP", "ResolvedParameter"]
+- !private ["4Core22AnyReflectionDecodableP", "RoutingError"]
+- !private ["4Core22AnyReflectionDecodableP", "UUID"]
+- ["4Core22AnyReflectionDecodableP", "_Default_ResolvedParameter"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "lowercased"]
+- ["4Core22AnyReflectionDecodableP", "resolveParameter"]
+- ["4Core22AnyReflectionDecodableP", "routingSlug"]
+- ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "ResolvedParameter"]
+- ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "_Default_ResolvedParameter"]
+- ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "resolveParameter"]
+- ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "routingSlug"]
+- ["4Core21BasicKeyRepresentableP", "ResolvedParameter"]
+- ["4Core21BasicKeyRepresentableP", "_Default_ResolvedParameter"]
+- !private ["4Core21BasicKeyRepresentableP", "init"]
+- !private ["4Core21BasicKeyRepresentableP", "lowercased"]
+- ["4Core21BasicKeyRepresentableP", "resolveParameter"]
+- ["4Core21BasicKeyRepresentableP", "routingSlug"]
+- ["s23BidirectionalCollectionP", "ResolvedParameter"]
+- ["s23BidirectionalCollectionP", "_Default_ResolvedParameter"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "lowercased"]
+- ["s23BidirectionalCollectionP", "resolveParameter"]
+- ["s23BidirectionalCollectionP", "routingSlug"]
+- ["s19BinaryFloatingPointP", "Container"]
+- !private ["s19BinaryFloatingPointP", "Double"]
+- ["s19BinaryFloatingPointP", "ResolvedParameter"]
+- !private ["s19BinaryFloatingPointP", "RoutingError"]
+- ["s19BinaryFloatingPointP", "Self"]
+- ["s19BinaryFloatingPointP", "String"]
+- ["s19BinaryFloatingPointP", "_Default_ResolvedParameter"]
+- !private ["s19BinaryFloatingPointP", "init"]
+- ["s19BinaryFloatingPointP", "resolveParameter"]
+- ["s19BinaryFloatingPointP", "routingSlug"]
+- ["s13BinaryIntegerP", "Container"]
+- ["s13BinaryIntegerP", "ResolvedParameter"]
+- !private ["s13BinaryIntegerP", "RoutingError"]
+- ["s13BinaryIntegerP", "Self"]
+- ["s13BinaryIntegerP", "String"]
+- ["s13BinaryIntegerP", "_Default_ResolvedParameter"]
+- !private ["s13BinaryIntegerP", "init"]
+- ["s13BinaryIntegerP", "resolveParameter"]
+- ["s13BinaryIntegerP", "routingSlug"]
+- ["s7CVarArgP", "ResolvedParameter"]
+- ["s7CVarArgP", "_Default_ResolvedParameter"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lowercased"]
+- ["s7CVarArgP", "resolveParameter"]
+- ["s7CVarArgP", "routingSlug"]
+- ["s10CollectionP", "ResolvedParameter"]
+- ["s10CollectionP", "_Default_ResolvedParameter"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "lowercased"]
+- ["s10CollectionP", "resolveParameter"]
+- ["s10CollectionP", "routingSlug"]
+- ["s10ComparableP", "Container"]
+- !private ["s10ComparableP", "Double"]
+- ["s10ComparableP", "ResolvedParameter"]
+- !private ["s10ComparableP", "RoutingError"]
+- ["s10ComparableP", "Self"]
+- ["s10ComparableP", "String"]
+- ["s10ComparableP", "_Default_ResolvedParameter"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "lowercased"]
+- ["s10ComparableP", "resolveParameter"]
+- ["s10ComparableP", "routingSlug"]
+- ["s28CustomDebugStringConvertibleP", "ResolvedParameter"]
+- !private ["s28CustomDebugStringConvertibleP", "RoutingError"]
+- !private ["s28CustomDebugStringConvertibleP", "UUID"]
+- ["s28CustomDebugStringConvertibleP", "_Default_ResolvedParameter"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lowercased"]
+- ["s28CustomDebugStringConvertibleP", "resolveParameter"]
+- ["s28CustomDebugStringConvertibleP", "routingSlug"]
+- ["s29CustomPlaygroundQuickLookableP", "ResolvedParameter"]
+- ["s29CustomPlaygroundQuickLookableP", "_Default_ResolvedParameter"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "lowercased"]
+- ["s29CustomPlaygroundQuickLookableP", "resolveParameter"]
+- ["s29CustomPlaygroundQuickLookableP", "routingSlug"]
+- ["s17CustomReflectableP", "ResolvedParameter"]
+- !private ["s17CustomReflectableP", "RoutingError"]
+- !private ["s17CustomReflectableP", "UUID"]
+- ["s17CustomReflectableP", "_Default_ResolvedParameter"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "lowercased"]
+- ["s17CustomReflectableP", "resolveParameter"]
+- ["s17CustomReflectableP", "routingSlug"]
+- ["s23CustomStringConvertibleP", "Container"]
+- ["s23CustomStringConvertibleP", "ResolvedParameter"]
+- !private ["s23CustomStringConvertibleP", "RoutingError"]
+- ["s23CustomStringConvertibleP", "Self"]
+- ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "UUID"]
+- ["s23CustomStringConvertibleP", "_Default_ResolvedParameter"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lowercased"]
+- ["s23CustomStringConvertibleP", "resolveParameter"]
+- ["s23CustomStringConvertibleP", "routingSlug"]
+- !private ["9Debugging10DebuggableP", "init"]
+- ["s9DecodableP", "ResolvedParameter"]
+- !private ["s9DecodableP", "RoutingError"]
+- !private ["s9DecodableP", "UUID"]
+- ["s9DecodableP", "_Default_ResolvedParameter"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "lowercased"]
+- ["s9DecodableP", "resolveParameter"]
+- ["s9DecodableP", "routingSlug"]
+- ["Sd", "ResolvedParameter"]
+- ["Sd", "_Default_ResolvedParameter"]
+- ["Sd", "deinit"]
+- !private ["Sd", "init"]
+- ["Sd", "resolveParameter"]
+- ["Sd", "routingSlug"]
+- ["s9EncodableP", "ResolvedParameter"]
+- !private ["s9EncodableP", "RoutingError"]
+- !private ["s9EncodableP", "UUID"]
+- ["s9EncodableP", "_Default_ResolvedParameter"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "lowercased"]
+- ["s9EncodableP", "resolveParameter"]
+- ["s9EncodableP", "routingSlug"]
+- ["s9EquatableP", "Container"]
+- !private ["s9EquatableP", "Double"]
+- ["s9EquatableP", "ResolvedParameter"]
+- !private ["s9EquatableP", "RoutingError"]
+- ["s9EquatableP", "Self"]
+- ["s9EquatableP", "String"]
+- !private ["s9EquatableP", "UUID"]
+- ["s9EquatableP", "_Default_ResolvedParameter"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "lowercased"]
+- ["s9EquatableP", "resolveParameter"]
+- ["s9EquatableP", "routingSlug"]
+- !private ["s5ErrorP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "ResolvedParameter"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_ResolvedParameter"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "parameter"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "resolveParameter"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "routingSlug"]
+- ["s25ExpressibleByFloatLiteralP", "Container"]
+- !private ["s25ExpressibleByFloatLiteralP", "Double"]
+- ["s25ExpressibleByFloatLiteralP", "ResolvedParameter"]
+- !private ["s25ExpressibleByFloatLiteralP", "RoutingError"]
+- ["s25ExpressibleByFloatLiteralP", "Self"]
+- ["s25ExpressibleByFloatLiteralP", "String"]
+- ["s25ExpressibleByFloatLiteralP", "_Default_ResolvedParameter"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- ["s25ExpressibleByFloatLiteralP", "resolveParameter"]
+- ["s25ExpressibleByFloatLiteralP", "routingSlug"]
+- ["s27ExpressibleByIntegerLiteralP", "Container"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Double"]
+- ["s27ExpressibleByIntegerLiteralP", "ResolvedParameter"]
+- !private ["s27ExpressibleByIntegerLiteralP", "RoutingError"]
+- ["s27ExpressibleByIntegerLiteralP", "Self"]
+- ["s27ExpressibleByIntegerLiteralP", "String"]
+- ["s27ExpressibleByIntegerLiteralP", "_Default_ResolvedParameter"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s27ExpressibleByIntegerLiteralP", "resolveParameter"]
+- ["s27ExpressibleByIntegerLiteralP", "routingSlug"]
+- ["s26ExpressibleByStringLiteralP", "ResolvedParameter"]
+- ["s26ExpressibleByStringLiteralP", "_Default_ResolvedParameter"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "lowercased"]
+- !private ["s26ExpressibleByStringLiteralP", "parameter"]
+- ["s26ExpressibleByStringLiteralP", "resolveParameter"]
+- ["s26ExpressibleByStringLiteralP", "routingSlug"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "ResolvedParameter"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_ResolvedParameter"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "lowercased"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "parameter"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "resolveParameter"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "routingSlug"]
+- ["s17FixedWidthIntegerP", "Container"]
+- ["s17FixedWidthIntegerP", "ResolvedParameter"]
+- !private ["s17FixedWidthIntegerP", "RoutingError"]
+- ["s17FixedWidthIntegerP", "Self"]
+- ["s17FixedWidthIntegerP", "String"]
+- ["s17FixedWidthIntegerP", "_Default_ResolvedParameter"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["s17FixedWidthIntegerP", "resolveParameter"]
+- ["s17FixedWidthIntegerP", "routingSlug"]
+- ["Sf", "ResolvedParameter"]
+- ["Sf", "_Default_ResolvedParameter"]
+- ["Sf", "deinit"]
+- ["Sf", "resolveParameter"]
+- ["Sf", "routingSlug"]
+- ["s13FloatingPointP", "Container"]
+- !private ["s13FloatingPointP", "Double"]
+- ["s13FloatingPointP", "ResolvedParameter"]
+- !private ["s13FloatingPointP", "RoutingError"]
+- ["s13FloatingPointP", "Self"]
+- ["s13FloatingPointP", "String"]
+- ["s13FloatingPointP", "_Default_ResolvedParameter"]
+- !private ["s13FloatingPointP", "init"]
+- ["s13FloatingPointP", "resolveParameter"]
+- ["s13FloatingPointP", "routingSlug"]
+- ["s8HashableP", "Container"]
+- !private ["s8HashableP", "Double"]
+- ["s8HashableP", "ResolvedParameter"]
+- !private ["s8HashableP", "RoutingError"]
+- ["s8HashableP", "Self"]
+- ["s8HashableP", "String"]
+- !private ["s8HashableP", "UUID"]
+- ["s8HashableP", "_Default_ResolvedParameter"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "lowercased"]
+- ["s8HashableP", "resolveParameter"]
+- ["s8HashableP", "routingSlug"]
+- ["Si", "ResolvedParameter"]
+- ["Si", "_Default_ResolvedParameter"]
+- ["Si", "deinit"]
+- ["Si", "resolveParameter"]
+- ["Si", "routingSlug"]
+- ["s5Int16V", "ResolvedParameter"]
+- ["s5Int16V", "_Default_ResolvedParameter"]
+- ["s5Int16V", "deinit"]
+- ["s5Int16V", "resolveParameter"]
+- ["s5Int16V", "routingSlug"]
+- ["s5Int32V", "ResolvedParameter"]
+- ["s5Int32V", "_Default_ResolvedParameter"]
+- ["s5Int32V", "deinit"]
+- ["s5Int32V", "resolveParameter"]
+- ["s5Int32V", "routingSlug"]
+- ["s5Int64V", "ResolvedParameter"]
+- ["s5Int64V", "_Default_ResolvedParameter"]
+- ["s5Int64V", "deinit"]
+- ["s5Int64V", "resolveParameter"]
+- ["s5Int64V", "routingSlug"]
+- ["s4Int8V", "ResolvedParameter"]
+- ["s4Int8V", "_Default_ResolvedParameter"]
+- ["s4Int8V", "deinit"]
+- ["s4Int8V", "resolveParameter"]
+- ["s4Int8V", "routingSlug"]
+- !private ["10Foundation14LocalizedErrorP", "init"]
+- ["4Core23LosslessDataConvertibleP", "ResolvedParameter"]
+- ["4Core23LosslessDataConvertibleP", "_Default_ResolvedParameter"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "lowercased"]
+- ["4Core23LosslessDataConvertibleP", "resolveParameter"]
+- ["4Core23LosslessDataConvertibleP", "routingSlug"]
+- ["s25LosslessStringConvertibleP", "Container"]
+- ["s25LosslessStringConvertibleP", "ResolvedParameter"]
+- !private ["s25LosslessStringConvertibleP", "RoutingError"]
+- ["s25LosslessStringConvertibleP", "Self"]
+- ["s25LosslessStringConvertibleP", "String"]
+- !private ["s25LosslessStringConvertibleP", "UUID"]
+- ["s25LosslessStringConvertibleP", "_Default_ResolvedParameter"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "lowercased"]
+- ["s25LosslessStringConvertibleP", "resolveParameter"]
+- ["s25LosslessStringConvertibleP", "routingSlug"]
+- ["s10MirrorPathP", "ResolvedParameter"]
+- ["s10MirrorPathP", "_Default_ResolvedParameter"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "lowercased"]
+- ["s10MirrorPathP", "resolveParameter"]
+- ["s10MirrorPathP", "routingSlug"]
+- !private ["So8NSCodingP", "lowercased"]
+- !private ["So9NSCopyingP", "lowercased"]
+- !private ["So21NSItemProviderReadingP", "lowercased"]
+- !private ["So21NSItemProviderWritingP", "lowercased"]
+- !private ["So16NSMutableCopyingP", "lowercased"]
+- !private ["So8NSObjectC", "lowercased"]
+- !private ["So16NSObjectProtocolP", "lowercased"]
+- !private ["So14NSSecureCodingP", "lowercased"]
+- !private ["So8NSStringC", "lowercased"]
+- ["s7NumericP", "Container"]
+- !private ["s7NumericP", "Double"]
+- ["s7NumericP", "ResolvedParameter"]
+- !private ["s7NumericP", "RoutingError"]
+- ["s7NumericP", "Self"]
+- ["s7NumericP", "String"]
+- ["s7NumericP", "_Default_ResolvedParameter"]
+- !private ["s7NumericP", "init"]
+- ["s7NumericP", "resolveParameter"]
+- ["s7NumericP", "routingSlug"]
+- ["7Routing9ParameterP", "Container"]
+- ["7Routing9ParameterP", "PathComponent"]
+- ["7Routing9ParameterP", "ResolvedParameter"]
+- !private ["7Routing9ParameterP", "RoutingError"]
+- !private ["7Routing9ParameterP", "Self"]
+- ["7Routing9ParameterP", "String"]
+- !private ["7Routing9ParameterP", "UUID"]
+- ["7Routing9ParameterP", ""]
+- ["7Routing9ParameterP", "_Default_ResolvedParameter"]
+- !private ["7Routing9ParameterP", "init"]
+- !private ["7Routing9ParameterP", "lowercased"]
+- ["7Routing9ParameterP", "parameter"]
+- ["7Routing9ParameterP", "resolveParameter"]
+- ["7Routing9ParameterP", "routingSlug"]
+- !private ["7Routing13PathComponentO", "parameter"]
+- ["7Routing27PathComponentsRepresentableP", "ResolvedParameter"]
+- ["7Routing27PathComponentsRepresentableP", "_Default_ResolvedParameter"]
+- !private ["7Routing27PathComponentsRepresentableP", "init"]
+- !private ["7Routing27PathComponentsRepresentableP", "lowercased"]
+- !private ["7Routing27PathComponentsRepresentableP", "parameter"]
+- ["7Routing27PathComponentsRepresentableP", "resolveParameter"]
+- ["7Routing27PathComponentsRepresentableP", "routingSlug"]
+- ["s26RangeReplaceableCollectionP", "ResolvedParameter"]
+- ["s26RangeReplaceableCollectionP", "_Default_ResolvedParameter"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "lowercased"]
+- ["s26RangeReplaceableCollectionP", "resolveParameter"]
+- ["s26RangeReplaceableCollectionP", "routingSlug"]
+- ["10Foundation20ReferenceConvertibleP", "ResolvedParameter"]
+- !private ["10Foundation20ReferenceConvertibleP", "RoutingError"]
+- !private ["10Foundation20ReferenceConvertibleP", "UUID"]
+- ["10Foundation20ReferenceConvertibleP", "_Default_ResolvedParameter"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- ["10Foundation20ReferenceConvertibleP", "resolveParameter"]
+- ["10Foundation20ReferenceConvertibleP", "routingSlug"]
+- ["4Core19ReflectionDecodableP", "ResolvedParameter"]
+- !private ["4Core19ReflectionDecodableP", "RoutingError"]
+- !private ["4Core19ReflectionDecodableP", "UUID"]
+- ["4Core19ReflectionDecodableP", "_Default_ResolvedParameter"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "lowercased"]
+- ["4Core19ReflectionDecodableP", "resolveParameter"]
+- ["4Core19ReflectionDecodableP", "routingSlug"]
+- ["7Routing17RoutableComponentP", "ResolvedParameter"]
+- ["7Routing17RoutableComponentP", "_Default_ResolvedParameter"]
+- !private ["7Routing17RoutableComponentP", "init"]
+- !private ["7Routing17RoutableComponentP", "lowercased"]
+- ["7Routing17RoutableComponentP", "resolveParameter"]
+- ["7Routing17RoutableComponentP", "routingSlug"]
+- !private ["7Routing0A5ErrorV", "deinit"]
+- !private ["7Routing0A5ErrorV", "init"]
+- ["s8SequenceP", "ResolvedParameter"]
+- ["s8SequenceP", "_Default_ResolvedParameter"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "lowercased"]
+- ["s8SequenceP", "resolveParameter"]
+- ["s8SequenceP", "routingSlug"]
+- ["s13SignedIntegerP", "ResolvedParameter"]
+- ["s13SignedIntegerP", "_Default_ResolvedParameter"]
+- ["s13SignedIntegerP", "resolveParameter"]
+- ["s13SignedIntegerP", "routingSlug"]
+- ["s13SignedNumericP", "Container"]
+- !private ["s13SignedNumericP", "Double"]
+- ["s13SignedNumericP", "ResolvedParameter"]
+- !private ["s13SignedNumericP", "RoutingError"]
+- ["s13SignedNumericP", "Self"]
+- ["s13SignedNumericP", "String"]
+- ["s13SignedNumericP", "_Default_ResolvedParameter"]
+- !private ["s13SignedNumericP", "init"]
+- ["s13SignedNumericP", "resolveParameter"]
+- ["s13SignedNumericP", "routingSlug"]
+- ["s10StrideableP", "Container"]
+- !private ["s10StrideableP", "Double"]
+- ["s10StrideableP", "ResolvedParameter"]
+- !private ["s10StrideableP", "RoutingError"]
+- ["s10StrideableP", "Self"]
+- ["s10StrideableP", "String"]
+- ["s10StrideableP", "_Default_ResolvedParameter"]
+- !private ["s10StrideableP", "init"]
+- ["s10StrideableP", "resolveParameter"]
+- ["s10StrideableP", "routingSlug"]
+- ["SS", "Container"]
+- ["SS", "ResolvedParameter"]
+- ["SS", "String"]
+- ["SS", "_Default_ResolvedParameter"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["SS", "lowercased"]
+- ["SS", "resolveParameter"]
+- ["SS", "routingSlug"]
+- ["s14StringProtocolP", "ResolvedParameter"]
+- ["s14StringProtocolP", "_Default_ResolvedParameter"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "lowercased"]
+- ["s14StringProtocolP", "resolveParameter"]
+- ["s14StringProtocolP", "routingSlug"]
+- ["s16TextOutputStreamP", "ResolvedParameter"]
+- ["s16TextOutputStreamP", "_Default_ResolvedParameter"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "lowercased"]
+- ["s16TextOutputStreamP", "resolveParameter"]
+- ["s16TextOutputStreamP", "routingSlug"]
+- ["s20TextOutputStreamableP", "ResolvedParameter"]
+- ["s20TextOutputStreamableP", "_Default_ResolvedParameter"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "lowercased"]
+- ["s20TextOutputStreamableP", "resolveParameter"]
+- ["s20TextOutputStreamableP", "routingSlug"]
+- ["Su", "ResolvedParameter"]
+- ["Su", "_Default_ResolvedParameter"]
+- ["Su", "deinit"]
+- ["Su", "resolveParameter"]
+- ["Su", "routingSlug"]
+- ["s6UInt16V", "ResolvedParameter"]
+- ["s6UInt16V", "_Default_ResolvedParameter"]
+- ["s6UInt16V", "deinit"]
+- ["s6UInt16V", "resolveParameter"]
+- ["s6UInt16V", "routingSlug"]
+- ["s6UInt32V", "ResolvedParameter"]
+- ["s6UInt32V", "_Default_ResolvedParameter"]
+- ["s6UInt32V", "deinit"]
+- ["s6UInt32V", "resolveParameter"]
+- ["s6UInt32V", "routingSlug"]
+- ["s6UInt64V", "ResolvedParameter"]
+- ["s6UInt64V", "_Default_ResolvedParameter"]
+- ["s6UInt64V", "deinit"]
+- ["s6UInt64V", "resolveParameter"]
+- ["s6UInt64V", "routingSlug"]
+- ["s5UInt8V", "ResolvedParameter"]
+- ["s5UInt8V", "_Default_ResolvedParameter"]
+- ["s5UInt8V", "deinit"]
+- ["s5UInt8V", "resolveParameter"]
+- ["s5UInt8V", "routingSlug"]
+- ["10Foundation4UUIDV", "Container"]
+- ["10Foundation4UUIDV", "ResolvedParameter"]
+- !private ["10Foundation4UUIDV", "RoutingError"]
+- ["10Foundation4UUIDV", "String"]
+- ["10Foundation4UUIDV", "UUID"]
+- ["10Foundation4UUIDV", "_Default_ResolvedParameter"]
+- ["10Foundation4UUIDV", "deinit"]
+- !private ["10Foundation4UUIDV", "init"]
+- ["10Foundation4UUIDV", "resolveParameter"]
+- ["10Foundation4UUIDV", "routingSlug"]
+- ["s15UnsignedIntegerP", "ResolvedParameter"]
+- ["s15UnsignedIntegerP", "_Default_ResolvedParameter"]
+- ["s15UnsignedIntegerP", "resolveParameter"]
+- ["s15UnsignedIntegerP", "routingSlug"]
+- ["s18_BitwiseOperationsP", "Container"]
+- ["s18_BitwiseOperationsP", "ResolvedParameter"]
+- !private ["s18_BitwiseOperationsP", "RoutingError"]
+- ["s18_BitwiseOperationsP", "Self"]
+- ["s18_BitwiseOperationsP", "String"]
+- ["s18_BitwiseOperationsP", "_Default_ResolvedParameter"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- ["s18_BitwiseOperationsP", "resolveParameter"]
+- ["s18_BitwiseOperationsP", "routingSlug"]
+- ["s15_CVarArgAlignedP", "ResolvedParameter"]
+- ["s15_CVarArgAlignedP", "_Default_ResolvedParameter"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- ["s15_CVarArgAlignedP", "resolveParameter"]
+- ["s15_CVarArgAlignedP", "routingSlug"]
+- ["s22_CVarArgPassedAsDoubleP", "ResolvedParameter"]
+- ["s22_CVarArgPassedAsDoubleP", "_Default_ResolvedParameter"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- ["s22_CVarArgPassedAsDoubleP", "resolveParameter"]
+- ["s22_CVarArgPassedAsDoubleP", "routingSlug"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "ResolvedParameter"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "_Default_ResolvedParameter"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "lowercased"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "resolveParameter"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "routingSlug"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "ResolvedParameter"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "_Default_ResolvedParameter"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "resolveParameter"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "routingSlug"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "ResolvedParameter"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "_Default_ResolvedParameter"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "resolveParameter"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "routingSlug"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "ResolvedParameter"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "_Default_ResolvedParameter"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "lowercased"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "resolveParameter"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "routingSlug"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "ResolvedParameter"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "_Default_ResolvedParameter"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "lowercased"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "resolveParameter"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "routingSlug"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "ResolvedParameter"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "_Default_ResolvedParameter"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "lowercased"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "resolveParameter"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "routingSlug"]
+- ["s33_ExpressibleByStringInterpolationP", "ResolvedParameter"]
+- ["s33_ExpressibleByStringInterpolationP", "_Default_ResolvedParameter"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "lowercased"]
+- ["s33_ExpressibleByStringInterpolationP", "resolveParameter"]
+- ["s33_ExpressibleByStringInterpolationP", "routingSlug"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "lowercased"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lowercased"]
+- ["s21_ObjectiveCBridgeableP", "ResolvedParameter"]
+- !private ["s21_ObjectiveCBridgeableP", "RoutingError"]
+- !private ["s21_ObjectiveCBridgeableP", "UUID"]
+- ["s21_ObjectiveCBridgeableP", "_Default_ResolvedParameter"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "lowercased"]
+- ["s21_ObjectiveCBridgeableP", "resolveParameter"]
+- ["s21_ObjectiveCBridgeableP", "routingSlug"]
+- ["s14_StringElementP", "ResolvedParameter"]
+- ["s14_StringElementP", "_Default_ResolvedParameter"]
+- ["s14_StringElementP", "resolveParameter"]
+- ["s14_StringElementP", "routingSlug"]
+- ["s16_SwiftStringViewP", "ResolvedParameter"]
+- ["s16_SwiftStringViewP", "_Default_ResolvedParameter"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "lowercased"]
+- ["s16_SwiftStringViewP", "resolveParameter"]
+- ["s16_SwiftStringViewP", "routingSlug"]
+depends-nominal:
+- "4Core22AnyReflectionDecodableP"
+- "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- "4Core21BasicKeyRepresentableP"
+- "s23BidirectionalCollectionP"
+- "s19BinaryFloatingPointP"
+- "s13BinaryIntegerP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "9Debugging10DebuggableP"
+- "s9DecodableP"
+- "Sd"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s5ErrorP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s17FixedWidthIntegerP"
+- "Sf"
+- "s13FloatingPointP"
+- "s8HashableP"
+- "Si"
+- "s5Int16V"
+- "s5Int32V"
+- "s5Int64V"
+- "s4Int8V"
+- !private "10Foundation14LocalizedErrorP"
+- "4Core23LosslessDataConvertibleP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "s7NumericP"
+- "7Routing9ParameterP"
+- !private "7Routing13PathComponentO"
+- "7Routing27PathComponentsRepresentableP"
+- "s26RangeReplaceableCollectionP"
+- "10Foundation20ReferenceConvertibleP"
+- "4Core19ReflectionDecodableP"
+- "7Routing17RoutableComponentP"
+- !private "7Routing0A5ErrorV"
+- "s8SequenceP"
+- "s13SignedIntegerP"
+- "s13SignedNumericP"
+- "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "Su"
+- "s6UInt16V"
+- "s6UInt32V"
+- "s6UInt64V"
+- "s5UInt8V"
+- "10Foundation4UUIDV"
+- "s15UnsignedIntegerP"
+- "s18_BitwiseOperationsP"
+- "s15_CVarArgAlignedP"
+- "s22_CVarArgPassedAsDoubleP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s14_StringElementP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Async.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Service.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/COperatingSystem.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOFoundationCompat.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio-zlib-support.git--1071467962839356487/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "80867acb3e806a661c674b1bc66cb732"

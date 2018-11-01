@@ -1,0 +1,128 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Children"
+provides-nominal:
+- "6Fluent8ChildrenV"
+- "6Fluent8ChildrenV15ParentIDStorageO"
+provides-member:
+- ["6Fluent8ChildrenV", ""]
+- ["6Fluent8ChildrenV15ParentIDStorageO", ""]
+- ["6Fluent5ModelP", ""]
+- ["6Fluent5ModelP", "children"]
+- ["6Fluent5ModelP", "children"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- "Children"
+- "DatabaseConnectable"
+- "Model"
+- "QueryBuilder"
+- "WritableKeyPath"
+depends-member:
+- ["6Fluent8AnyModelP", "Children"]
+- ["6Fluent8AnyModelP", "ID"]
+- ["6Fluent8AnyModelP", "Self"]
+- ["6Fluent8AnyModelP", "WritableKeyPath"]
+- !private ["6Fluent8AnyModelP", "query"]
+- !private ["6Fluent8AnyModelP", "requireID"]
+- ["4Core14AnyReflectableP", "Children"]
+- ["4Core14AnyReflectableP", "ID"]
+- ["4Core14AnyReflectableP", "Self"]
+- ["4Core14AnyReflectableP", "WritableKeyPath"]
+- !private ["4Core14AnyReflectableP", "query"]
+- !private ["4Core14AnyReflectableP", "requireID"]
+- ["6Fluent8ChildrenV", "Child"]
+- ["6Fluent8ChildrenV", "DatabaseConnectable"]
+- ["6Fluent8ChildrenV", "Parent"]
+- ["6Fluent8ChildrenV", "ParentIDStorage"]
+- ["6Fluent8ChildrenV", "QueryBuilder"]
+- ["6Fluent8ChildrenV", "WritableKeyPath"]
+- ["6Fluent8ChildrenV", "init"]
+- ["6Fluent8ChildrenV", "parent"]
+- ["6Fluent8ChildrenV", "parentID"]
+- ["6Fluent8ChildrenV", "query"]
+- ["s9DecodableP", "Children"]
+- ["s9DecodableP", "ID"]
+- ["s9DecodableP", "Self"]
+- ["s9DecodableP", "WritableKeyPath"]
+- !private ["s9DecodableP", "query"]
+- !private ["s9DecodableP", "requireID"]
+- ["s9EncodableP", "Children"]
+- ["s9EncodableP", "ID"]
+- ["s9EncodableP", "Self"]
+- ["s9EncodableP", "WritableKeyPath"]
+- !private ["s9EncodableP", "query"]
+- !private ["s9EncodableP", "requireID"]
+- ["6Fluent5ModelP", "Children"]
+- ["6Fluent5ModelP", "ID"]
+- ["6Fluent5ModelP", "Self"]
+- ["6Fluent5ModelP", "WritableKeyPath"]
+- ["6Fluent5ModelP", "children"]
+- !private ["6Fluent5ModelP", "query"]
+- !private ["6Fluent5ModelP", "requireID"]
+- ["6Fluent8ChildrenV15ParentIDStorageO", "Child"]
+- ["6Fluent8ChildrenV15ParentIDStorageO", "Parent"]
+- ["6Fluent8ChildrenV15ParentIDStorageO", "WritableKeyPath"]
+- ["6Fluent8ChildrenV15ParentIDStorageO", "optional"]
+- ["6Fluent8ChildrenV15ParentIDStorageO", "required"]
+- !private ["6Fluent12QueryBuilderC", "filter"]
+- ["4Core11ReflectableP", "Children"]
+- ["4Core11ReflectableP", "ID"]
+- ["4Core11ReflectableP", "Self"]
+- ["4Core11ReflectableP", "WritableKeyPath"]
+- !private ["4Core11ReflectableP", "query"]
+- !private ["4Core11ReflectableP", "requireID"]
+depends-nominal:
+- "6Fluent8AnyModelP"
+- "4Core14AnyReflectableP"
+- "6Fluent8ChildrenV"
+- "s9DecodableP"
+- "s9EncodableP"
+- "6Fluent5ModelP"
+- "6Fluent8ChildrenV15ParentIDStorageO"
+- !private "6Fluent12QueryBuilderC"
+- "4Core11ReflectableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Async.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Command.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Service.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Console.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Logging.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/COperatingSystem.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOFoundationCompat.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/DatabaseKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio-zlib-support.git--1071467962839356487/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "4dd8ff0a0f9032263677466c45b0e8a2"

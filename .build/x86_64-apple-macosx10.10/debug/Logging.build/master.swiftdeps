@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "230f2b2fa59dcd3fb4af15c78c688b2b"
+build_time: [1529112126, 342352000]
+inputs:
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/console.git--2431895819212044213/Sources/Logging/Exports.swift": [1529105362, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/console.git--2431895819212044213/Sources/Logging/LogLevel.swift": [1529105362, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/console.git--2431895819212044213/Sources/Logging/Logger.swift": [1529105362, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/console.git--2431895819212044213/Sources/Logging/PrintLogger.swift": [1529105362, 0]

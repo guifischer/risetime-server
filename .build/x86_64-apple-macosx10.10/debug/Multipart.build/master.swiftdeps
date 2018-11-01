@@ -1,0 +1,12 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "70f9dff8e477cb9dbd597e50fe63fe20"
+build_time: [1529112126, 355803000]
+inputs:
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/multipart.git-4210556629793786970/Sources/Multipart/Exports.swift": [1529105364, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/multipart.git-4210556629793786970/Sources/Multipart/FormDataDecoder.swift": [1529105364, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/multipart.git-4210556629793786970/Sources/Multipart/FormDataEncoder.swift": [1529105364, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/multipart.git-4210556629793786970/Sources/Multipart/MultipartError.swift": [1529105364, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/multipart.git-4210556629793786970/Sources/Multipart/MultipartParser.swift": [1529105364, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/multipart.git-4210556629793786970/Sources/Multipart/MultipartPart.swift": [1529105364, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/multipart.git-4210556629793786970/Sources/Multipart/MultipartPartConvertible.swift": [1529105364, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/multipart.git-4210556629793786970/Sources/Multipart/MultipartSerializer.swift": [1529105364, 0]

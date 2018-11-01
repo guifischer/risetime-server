@@ -1,0 +1,450 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EventLoopPromise"
+- "EventLoopFuture"
+- "executeAndComplete"
+- "=="
+provides-nominal:
+- "3NIO16EventLoopPromiseV"
+- "3NIO15EventLoopFutureC"
+provides-member:
+- ["3NIO16EventLoopPromiseV", ""]
+- ["3NIO15EventLoopFutureC", ""]
+- ["3NIO15EventLoopFutureC", "then"]
+- ["3NIO15EventLoopFutureC", "thenThrowing"]
+- ["3NIO15EventLoopFutureC", "thenIfErrorThrowing"]
+- ["3NIO15EventLoopFutureC", "map"]
+- ["3NIO15EventLoopFutureC", "thenIfError"]
+- ["3NIO15EventLoopFutureC", "mapIfError"]
+- ["3NIO15EventLoopFutureC", "whenSuccess"]
+- ["3NIO15EventLoopFutureC", "whenFailure"]
+- ["3NIO15EventLoopFutureC", "whenComplete"]
+- ["3NIO15EventLoopFutureC", "and"]
+- ["3NIO15EventLoopFutureC", "and"]
+- ["3NIO15EventLoopFutureC", "cascade"]
+- ["3NIO15EventLoopFutureC", "cascadeFailure"]
+- ["3NIO15EventLoopFutureC", "wait"]
+- ["3NIO15EventLoopFutureC", "fold"]
+- ["3NIO15EventLoopFutureC", "andAll"]
+- ["3NIO15EventLoopFutureC", "reduce"]
+- ["3NIO15EventLoopFutureC", "reduce"]
+- ["3NIO15EventLoopFutureC", "hopTo"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- !private "+"
+- "=="
+- !private "==="
+- !private ">"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CallbackList"
+- "CastingPrecedence"
+- !private "ConditionLock"
+- !private "EmbeddedEventLoop"
+- "Equatable"
+- "Error"
+- "EventLoop"
+- "EventLoopFuture"
+- "EventLoopFutureValue"
+- "EventLoopPromise"
+- "ExpressibleByArrayLiteral"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "SelectableEventLoop"
+- "StaticString"
+- "StringLiteralType"
+- "UInt"
+- "UnsafeEmbeddedAtomic"
+- "Void"
+- !private "assert"
+- !private "debugOnly"
+- "executeAndComplete"
+- !private "fatalError"
+- !private "precondition"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "dropFirst"]
+- !private ["Sa", "init"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "reduce"]
+- !private ["Sa", "subscript"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "_getBuiltinLogicValue"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "dropFirst"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "isEmpty"]
+- !private ["s23BidirectionalCollectionP", "reduce"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "dropFirst"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "isEmpty"]
+- !private ["s10CollectionP", "reduce"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- !private ["21NIOConcurrencyHelpers13ConditionLockC", "init"]
+- !private ["21NIOConcurrencyHelpers13ConditionLockC", "lock"]
+- !private ["21NIOConcurrencyHelpers13ConditionLockC", "unlock"]
+- !private ["3NIO20ContiguousCollectionP", "append"]
+- !private ["3NIO20ContiguousCollectionP", "count"]
+- !private ["3NIO20ContiguousCollectionP", "dropFirst"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "isEmpty"]
+- !private ["3NIO20ContiguousCollectionP", "reduce"]
+- !private ["3NIO20ContiguousCollectionP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "dropFirst"]
+- !private ["s28CustomDebugStringConvertibleP", "failure"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- ["s28CustomDebugStringConvertibleP", "none"]
+- !private ["s28CustomDebugStringConvertibleP", "reduce"]
+- ["s28CustomDebugStringConvertibleP", "some"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "success"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "dropFirst"]
+- !private ["s17CustomReflectableP", "failure"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- ["s17CustomReflectableP", "none"]
+- !private ["s17CustomReflectableP", "reduce"]
+- ["s17CustomReflectableP", "some"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "success"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "dropFirst"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "promiseCreationStoreAdd"]
+- !private ["s23CustomStringConvertibleP", "promiseCreationStoreRemove"]
+- !private ["s23CustomStringConvertibleP", "reduce"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "dropFirst"]
+- !private ["s9DecodableP", "failure"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "isEmpty"]
+- ["s9DecodableP", "none"]
+- !private ["s9DecodableP", "reduce"]
+- ["s9DecodableP", "some"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9DecodableP", "success"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "dropFirst"]
+- !private ["s9EncodableP", "failure"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "isEmpty"]
+- ["s9EncodableP", "none"]
+- !private ["s9EncodableP", "reduce"]
+- ["s9EncodableP", "some"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EncodableP", "success"]
+- ["s9EquatableP", "CallbackList"]
+- !private ["s9EquatableP", "ConditionLock"]
+- !private ["s9EquatableP", "EventLoopFuture"]
+- !private ["s9EquatableP", "EventLoopPromise"]
+- !private ["s9EquatableP", "T"]
+- !private ["s9EquatableP", "UnsafeEmbeddedAtomic"]
+- !private ["s9EquatableP", "Void"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_addCallback"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "_isFulfilled"]
+- !private ["s9EquatableP", "_setValue"]
+- !private ["s9EquatableP", "_whenComplete"]
+- !private ["s9EquatableP", "_whenCompleteWithValue"]
+- !private ["s9EquatableP", "and"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "assert"]
+- !private ["s9EquatableP", "callbacks"]
+- !private ["s9EquatableP", "cascade"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "debugOnly"]
+- !private ["s9EquatableP", "dropFirst"]
+- !private ["s9EquatableP", "eventLoop"]
+- !private ["s9EquatableP", "failure"]
+- !private ["s9EquatableP", "fatalError"]
+- !private ["s9EquatableP", "fold"]
+- !private ["s9EquatableP", "hopTo"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isEmpty"]
+- !private ["s9EquatableP", "isFulfilled"]
+- ["s9EquatableP", "none"]
+- !private ["s9EquatableP", "precondition"]
+- !private ["s9EquatableP", "reduce"]
+- ["s9EquatableP", "some"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "success"]
+- !private ["s9EquatableP", "then"]
+- !private ["s9EquatableP", "thenIfError"]
+- !private ["s9EquatableP", "value"]
+- !private ["s9EquatableP", "whenFailure"]
+- !private ["s9EquatableP", "whenSuccess"]
+- !private ["3NIO9EventLoopP", "execute"]
+- !private ["3NIO9EventLoopP", "inEventLoop"]
+- !private ["3NIO9EventLoopP", "newPromise"]
+- !private ["3NIO9EventLoopP", "newSucceededFuture"]
+- !private ["3NIO9EventLoopP", "promiseCreationStoreAdd"]
+- !private ["3NIO9EventLoopP", "promiseCreationStoreRemove"]
+- ["3NIO15EventLoopFutureC", "=="]
+- ["3NIO15EventLoopFutureC", "Bool"]
+- ["3NIO15EventLoopFutureC", "CallbackList"]
+- !private ["3NIO15EventLoopFutureC", "ConditionLock"]
+- !private ["3NIO15EventLoopFutureC", "EmbeddedEventLoop"]
+- ["3NIO15EventLoopFutureC", "Error"]
+- ["3NIO15EventLoopFutureC", "EventLoop"]
+- ["3NIO15EventLoopFutureC", "EventLoopFuture"]
+- ["3NIO15EventLoopFutureC", "EventLoopFutureValue"]
+- ["3NIO15EventLoopFutureC", "EventLoopPromise"]
+- !private ["3NIO15EventLoopFutureC", "SelectableEventLoop"]
+- ["3NIO15EventLoopFutureC", "StaticString"]
+- ["3NIO15EventLoopFutureC", "T"]
+- ["3NIO15EventLoopFutureC", "UInt"]
+- ["3NIO15EventLoopFutureC", "UnsafeEmbeddedAtomic"]
+- ["3NIO15EventLoopFutureC", "Void"]
+- !private ["3NIO15EventLoopFutureC", "_addCallback"]
+- !private ["3NIO15EventLoopFutureC", "_isFulfilled"]
+- !private ["3NIO15EventLoopFutureC", "_setValue"]
+- !private ["3NIO15EventLoopFutureC", "_whenComplete"]
+- !private ["3NIO15EventLoopFutureC", "_whenCompleteWithValue"]
+- ["3NIO15EventLoopFutureC", "and"]
+- ["3NIO15EventLoopFutureC", "andAll"]
+- !private ["3NIO15EventLoopFutureC", "assert"]
+- !private ["3NIO15EventLoopFutureC", "callbacks"]
+- ["3NIO15EventLoopFutureC", "cascade"]
+- ["3NIO15EventLoopFutureC", "cascadeFailure"]
+- !private ["3NIO15EventLoopFutureC", "debugOnly"]
+- ["3NIO15EventLoopFutureC", "deinit"]
+- ["3NIO15EventLoopFutureC", "eventLoop"]
+- !private ["3NIO15EventLoopFutureC", "fatalError"]
+- ["3NIO15EventLoopFutureC", "fold"]
+- ["3NIO15EventLoopFutureC", "hopTo"]
+- ["3NIO15EventLoopFutureC", "init"]
+- ["3NIO15EventLoopFutureC", "isFulfilled"]
+- ["3NIO15EventLoopFutureC", "map"]
+- ["3NIO15EventLoopFutureC", "mapIfError"]
+- !private ["3NIO15EventLoopFutureC", "precondition"]
+- ["3NIO15EventLoopFutureC", "reduce"]
+- ["3NIO15EventLoopFutureC", "then"]
+- ["3NIO15EventLoopFutureC", "thenIfError"]
+- ["3NIO15EventLoopFutureC", "thenIfErrorThrowing"]
+- ["3NIO15EventLoopFutureC", "thenThrowing"]
+- !private ["3NIO15EventLoopFutureC", "value"]
+- ["3NIO15EventLoopFutureC", "wait"]
+- ["3NIO15EventLoopFutureC", "whenComplete"]
+- ["3NIO15EventLoopFutureC", "whenFailure"]
+- ["3NIO15EventLoopFutureC", "whenSuccess"]
+- !private ["3NIO14EventLoopGroupP", "execute"]
+- !private ["3NIO14EventLoopGroupP", "inEventLoop"]
+- !private ["3NIO14EventLoopGroupP", "newPromise"]
+- !private ["3NIO14EventLoopGroupP", "newSucceededFuture"]
+- !private ["3NIO14EventLoopGroupP", "promiseCreationStoreAdd"]
+- !private ["3NIO14EventLoopGroupP", "promiseCreationStoreRemove"]
+- ["3NIO16EventLoopPromiseV", "CallbackList"]
+- ["3NIO16EventLoopPromiseV", "Error"]
+- ["3NIO16EventLoopPromiseV", "EventLoop"]
+- ["3NIO16EventLoopPromiseV", "EventLoopFuture"]
+- ["3NIO16EventLoopPromiseV", "EventLoopFutureValue"]
+- ["3NIO16EventLoopPromiseV", "StaticString"]
+- ["3NIO16EventLoopPromiseV", "T"]
+- ["3NIO16EventLoopPromiseV", "UInt"]
+- !private ["3NIO16EventLoopPromiseV", "_resolve"]
+- !private ["3NIO16EventLoopPromiseV", "_setValue"]
+- ["3NIO16EventLoopPromiseV", "fail"]
+- ["3NIO16EventLoopPromiseV", "futureResult"]
+- ["3NIO16EventLoopPromiseV", "init"]
+- ["3NIO16EventLoopPromiseV", "succeed"]
+- !private ["s25ExpressibleByArrayLiteralP", "Array"]
+- ["s25ExpressibleByArrayLiteralP", "ArrayLiteralElement"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- ["s25ExpressibleByArrayLiteralP", "_Default_ArrayLiteralElement"]
+- !private ["s25ExpressibleByArrayLiteralP", "_run"]
+- !private ["s25ExpressibleByArrayLiteralP", "allCallbacks"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "dropFirst"]
+- !private ["s25ExpressibleByArrayLiteralP", "firstCallback"]
+- !private ["s25ExpressibleByArrayLiteralP", "furtherCallbacks"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "reduce"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "failure"]
+- ["s23ExpressibleByNilLiteralP", "none"]
+- ["s23ExpressibleByNilLiteralP", "some"]
+- !private ["s23ExpressibleByNilLiteralP", "success"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "dropFirst"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "isEmpty"]
+- !private ["s17MutableCollectionP", "reduce"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["Sq", "failure"]
+- ["Sq", "none"]
+- ["Sq", "some"]
+- !private ["Sq", "success"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "dropFirst"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "isEmpty"]
+- !private ["s22RandomAccessCollectionP", "reduce"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "dropFirst"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "isEmpty"]
+- !private ["s26RangeReplaceableCollectionP", "reduce"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["3NIO19SelectableEventLoopC", "promiseCreationStoreAdd"]
+- !private ["3NIO19SelectableEventLoopC", "promiseCreationStoreRemove"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "dropFirst"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "isEmpty"]
+- !private ["s8SequenceP", "reduce"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["21NIOConcurrencyHelpers20UnsafeEmbeddedAtomicV", "destroy"]
+- !private ["21NIOConcurrencyHelpers20UnsafeEmbeddedAtomicV", "init"]
+- !private ["21NIOConcurrencyHelpers20UnsafeEmbeddedAtomicV", "load"]
+- !private ["21NIOConcurrencyHelpers20UnsafeEmbeddedAtomicV", "store"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "dropFirst"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s14_ArrayProtocolP", "reduce"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "dropFirst"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "reduce"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "failure"]
+- ["s21_ObjectiveCBridgeableP", "none"]
+- ["s21_ObjectiveCBridgeableP", "some"]
+- !private ["s21_ObjectiveCBridgeableP", "success"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "21NIOConcurrencyHelpers13ConditionLockC"
+- !private "3NIO20ContiguousCollectionP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "3NIO9EventLoopP"
+- "3NIO15EventLoopFutureC"
+- !private "3NIO14EventLoopGroupP"
+- "3NIO16EventLoopPromiseV"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "Sq"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "3NIO19SelectableEventLoopC"
+- !private "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "21NIOConcurrencyHelpers20UnsafeEmbeddedAtomicV"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/swift-nio-zlib-support.git--1071467962839356487/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/user/Documents/RiseTimeAssets/server/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+interface-hash: "e3b96cfb109ea1df42896d6d3fc18e56"

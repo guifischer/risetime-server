@@ -1,0 +1,17 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "de30bab0d2a32b3282d5df22a28cc816"
+build_time: [1529112143, 288978000]
+inputs:
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/fluent-sqlite.git--5503918280859119093/Sources/FluentSQLite/Exports.swift": [1529105364, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/fluent-sqlite.git--5503918280859119093/Sources/FluentSQLite/FluentSQLiteError.swift": [1529105364, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/fluent-sqlite.git--5503918280859119093/Sources/FluentSQLite/FluentSQLiteProvider.swift": [1529105364, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/fluent-sqlite.git--5503918280859119093/Sources/FluentSQLite/SQLiteDatabase+Contains.swift": [1529105364, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/fluent-sqlite.git--5503918280859119093/Sources/FluentSQLite/SQLiteDatabase+JoinSupporting.swift": [1529105364, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/fluent-sqlite.git--5503918280859119093/Sources/FluentSQLite/SQLiteDatabase+MigrationSupporting.swift": [1529105364, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/fluent-sqlite.git--5503918280859119093/Sources/FluentSQLite/SQLiteDatabase+QuerySupporting.swift": [1529105364, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/fluent-sqlite.git--5503918280859119093/Sources/FluentSQLite/SQLiteDatabase+SchemaSupporting.swift": [1529105364, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/fluent-sqlite.git--5503918280859119093/Sources/FluentSQLite/SQLiteDatabase+TransactionSupporting.swift": [1529105364, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/fluent-sqlite.git--5503918280859119093/Sources/FluentSQLite/SQLiteFieldTypes.swift": [1529105364, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/fluent-sqlite.git--5503918280859119093/Sources/FluentSQLite/SQLiteModels.swift": [1529105364, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/fluent-sqlite.git--5503918280859119093/Sources/FluentSQLite/SQLiteSQLSerializer.swift": [1529105364, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/fluent-sqlite.git--5503918280859119093/Sources/FluentSQLite/SQLiteTypes.swift": [1529105364, 0]

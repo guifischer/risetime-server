@@ -1,0 +1,16 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "56e7bc703c346e5156aadcd6d6bb878e"
+build_time: [1529112120, 870927000]
+inputs:
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/core.git-9210800844849382486/Sources/Bits/BitsError.swift": [1529105362, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/core.git-9210800844849382486/Sources/Bits/Byte+Alphabet.swift": [1529105362, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/core.git-9210800844849382486/Sources/Bits/Byte+Control.swift": [1529105362, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/core.git-9210800844849382486/Sources/Bits/Byte+Digit.swift": [1529105362, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/core.git-9210800844849382486/Sources/Bits/ByteBuffer+binaryFloatingPointOperations.swift": [1529105362, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/core.git-9210800844849382486/Sources/Bits/ByteBuffer+peek.swift": [1529105362, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/core.git-9210800844849382486/Sources/Bits/ByteBuffer+require.swift": [1529105362, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/core.git-9210800844849382486/Sources/Bits/ByteBuffer+string.swift": [1529105362, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/core.git-9210800844849382486/Sources/Bits/Bytes.swift": [1529105362, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/core.git-9210800844849382486/Sources/Bits/Data+Bytes.swift": [1529105362, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/core.git-9210800844849382486/Sources/Bits/Data+Strings.swift": [1529105362, 0]
+  "/Users/user/Documents/RiseTimeAssets/server/.build/checkouts/core.git-9210800844849382486/Sources/Bits/Deprecated.swift": [1529105362, 0]
